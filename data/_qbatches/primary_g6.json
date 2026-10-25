@@ -120,174 +120,252 @@
   "topicId": "cnm_p179",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：20×1/4＝？",
+  "prompt": "一盒有20块饼干，吃了这盒饼干的1/4，吃了多少块？",
   "answer": "5",
-  "explanation": "20 的 1/4 是 5。",
-  "verify": "20*1/4"
+  "verify": "20/4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p179_q2",
   "topicId": "cnm_p179",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：18×2/3＝？",
+  "prompt": "全班18人，其中2/3参加合唱队，参加合唱队的有多少人？",
   "answer": "12",
-  "explanation": "18 的 2/3 是 12。",
-  "verify": "18*2/3"
+  "verify": "18*2/3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p179_q3",
   "topicId": "cnm_p179",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "一桶油 30 升，用去 2/5。用去多少升？计算：30×2/5＝？",
-  "answer": "12",
-  "explanation": "30×2/5＝12。",
-  "verify": "30*2/5"
+  "type": "choice",
+  "prompt": "一桶油30升，用去2/5，求用去多少升应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "30÷2/5"
+   },
+   {
+    "key": "B",
+    "text": "30－2/5"
+   },
+   {
+    "key": "C",
+    "text": "30×2/5"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：30×2/5。",
+  "verify": "'30×2/5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p179_q4",
   "topicId": "cnm_p179",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "24×3/8 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "6"
-   },
-   {
-    "key": "B",
-    "text": "9"
-   },
-   {
-    "key": "C",
-    "text": "8"
-   },
-   {
-    "key": "D",
-    "text": "12"
-   }
-  ],
-  "answer": "B",
-  "explanation": "24×3/8＝9。",
-  "verify": "24*3/8"
+  "type": "numeric",
+  "prompt": "一条绳子长24米，用去3/8，用去多少米？",
+  "answer": "9",
+  "verify": "24*3/8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p180_q1",
   "topicId": "cnm_p180",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：300＋200＝？",
-  "answer": "500",
-  "explanation": "向东 300 米再向北 200 米，两段一共 500 米。",
-  "verify": "300+200"
+  "type": "choice",
+  "prompt": "以小明家为参照，学校在哪个方向、多远？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "正东120米"
+   },
+   {
+    "key": "B",
+    "text": "正西120米"
+   },
+   {
+    "key": "C",
+    "text": "正北80米"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：正东120米。",
+  "verify": "'正东120米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p180_q2",
   "topicId": "cnm_p180",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：500－120＝？",
-  "answer": "380",
-  "explanation": "原计划走 500 米，少走 120 米，实际 380 米。",
-  "verify": "500-120"
+  "type": "choice",
+  "prompt": "以学校为参照，图书馆在哪个方向、多远？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "正东120米"
+   },
+   {
+    "key": "B",
+    "text": "正北80米"
+   },
+   {
+    "key": "C",
+    "text": "正南80米"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：正北80米。",
+  "verify": "'正北80米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p180_q3",
   "topicId": "cnm_p180",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "学校在商店北偏东 40 度、距离 800 米处。只问距离是多少米？计算：800＋0＝？",
-  "answer": "800",
-  "explanation": "距离是 800 米。",
-  "verify": "800+0"
+  "type": "choice",
+  "prompt": "以学校为参照，小明家在哪个方向、多远？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "正东120米"
+   },
+   {
+    "key": "B",
+    "text": "正南80米"
+   },
+   {
+    "key": "C",
+    "text": "正西120米"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：正西120米。",
+  "verify": "'正西120米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p180_q4",
   "topicId": "cnm_p180",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "150＋250 的得数是哪一个？",
+  "prompt": "要准确确定学校相对小明家的位置，需要哪两个条件？",
   "choices": [
    {
     "key": "A",
-    "text": "300"
+    "text": "方向和距离"
    },
    {
     "key": "B",
-    "text": "400"
+    "text": "只需距离"
    },
    {
     "key": "C",
-    "text": "350"
-   },
-   {
-    "key": "D",
-    "text": "500"
+    "text": "只需方向"
    }
   ],
-  "answer": "B",
-  "explanation": "150＋250＝400。",
-  "verify": "150+250"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：方向和距离。",
+  "verify": "'方向和距离'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p181_q1",
   "topicId": "cnm_p181",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：200＋150＋50＝？",
-  "answer": "400",
-  "explanation": "三段分别是 200、150、50 米，一共 400 米。",
-  "verify": "200+150+50"
+  "type": "choice",
+  "prompt": "按图从家经学校去图书馆，应怎样走？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "先向东120米，再向北80米"
+   },
+   {
+    "key": "B",
+    "text": "先向北80米，再向东120米"
+   },
+   {
+    "key": "C",
+    "text": "先向西120米，再向南80米"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：先向东120米，再向北80米。",
+  "verify": "'先向东120米，再向北80米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p181_q2",
   "topicId": "cnm_p181",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：400－250＝？",
-  "answer": "150",
-  "explanation": "总路程 400 米，已经走了 250 米，还剩 150 米。",
-  "verify": "400-250"
+  "type": "choice",
+  "prompt": "从图书馆沿原路回家，第一段应该怎样走？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "向北80米到学校"
+   },
+   {
+    "key": "B",
+    "text": "向南80米到学校"
+   },
+   {
+    "key": "C",
+    "text": "向东120米到学校"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：向南80米到学校。",
+  "verify": "'向南80米到学校'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p181_q3",
   "topicId": "cnm_p181",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "先向东 120 米，再向南 80 米。两段一共多少米？计算：120＋80＝？",
+  "prompt": "按图从家经学校到图书馆，一共走多少米？",
   "answer": "200",
-  "explanation": "120＋80＝200。",
-  "verify": "120+80"
+  "verify": "120+80",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p181_q4",
   "topicId": "cnm_p181",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "90＋60 的得数是哪一个？",
+  "prompt": "从图书馆经学校回家，完整路线是什么？",
   "choices": [
    {
     "key": "A",
-    "text": "120"
+    "text": "先向南80米，再向西120米"
    },
    {
     "key": "B",
-    "text": "140"
+    "text": "先向西120米，再向南80米"
    },
    {
     "key": "C",
-    "text": "160"
-   },
-   {
-    "key": "D",
-    "text": "150"
+    "text": "先向北80米，再向东120米"
    }
   ],
-  "answer": "D",
-  "explanation": "90＋60＝150。",
-  "verify": "90+60"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：先向南80米，再向西120米。",
+  "verify": "'先向南80米，再向西120米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"路线图：小明家、学校、图书馆，箭头表示北方\"><title>路线图：小明家、学校、图书馆，箭头表示北方</title><path d=\"M65 150H185V55\" stroke=\"#26728d\" stroke-width=\"3\" fill=\"none\"/><path d=\"M250 65V20M245 30L250 20 255 30\" stroke=\"#173c50\" fill=\"none\"/><text x=\"244\" y=\"15\" font-size=\"14\">北</text><text x=\"35\" y=\"177\" font-size=\"16\">小明家</text><text x=\"171\" y=\"177\" font-size=\"16\">学校</text><text x=\"153\" y=\"39\" font-size=\"16\">图书馆</text><text x=\"98\" y=\"140\" font-size=\"16\">120米</text><text x=\"193\" y=\"103\" font-size=\"16\">80米</text><circle cx=\"65\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"150\" r=\"4\" fill=\"#173c50\"/><circle cx=\"185\" cy=\"55\" r=\"4\" fill=\"#173c50\"/></svg>"
  },
  {
   "id": "cnm_p182_q1",
@@ -410,58 +488,58 @@
   "topicId": "cnm_p184",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：12÷（3/4）＝？",
+  "prompt": "一根绳子用去全长的3/4，正好12米，这根绳子全长多少米？",
   "answer": "16",
-  "explanation": "一个数的 3/4 是 12，这个数是 12÷3/4＝16。",
-  "verify": "12/(3/4)"
+  "verify": "12/(3/4)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p184_q2",
   "topicId": "cnm_p184",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：6÷（2/5）＝？",
+  "prompt": "已经修好一条路的2/5，正好6千米，这条路全长多少千米？",
   "answer": "15",
-  "explanation": "6÷2/5＝15。",
-  "verify": "6/(2/5)"
+  "verify": "6/(2/5)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p184_q3",
   "topicId": "cnm_p184",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "修一条路，已经修了 2/5，长 8 千米。这条路全长多少千米？计算：8÷（2/5）＝？",
-  "answer": "20",
-  "explanation": "8÷2/5＝20。",
-  "verify": "8/(2/5)"
+  "type": "choice",
+  "prompt": "已经修好一条路的2/5，正好8千米，求全长应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "8×2/5"
+   },
+   {
+    "key": "B",
+    "text": "8－2/5"
+   },
+   {
+    "key": "C",
+    "text": "8÷（2/5）"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：8÷（2/5）。",
+  "verify": "'8÷（2/5）'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p184_q4",
   "topicId": "cnm_p184",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "9÷（3/5） 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "15"
-   },
-   {
-    "key": "B",
-    "text": "5"
-   },
-   {
-    "key": "C",
-    "text": "12"
-   },
-   {
-    "key": "D",
-    "text": "27"
-   }
-  ],
-  "answer": "A",
-  "explanation": "9÷3/5＝15。",
-  "verify": "9/(3/5)"
+  "type": "numeric",
+  "prompt": "一本书看了3/5，正好9页，这本书一共多少页？",
+  "answer": "15",
+  "verify": "9/(3/5)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p185_q1",
@@ -598,58 +676,58 @@
   "topicId": "cnm_p187",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：30÷（2＋3）×2＝？",
+  "prompt": "把30个苹果按2∶3分给两组，第一组分得多少个？",
   "answer": "12",
-  "explanation": "总份数 5，每份 6，前项 2 份是 12。",
-  "verify": "30/(2+3)*2"
+  "verify": "30*2/(2+3)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p187_q2",
   "topicId": "cnm_p187",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：40÷（1＋3）＝？",
-  "answer": "10",
-  "explanation": "一共 4 份，每份 10。",
-  "verify": "40/(1+3)"
+  "prompt": "把35米绳子按3∶4剪成两段，较长的一段是多少米？",
+  "answer": "20",
+  "verify": "35*4/(3+4)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p187_q3",
   "topicId": "cnm_p187",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "56 本本子按 3：4 分给两个班。先求每份多少本。计算：56÷（3＋4）＝？",
-  "answer": "8",
-  "explanation": "56÷7＝8，每份 8 本。",
-  "verify": "56/(3+4)"
+  "type": "choice",
+  "prompt": "把40本书按3∶5分给甲、乙两班，甲班占总数的多少？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3/5"
+   },
+   {
+    "key": "B",
+    "text": "5/8"
+   },
+   {
+    "key": "C",
+    "text": "3/8"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：3/8。",
+  "verify": "'3/8'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p187_q4",
   "topicId": "cnm_p187",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "90÷（2＋3） 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "15"
-   },
-   {
-    "key": "B",
-    "text": "20"
-   },
-   {
-    "key": "C",
-    "text": "30"
-   },
-   {
-    "key": "D",
-    "text": "18"
-   }
-  ],
-  "answer": "D",
-  "explanation": "90÷5＝18。",
-  "verify": "90/(2+3)"
+  "type": "numeric",
+  "prompt": "把48元按5∶3分给甲、乙两人，甲比乙多多少元？",
+  "answer": "12",
+  "verify": "48*(5-3)/(5+3)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p188_q1",
@@ -901,345 +979,493 @@
   "id": "cnm_p193_q1",
   "topicId": "cnm_p193",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：2＋1＝？",
-  "answer": "3",
-  "explanation": "扇形有 2 条半径和 1 条弧，三种线段一共数 3。",
-  "verify": "2+1"
+  "type": "choice",
+  "prompt": "图中涂色扇形由什么围成？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "两条半径和一段弧"
+   },
+   {
+    "key": "B",
+    "text": "两条直径和一段弧"
+   },
+   {
+    "key": "C",
+    "text": "只有一条半径和一条线段"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：两条半径和一段弧。",
+  "verify": "'两条半径和一段弧'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"圆中涂色扇形，圆心O，弧的两个端点为A、B\"><title>圆中涂色扇形，圆心O，弧的两个端点为A、B</title><circle cx=\"100\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#9db2bb\" stroke-dasharray=\"4 4\"/><path d=\"M100 110L175 110A75 75 0 0 0 100.00 35.00Z\" fill=\"#b8dce9\" stroke=\"#254f64\" stroke-width=\"2\"/><text x=\"87\" y=\"129\" font-size=\"17\">O</text><text x=\"180\" y=\"115\" font-size=\"17\">A</text><text x=\"90.00\" y=\"27.00\" font-size=\"17\">B</text></svg>"
  },
  {
   "id": "cnm_p193_q2",
   "topicId": "cnm_p193",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：90÷360＝？（用小数作答）",
-  "answer": "0.25",
-  "explanation": "圆心角 90 度是整圆 360 度的 1/4。",
-  "verify": "90/360"
+  "type": "choice",
+  "prompt": "图中OA、OB分别是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "都是弧"
+   },
+   {
+    "key": "B",
+    "text": "都是半径"
+   },
+   {
+    "key": "C",
+    "text": "都是直径"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：都是半径。",
+  "verify": "'都是半径'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"圆中涂色扇形，圆心O，弧的两个端点为A、B\"><title>圆中涂色扇形，圆心O，弧的两个端点为A、B</title><circle cx=\"100\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#9db2bb\" stroke-dasharray=\"4 4\"/><path d=\"M100 110L175 110A75 75 0 0 0 100.00 35.00Z\" fill=\"#b8dce9\" stroke=\"#254f64\" stroke-width=\"2\"/><text x=\"87\" y=\"129\" font-size=\"17\">O</text><text x=\"180\" y=\"115\" font-size=\"17\">A</text><text x=\"90.00\" y=\"27.00\" font-size=\"17\">B</text></svg>"
  },
  {
   "id": "cnm_p193_q3",
   "topicId": "cnm_p193",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "圆心角 180 度，是整圆的几分之几？先算 180÷360。计算：180÷360＝？（用小数作答）",
-  "answer": "0.5",
-  "explanation": "180÷360＝0.5，是整圆的一半。",
-  "verify": "180/360"
+  "type": "choice",
+  "prompt": "图中扇形的圆心角顶点在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "A点"
+   },
+   {
+    "key": "B",
+    "text": "B点"
+   },
+   {
+    "key": "C",
+    "text": "O点"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：O点。",
+  "verify": "'O点'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"圆中涂色扇形，圆心O，弧的两个端点为A、B\"><title>圆中涂色扇形，圆心O，弧的两个端点为A、B</title><circle cx=\"100\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#9db2bb\" stroke-dasharray=\"4 4\"/><path d=\"M100 110L175 110A75 75 0 0 0 100.00 35.00Z\" fill=\"#b8dce9\" stroke=\"#254f64\" stroke-width=\"2\"/><text x=\"87\" y=\"129\" font-size=\"17\">O</text><text x=\"180\" y=\"115\" font-size=\"17\">A</text><text x=\"90.00\" y=\"27.00\" font-size=\"17\">B</text></svg>"
  },
  {
   "id": "cnm_p193_q4",
   "topicId": "cnm_p193",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "60÷30 的得数是哪一个？",
+  "prompt": "在同一个圆中，90度扇形和120度扇形相比，哪一个面积更大？",
   "choices": [
    {
     "key": "A",
-    "text": "1"
+    "text": "120度扇形"
    },
    {
     "key": "B",
-    "text": "3"
+    "text": "90度扇形"
    },
    {
     "key": "C",
-    "text": "2"
-   },
-   {
-    "key": "D",
-    "text": "90"
+    "text": "一样大"
    }
   ],
-  "answer": "C",
-  "explanation": "60 度是 30 度的 2 倍。",
-  "verify": "60/30"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：120度扇形。",
+  "verify": "'120度扇形'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"圆中涂色扇形，圆心O，弧的两个端点为A、B\"><title>圆中涂色扇形，圆心O，弧的两个端点为A、B</title><circle cx=\"100\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#9db2bb\" stroke-dasharray=\"4 4\"/><path d=\"M100 110L175 110A75 75 0 0 0 62.50 45.05Z\" fill=\"#b8dce9\" stroke=\"#254f64\" stroke-width=\"2\"/><text x=\"87\" y=\"129\" font-size=\"17\">O</text><text x=\"180\" y=\"115\" font-size=\"17\">A</text><text x=\"52.50\" y=\"37.05\" font-size=\"17\">B</text></svg>"
  },
  {
   "id": "cnm_p194_q1",
   "topicId": "cnm_p194",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "百分数表示什么？",
+  "prompt": "学校植树100棵，成活96棵，成活率96%表示什么？",
   "choices": [
    {
     "key": "A",
-    "text": "一个数是另一个数的百分之几"
+    "text": "成活棵数是植树总棵数的96/100"
    },
    {
     "key": "B",
-    "text": "一定是钱数"
+    "text": "每棵树长了96厘米"
    },
    {
     "key": "C",
-    "text": "只能表示增加"
+    "text": "还有96棵树没有成活"
    }
   ],
   "answer": "A",
-  "explanation": "50% 表示百分之五十。",
-  "verify": "'一个数是另一个数的百分之几'"
+  "explanation": "按题目条件判断，正确的是：成活棵数是植树总棵数的96/100。",
+  "verify": "'成活棵数是植树总棵数的96/100'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p194_q2",
   "topicId": "cnm_p194",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "100 的 50% 是多少？",
-  "answer": "50",
-  "explanation": "100 的一半是 50。",
-  "verify": "Fraction(100*50,100)"
+  "type": "choice",
+  "prompt": "25%应怎样读？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "二十五点零"
+   },
+   {
+    "key": "B",
+    "text": "百分之二十五"
+   },
+   {
+    "key": "C",
+    "text": "二十五分之一百"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：百分之二十五。",
+  "verify": "'百分之二十五'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p194_q3",
   "topicId": "cnm_p194",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：25÷100＝？（用小数作答）",
-  "answer": "0.25",
-  "explanation": "25%＝25/100＝0.25。",
-  "verify": "25/100"
+  "type": "choice",
+  "prompt": "“男生人数是全班人数的40%”中，作为比较标准的是哪个量？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "男生人数"
+   },
+   {
+    "key": "B",
+    "text": "女生人数"
+   },
+   {
+    "key": "C",
+    "text": "全班人数"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：全班人数。",
+  "verify": "'全班人数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p194_q4",
   "topicId": "cnm_p194",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "1×100 的得数是哪一个？",
+  "prompt": "下面哪个写法适合用百分数表示？",
   "choices": [
    {
     "key": "A",
-    "text": "10"
+    "text": "出勤人数占应到人数的比例"
    },
    {
     "key": "B",
-    "text": "50"
+    "text": "一根绳子长50%米"
    },
    {
     "key": "C",
-    "text": "100"
-   },
-   {
-    "key": "D",
-    "text": "1000"
+    "text": "一本书重30%千克"
    }
   ],
-  "answer": "C",
-  "explanation": "1 的 100% 是 100。",
-  "verify": "1*100"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：出勤人数占应到人数的比例。",
+  "verify": "'出勤人数占应到人数的比例'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p195_q1",
   "topicId": "cnm_p195",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：25÷100＝？（用小数作答）",
-  "answer": "0.25",
-  "explanation": "25%＝0.25。",
-  "verify": "25/100"
+  "prompt": "把35%化成小数，是多少？",
+  "answer": "0.35",
+  "verify": "35/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p195_q2",
   "topicId": "cnm_p195",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：0.4×100＝？（用小数作答）",
-  "answer": "40",
-  "explanation": "0.4＝40%。这里算出百分号前面的 40。",
-  "verify": "0.4*100"
+  "type": "choice",
+  "prompt": "把0.4化成百分数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.4%"
+   },
+   {
+    "key": "B",
+    "text": "40%"
+   },
+   {
+    "key": "C",
+    "text": "4%"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：40%。",
+  "verify": "'40%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p195_q3",
   "topicId": "cnm_p195",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "3/4 化成百分数，先写成小数。3÷4 是多少？计算：3÷4＝？（用小数作答）",
-  "answer": "0.75",
-  "explanation": "3÷4＝0.75，也就是 75%。",
-  "verify": "3/4"
+  "type": "choice",
+  "prompt": "把3/4化成百分数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "34%"
+   },
+   {
+    "key": "B",
+    "text": "0.75%"
+   },
+   {
+    "key": "C",
+    "text": "75%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：75%。",
+  "verify": "'75%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p195_q4",
   "topicId": "cnm_p195",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "计算：8÷100＝？（用小数作答）",
+  "prompt": "把8%化成小数，是多少？",
   "answer": "0.08",
-  "explanation": "8%＝0.08。",
-  "verify": "8/100"
+  "verify": "8/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p196_q1",
   "topicId": "cnm_p196",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "80 的 25% 是多少？",
+  "prompt": "80的25%是多少？",
   "answer": "20",
-  "explanation": "80×0.25＝20。",
-  "verify": "Fraction(80*25,100)"
+  "verify": "80*25/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p196_q2",
   "topicId": "cnm_p196",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "200 的 10% 是多少？",
+  "prompt": "200的10%是多少？",
   "answer": "20",
-  "explanation": "200×0.1＝20。",
-  "verify": "Fraction(200*10,100)"
+  "verify": "200*10/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p196_q3",
   "topicId": "cnm_p196",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "60 的 50% 是多少？",
-  "answer": "30",
-  "explanation": "60 的一半是 30。",
-  "verify": "Fraction(60*50,100)"
+  "type": "choice",
+  "prompt": "求60的50%，应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "60÷50%"
+   },
+   {
+    "key": "B",
+    "text": "60＋50%"
+   },
+   {
+    "key": "C",
+    "text": "60×50%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：60×50%。",
+  "verify": "'60×50%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p196_q4",
   "topicId": "cnm_p196",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "40×5/100 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "1"
-   },
-   {
-    "key": "B",
-    "text": "2"
-   },
-   {
-    "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "20"
-   }
-  ],
-  "answer": "B",
-  "explanation": "40 的 5% 是 2。",
-  "verify": "40*5/100"
+  "type": "numeric",
+  "prompt": "40的5%是多少？",
+  "answer": "2",
+  "verify": "40*5/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p197_q1",
   "topicId": "cnm_p197",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：20÷80×100＝？",
-  "answer": "25",
-  "explanation": "20 是 80 的 25%。这里算出 25。",
-  "verify": "20/80*100"
+  "type": "choice",
+  "prompt": "抽查80件产品，20件合格，合格率是多少？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "25%"
+   },
+   {
+    "key": "B",
+    "text": "20%"
+   },
+   {
+    "key": "C",
+    "text": "80%"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：25%。",
+  "verify": "'25%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p197_q2",
   "topicId": "cnm_p197",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：15÷50×100＝？",
-  "answer": "30",
-  "explanation": "15 是 50 的 30%。",
-  "verify": "15/50*100"
+  "type": "choice",
+  "prompt": "50粒种子有15粒发芽，发芽率是多少？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "50%"
+   },
+   {
+    "key": "B",
+    "text": "30%"
+   },
+   {
+    "key": "C",
+    "text": "15%"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：30%。",
+  "verify": "'30%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p197_q3",
   "topicId": "cnm_p197",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "40 人里有 10 人达标。达标的占百分之多少？先算 10÷40×100。计算：10÷40×100＝？",
-  "answer": "25",
-  "explanation": "10÷40×100＝25，是 25%。",
-  "verify": "10/40*100"
+  "type": "choice",
+  "prompt": "40人中有10人达标，达标率是多少？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "10%"
+   },
+   {
+    "key": "B",
+    "text": "40%"
+   },
+   {
+    "key": "C",
+    "text": "25%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：25%。",
+  "verify": "'25%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p197_q4",
   "topicId": "cnm_p197",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "6÷20×100 的得数是哪一个？",
+  "prompt": "20次投篮投中6次，命中率是多少？",
   "choices": [
    {
     "key": "A",
-    "text": "20"
+    "text": "30%"
    },
    {
     "key": "B",
-    "text": "26"
+    "text": "6%"
    },
    {
     "key": "C",
-    "text": "40"
-   },
-   {
-    "key": "D",
-    "text": "30"
+    "text": "20%"
    }
   ],
-  "answer": "D",
-  "explanation": "6 是 20 的 30%。",
-  "verify": "6/20*100"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：30%。",
+  "verify": "'30%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p198_q1",
   "topicId": "cnm_p198",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：20÷0.4＝？（用小数作答）",
+  "prompt": "一本书看了40%，正好20页，全书多少页？",
   "answer": "50",
-  "explanation": "一个数的 40% 是 20，这个数是 50。",
-  "verify": "20/0.4"
+  "verify": "20/0.4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p198_q2",
   "topicId": "cnm_p198",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：30÷0.5＝？（用小数作答）",
+  "prompt": "一个班有30人参加活动，占全班的50%，全班有多少人？",
   "answer": "60",
-  "explanation": "一个数的 50% 是 30，这个数是 60。",
-  "verify": "30/0.5"
+  "verify": "30/0.5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p198_q3",
   "topicId": "cnm_p198",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "一本书看了 25%，正好 40 页。全书多少页？计算：40÷0.25＝？（用小数作答）",
-  "answer": "160",
-  "explanation": "40÷0.25＝160。",
-  "verify": "40/0.25"
+  "type": "choice",
+  "prompt": "一本书看了25%，正好40页，求总页数应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "40×25%"
+   },
+   {
+    "key": "B",
+    "text": "40－25%"
+   },
+   {
+    "key": "C",
+    "text": "40÷25%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：40÷25%。",
+  "verify": "'40÷25%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p198_q4",
   "topicId": "cnm_p198",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "18÷0.2 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "3.6"
-   },
-   {
-    "key": "B",
-    "text": "90"
-   },
-   {
-    "key": "C",
-    "text": "36"
-   },
-   {
-    "key": "D",
-    "text": "180"
-   }
-  ],
-  "answer": "B",
-  "explanation": "一个数的 20% 是 18，这个数是 90。",
-  "verify": "18/0.2"
+  "type": "numeric",
+  "prompt": "一批货物已经运走20%，正好18吨，这批货物一共多少吨？",
+  "answer": "90",
+  "verify": "18/0.2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p199_q1",
@@ -1461,247 +1687,303 @@
   "id": "cnm_p202_q1",
   "topicId": "cnm_p202",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：8－5＝？",
-  "answer": "3",
-  "explanation": "收入 8 元、支出 5 元，结余 3 元。",
-  "verify": "8-5"
+  "type": "choice",
+  "prompt": "以水面为0米，向上为正。水下6米应记作什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "－6米"
+   },
+   {
+    "key": "B",
+    "text": "＋6米"
+   },
+   {
+    "key": "C",
+    "text": "0米"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：－6米。",
+  "verify": "'－6米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p202_q2",
   "topicId": "cnm_p202",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：6＋3＝？",
-  "answer": "9",
-  "explanation": "先下降 6 米再下降 3 米，一共下降 9 米。",
-  "verify": "6+3"
+  "type": "choice",
+  "prompt": "向东走记为正，小明向西走20米应记作什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0米"
+   },
+   {
+    "key": "B",
+    "text": "－20米"
+   },
+   {
+    "key": "C",
+    "text": "＋20米"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：－20米。",
+  "verify": "'－20米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p202_q3",
   "topicId": "cnm_p202",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "电梯上升 12 层，又下降 5 层。比起点高多少层？计算：12－5＝？",
-  "answer": "7",
-  "explanation": "12－5＝7。",
-  "verify": "12-5"
+  "type": "choice",
+  "prompt": "把收入记为正，支出15元应记作什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "＋15元"
+   },
+   {
+    "key": "B",
+    "text": "＋0元"
+   },
+   {
+    "key": "C",
+    "text": "－15元"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：－15元。",
+  "verify": "'－15元'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p202_q4",
   "topicId": "cnm_p202",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "20－7 的得数是哪一个？",
+  "prompt": "高于标准身高2厘米记作＋2厘米，低于标准身高3厘米应记作什么？",
   "choices": [
    {
     "key": "A",
-    "text": "12"
+    "text": "－3厘米"
    },
    {
     "key": "B",
-    "text": "14"
+    "text": "＋3厘米"
    },
    {
     "key": "C",
-    "text": "27"
-   },
-   {
-    "key": "D",
-    "text": "13"
+    "text": "－2厘米"
    }
   ],
-  "answer": "D",
-  "explanation": "存入 20 元、取出 7 元，还剩 13 元。",
-  "verify": "20-7"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：－3厘米。",
+  "verify": "'－3厘米'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p203_q1",
   "topicId": "cnm_p203",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "折扣里的八折是什么意思？",
+  "prompt": "八折表示什么？",
   "choices": [
    {
     "key": "A",
-    "text": "原价的 80%"
+    "text": "售价是原价的80%"
    },
    {
     "key": "B",
-    "text": "原价再加上 80 元"
+    "text": "售价是原价的8%"
    },
    {
     "key": "C",
-    "text": "原价的 8%"
+    "text": "售价比原价少80%"
    }
   ],
   "answer": "A",
-  "explanation": "八折就是按原价的 80% 出售。",
-  "verify": "'原价的 80%'"
+  "explanation": "按题目条件判断，正确的是：售价是原价的80%。",
+  "verify": "'售价是原价的80%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p203_q2",
   "topicId": "cnm_p203",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "原价 50 元，打 8 折后是多少元？",
+  "prompt": "原价50元，打八折后售价是多少元？",
   "answer": "40",
-  "explanation": "50×0.8＝40。",
-  "verify": "Fraction(50*8,10)"
+  "verify": "50*0.8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p203_q3",
   "topicId": "cnm_p203",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "原价 80 元，打 9 折后是多少元？",
-  "answer": "72",
-  "explanation": "80×0.9＝72。",
-  "verify": "Fraction(80*9,10)"
+  "type": "choice",
+  "prompt": "原价80元，打九折后求售价，应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "80×9%"
+   },
+   {
+    "key": "B",
+    "text": "80－90%"
+   },
+   {
+    "key": "C",
+    "text": "80×90%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：80×90%。",
+  "verify": "'80×90%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p203_q4",
   "topicId": "cnm_p203",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "200×7/10 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "140"
-   },
-   {
-    "key": "B",
-    "text": "14"
-   },
-   {
-    "key": "C",
-    "text": "70"
-   },
-   {
-    "key": "D",
-    "text": "180"
-   }
-  ],
-  "answer": "A",
-  "explanation": "打七折是原价的 70%，200×0.7＝140。",
-  "verify": "200*7/10"
+  "type": "numeric",
+  "prompt": "原价200元，打七折后售价是多少元？",
+  "answer": "140",
+  "verify": "200*0.7",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p204_q1",
   "topicId": "cnm_p204",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "200 的 3% 是多少？",
+  "prompt": "本金200元，年利率3%，存1年，不计其他因素。到期利息是多少元？",
   "answer": "6",
-  "explanation": "本金 200 元，年利率 3%，利息 6 元。",
-  "verify": "Fraction(200*3,100)"
+  "verify": "200*3/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p204_q2",
   "topicId": "cnm_p204",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "500 的 2% 是多少？",
+  "prompt": "本金500元，年利率2%，存1年，不计其他因素。到期利息是多少元？",
   "answer": "10",
-  "explanation": "500×2%＝10。",
-  "verify": "Fraction(500*2,100)"
+  "verify": "500*2/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p204_q3",
   "topicId": "cnm_p204",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "把 1000 元存一年，年利率 4%。利息是多少元？计算：1000×4÷100＝？",
-  "answer": "40",
-  "explanation": "1000×4%＝40。",
-  "verify": "1000*4/100"
+  "type": "choice",
+  "prompt": "求一年的利息，哪个关系正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "利息＝本金＋年利率"
+   },
+   {
+    "key": "B",
+    "text": "利息＝本金÷年利率"
+   },
+   {
+    "key": "C",
+    "text": "利息＝本金×年利率×1"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：利息＝本金×年利率×1。",
+  "verify": "'利息＝本金×年利率×1'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p204_q4",
   "topicId": "cnm_p204",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "800×5/100 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "4"
-   },
-   {
-    "key": "B",
-    "text": "40"
-   },
-   {
-    "key": "C",
-    "text": "20"
-   },
-   {
-    "key": "D",
-    "text": "80"
-   }
-  ],
-  "answer": "B",
-  "explanation": "800 的 5% 是 40。",
-  "verify": "800*5/100"
+  "type": "numeric",
+  "prompt": "本金800元，年利率5%，存1年，不计其他因素。本金和利息合计多少元？",
+  "answer": "840",
+  "verify": "800+800*5/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p205_q1",
   "topicId": "cnm_p205",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "50 的 20% 是多少？",
-  "answer": "10",
-  "explanation": "50 增加 20%，增加的量是 10。",
-  "verify": "Fraction(50*20,100)"
+  "prompt": "学校去年种树50棵，今年比去年增加20%，今年种树多少棵？",
+  "answer": "60",
+  "verify": "50*(1+0.2)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p205_q2",
   "topicId": "cnm_p205",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：80＋16＝？",
-  "answer": "96",
-  "explanation": "原来 80，增加 16，现在是 96。",
-  "verify": "80+16"
+  "prompt": "一件商品原价80元，降价20%后售价是多少元？",
+  "answer": "64",
+  "verify": "80*(1-0.2)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p205_q3",
   "topicId": "cnm_p205",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "去年 40 人，今年 50 人。增加了多少人？计算：50－40＝？",
-  "answer": "10",
-  "explanation": "50－40＝10，10÷40＝25%，增长了 25%。",
-  "verify": "50-40"
+  "type": "choice",
+  "prompt": "去年有40人，今年有50人，人数比去年增加了百分之几？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "20%"
+   },
+   {
+    "key": "B",
+    "text": "10%"
+   },
+   {
+    "key": "C",
+    "text": "25%"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：25%。",
+  "verify": "'25%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p205_q4",
   "topicId": "cnm_p205",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "200×15/100 的得数是哪一个？",
+  "prompt": "原来用水200吨，节约后用水170吨，节水率是多少？",
   "choices": [
    {
     "key": "A",
-    "text": "15"
+    "text": "15%"
    },
    {
     "key": "B",
-    "text": "30"
+    "text": "30%"
    },
    {
     "key": "C",
-    "text": "20"
-   },
-   {
-    "key": "D",
-    "text": "40"
+    "text": "85%"
    }
   ],
-  "answer": "B",
-  "explanation": "200 的 15% 是 30。",
-  "verify": "200*15/100"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：15%。",
+  "verify": "'15%'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p206_q1",
@@ -1819,113 +2101,117 @@
   "id": "cnm_p208_q1",
   "topicId": "cnm_p208",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：12.56＋12.56＝？（用小数作答）",
-  "answer": "25.12",
-  "explanation": "两个底面各 12.56，合起来 25.12。",
-  "verify": "12.56+12.56"
+  "type": "choice",
+  "prompt": "一个封闭圆柱的表面积由哪几部分组成？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "两个底面积和一个侧面积"
+   },
+   {
+    "key": "B",
+    "text": "一个底面积和一个侧面积"
+   },
+   {
+    "key": "C",
+    "text": "两个侧面积"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：两个底面积和一个侧面积。",
+  "verify": "'两个底面积和一个侧面积'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p208_q2",
   "topicId": "cnm_p208",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：25.12＋31.4＝？（用小数作答）",
+  "prompt": "封闭圆柱的一个底面积12.56平方厘米，侧面积31.4平方厘米，表面积是多少平方厘米？",
   "answer": "56.52",
-  "explanation": "底面积和 25.12，侧面积 31.4，表面积 56.52。",
-  "verify": "25.12+31.4"
+  "verify": "12.56*2+31.4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p208_q3",
   "topicId": "cnm_p208",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "侧面展开是长 6.28 厘米、宽 5 厘米的长方形。侧面积是多少平方厘米？计算：6.28×5＝？（用小数作答）",
-  "answer": "31.4",
-  "explanation": "6.28×5＝31.4。",
-  "verify": "6.28*5"
+  "prompt": "一个无盖圆柱容器，底面积20平方厘米、侧面积60平方厘米，用料面积是多少平方厘米？不计接缝。",
+  "answer": "80",
+  "verify": "20+60",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p208_q4",
   "topicId": "cnm_p208",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "3.14×4 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "6.28"
-   },
-   {
-    "key": "B",
-    "text": "9.42"
-   },
-   {
-    "key": "C",
-    "text": "15.7"
-   },
-   {
-    "key": "D",
-    "text": "12.56"
-   }
-  ],
-  "answer": "D",
-  "explanation": "半径 2 的底面积是 3.14×4＝12.56。",
-  "verify": "3.14*4"
+  "type": "numeric",
+  "prompt": "封闭圆柱的底面半径2厘米、高5厘米，取π＝3.14，表面积是多少平方厘米？",
+  "answer": "87.92",
+  "verify": "2*3.14*2*2+2*3.14*2*5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p209_q1",
   "topicId": "cnm_p209",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "圆锥的底面是什么形状？",
+  "prompt": "圆锥的体积与等底等高圆柱的体积有什么关系？",
   "choices": [
    {
     "key": "A",
-    "text": "是一个圆"
+    "text": "是圆柱体积的1/3"
    },
    {
     "key": "B",
-    "text": "是一个正方形"
+    "text": "是圆柱体积的3倍"
    },
    {
     "key": "C",
-    "text": "是两个圆"
+    "text": "与圆柱体积相等"
    }
   ],
   "answer": "A",
-  "explanation": "圆锥有一个圆形底面和一个顶点。",
-  "verify": "'是一个圆'"
+  "explanation": "按题目条件判断，正确的是：是圆柱体积的1/3。",
+  "verify": "'是圆柱体积的1/3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p209_q2",
   "topicId": "cnm_p209",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：18.84÷3＝？（用小数作答）",
+  "prompt": "圆柱体积18.84立方厘米，等底等高圆锥的体积是多少立方厘米？",
   "answer": "6.28",
-  "explanation": "等底等高圆柱体积 18.84，圆锥是它的三分之一，18.84÷3＝6.28。",
-  "verify": "18.84/3"
+  "verify": "18.84/3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p209_q3",
   "topicId": "cnm_p209",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "圆柱体积 30 立方厘米，等底等高的圆锥体积是多少？计算：30÷3＝？",
+  "prompt": "圆柱体积30立方厘米，等底等高圆锥的体积是多少立方厘米？",
   "answer": "10",
-  "explanation": "30÷3＝10。",
-  "verify": "30/3"
+  "verify": "30/3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p209_q4",
   "topicId": "cnm_p209",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "计算：314×3×3×6÷3÷100＝？（用小数作答）",
+  "prompt": "圆锥底面半径3厘米、高6厘米，取π＝3.14，体积是多少立方厘米？",
   "answer": "56.52",
-  "explanation": "半径 3、高 6 的圆锥体积是 56.52。",
-  "verify": "314*3*3*6/3/100"
+  "verify": "3.14*3*3*6/3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p210_q1",
@@ -2278,111 +2564,101 @@
   "topicId": "cnm_p215",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "3 本笔记本 12 元，同样的笔记本 5 本多少元？计算：12÷3×5＝？",
+  "prompt": "同样的笔记本3本12元，5本一共多少元？",
   "answer": "20",
-  "explanation": "每本 4 元，5 本 20 元。",
-  "verify": "12/3*5"
+  "verify": "12/3*5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p215_q2",
   "topicId": "cnm_p215",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "2 小时行 90 千米，同样的速度 4 小时行多少千米？计算：90÷2×4＝？",
-  "answer": "180",
-  "explanation": "每小时 45 千米，4 小时 180 千米。",
-  "verify": "90/2*4"
+  "prompt": "汽车匀速行驶，2小时行120千米，以相同速度行驶5小时行多少千米？",
+  "answer": "300",
+  "verify": "120/2*5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p215_q3",
   "topicId": "cnm_p215",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "用 6 台机器 4 小时完成的工作，改用 8 台同样的机器要几小时？计算：6×4÷8＝？",
-  "answer": "3",
-  "explanation": "工作总量按台时算是 24，24÷8＝3。",
-  "verify": "6*4/8"
+  "type": "choice",
+  "prompt": "加工同一批零件，每人效率相同。4人同时加工需要6天，8人同时加工需要几天？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "12天"
+   },
+   {
+    "key": "B",
+    "text": "6天"
+   },
+   {
+    "key": "C",
+    "text": "3天"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：3天。",
+  "verify": "'3天'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p215_q4",
   "topicId": "cnm_p215",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "15×2÷6 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "5"
-   },
-   {
-    "key": "B",
-    "text": "3"
-   },
-   {
-    "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "7"
-   }
-  ],
-  "answer": "A",
-  "explanation": "15×2÷6＝5。",
-  "verify": "15*2/6"
+  "type": "numeric",
+  "prompt": "铺同一块地面，用面积4平方分米的砖需60块，改用面积6平方分米的砖需要多少块？不计损耗。",
+  "answer": "40",
+  "verify": "4*60/6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p216_q1",
   "topicId": "cnm_p216",
   "difficulty": "basic",
-  "type": "choice",
-  "prompt": "鸽巢问题是说什么？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "物体数比抽屉数多，必有一个抽屉至少放两个"
-   },
-   {
-    "key": "B",
-    "text": "每个抽屉只能放一个"
-   },
-   {
-    "key": "C",
-    "text": "物体数一定等于抽屉数"
-   }
-  ],
-  "answer": "A",
-  "explanation": "这是抽屉原理最简单的情形。",
-  "verify": "'物体数比抽屉数多，必有一个抽屉至少放两个'"
+  "type": "numeric",
+  "prompt": "把4支铅笔放入3个笔筒，不管怎样放，总有一个笔筒至少有几支？",
+  "answer": "2",
+  "verify": "(4+2)//3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p216_q2",
   "topicId": "cnm_p216",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：5－3＝？",
+  "prompt": "把5支铅笔放入3个笔筒，不管怎样放，总有一个笔筒至少有几支？",
   "answer": "2",
-  "explanation": "5 支铅笔放进 3 个笔筒，5 比 3 多 2。",
-  "verify": "5-3"
+  "verify": "(5+2)//3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p216_q3",
   "topicId": "cnm_p216",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "先写商，再写余数。商和余数：7÷3",
-  "answer": "2，1",
-  "explanation": "7÷3＝2……1。7 本书放进 3 个书包，至少有一个书包放了 2 本。",
-  "verify": "(7//3, 7%3)"
+  "prompt": "把7支铅笔放入3个笔筒，不管怎样放，总有一个笔筒至少有几支？",
+  "answer": "3",
+  "verify": "(7+2)//3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p216_q4",
   "topicId": "cnm_p216",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "计算：8－3＝？",
-  "answer": "5",
-  "explanation": "8 本书放进 3 个书包，8 比 3 多，必有一个书包至少放 2 本。",
-  "verify": "8-3"
+  "prompt": "把9支铅笔放入4个笔筒，不管怎样放，总有一个笔筒至少有几支？",
+  "answer": "3",
+  "verify": "(9+3)//4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  }
 ]

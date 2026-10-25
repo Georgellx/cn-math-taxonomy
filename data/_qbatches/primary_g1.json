@@ -158,54 +158,58 @@
   "topicId": "cnm_p003",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "4 的后面一个数是几？",
-  "answer": "5",
-  "explanation": "第 4 个的后面是第 5 个，数是 5。",
-  "verify": "4+1"
+  "prompt": "从左数：小明、小红、小丽、小刚。小丽排在第几？只填数字。",
+  "answer": "3",
+  "verify": "3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p003_q2",
   "topicId": "cnm_p003",
   "difficulty": "basic",
-  "type": "choice",
-  "prompt": "第几是看顺序，从 1 开始数。从左数，排在最前面的是第几个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "顺序，从 1 开始数"
-   },
-   {
-    "key": "B",
-    "text": "一共有多少个"
-   },
-   {
-    "key": "C",
-    "text": "比 5 大的数"
-   }
-  ],
-  "answer": "A",
-  "explanation": "最前面是第 1 个，说的是顺序。",
-  "verify": "'顺序，从 1 开始数'"
+  "type": "numeric",
+  "prompt": "从左数：小明、小红、小丽、小刚。这一排一共有几个人？",
+  "answer": "4",
+  "verify": "4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p003_q3",
   "topicId": "cnm_p003",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "计算：3＋1＝？",
-  "answer": "4",
-  "explanation": "第 3 个再往后一个是第 4 个，3＋1＝4。",
-  "verify": "3+1"
+  "prompt": "从左数：苹果、梨、桃子、香蕉、橙子。桃子排在第几？只填数字。",
+  "answer": "3",
+  "verify": "3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p003_q4",
   "topicId": "cnm_p003",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：5－1＝？",
-  "answer": "4",
-  "explanation": "5 个里最后一个的前一个位置，5－1＝4。",
-  "verify": "5-1"
+  "type": "choice",
+  "prompt": "一排有5个小朋友，小华排在第5个。“5个”和“第5个”分别表示什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "总数量和位置顺序"
+   },
+   {
+    "key": "B",
+    "text": "都表示总数量"
+   },
+   {
+    "key": "C",
+    "text": "都表示位置顺序"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：总数量和位置顺序。",
+  "verify": "'总数量和位置顺序'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p004_q1",
@@ -479,59 +483,87 @@
   "id": "cnm_p009_q1",
   "topicId": "cnm_p009",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：9－6＝？",
-  "answer": "3",
-  "explanation": "9－6＝3。",
-  "verify": "9-6"
+  "type": "choice",
+  "prompt": "比较9和6的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "9＞6"
+   },
+   {
+    "key": "B",
+    "text": "9＜6"
+   },
+   {
+    "key": "C",
+    "text": "9＝6"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：9＞6。",
+  "verify": "'9＞6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p009_q2",
   "topicId": "cnm_p009",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：10－7＝？",
-  "answer": "3",
-  "explanation": "10－7＝3。",
-  "verify": "10-7"
+  "type": "choice",
+  "prompt": "比较7和10的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "7＝10"
+   },
+   {
+    "key": "B",
+    "text": "7＜10"
+   },
+   {
+    "key": "C",
+    "text": "7＞10"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：7＜10。",
+  "verify": "'7＜10'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p009_q3",
   "topicId": "cnm_p009",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "一串有 10 颗珠子，另一串有 8 颗。10 颗的比 8 颗的多几颗？计算：10－8＝？",
-  "answer": "2",
-  "explanation": "10－8＝2。",
-  "verify": "10-8"
+  "type": "choice",
+  "prompt": "一盒有8支笔，另一盒有8支笔。两盒数量有什么关系？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "第一盒多"
+   },
+   {
+    "key": "B",
+    "text": "第二盒多"
+   },
+   {
+    "key": "C",
+    "text": "一样多"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：一样多。",
+  "verify": "'一样多'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p009_q4",
   "topicId": "cnm_p009",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "8－5 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "2"
-   },
-   {
-    "key": "B",
-    "text": "3"
-   },
-   {
-    "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "13"
-   }
-  ],
-  "answer": "B",
-  "explanation": "8－5＝3。",
-  "verify": "8-5"
+  "type": "numeric",
+  "prompt": "比7大、比9小的整数是几？",
+  "answer": "8",
+  "verify": "8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p010_q1",
@@ -1323,41 +1355,91 @@
   "id": "cnm_p024_q1",
   "topicId": "cnm_p024",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：2＋2＝？",
-  "answer": "4",
-  "explanation": "2 个三角形再拼 2 个，一共 4 个。",
-  "verify": "2+2"
+  "type": "choice",
+  "prompt": "图中的正方形沿线分开，每一块是什么图形？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "三角形"
+   },
+   {
+    "key": "B",
+    "text": "圆"
+   },
+   {
+    "key": "C",
+    "text": "正方形"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：三角形。",
+  "verify": "'三角形'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 155\" role=\"img\" aria-label=\"一个正方形沿对角线分成两块\"><title>一个正方形沿对角线分成两块</title><rect x=\"50\" y=\"25\" width=\"100\" height=\"100\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M50 25L150 125\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
  },
  {
   "id": "cnm_p024_q2",
   "topicId": "cnm_p024",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：3＋1＝？",
-  "answer": "4",
-  "explanation": "3＋1＝4。",
-  "verify": "3+1"
+  "type": "choice",
+  "prompt": "图中两个一样的正方形这样拼在一起，外轮廓是什么图形？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "圆"
+   },
+   {
+    "key": "B",
+    "text": "长方形"
+   },
+   {
+    "key": "C",
+    "text": "三角形"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：长方形。",
+  "verify": "'长方形'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 155\" role=\"img\" aria-label=\"两个一样的正方形沿整条边拼在一起\"><title>两个一样的正方形沿整条边拼在一起</title><rect x=\"40\" y=\"30\" width=\"60\" height=\"60\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"100\" y=\"30\" width=\"60\" height=\"60\" fill=\"#f0d1a2\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
  },
  {
   "id": "cnm_p024_q3",
   "topicId": "cnm_p024",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "用 2 个三角形和 1 个正方形拼图。一共用了几个图形？计算：2＋1＝？",
-  "answer": "3",
-  "explanation": "2＋1＝3。",
-  "verify": "2+1"
+  "prompt": "图中的正方形沿线分开，一共得到几块三角形？",
+  "answer": "2",
+  "verify": "2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 155\" role=\"img\" aria-label=\"一个正方形沿对角线分成两块\"><title>一个正方形沿对角线分成两块</title><rect x=\"50\" y=\"25\" width=\"100\" height=\"100\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M50 25L150 125\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
  },
  {
   "id": "cnm_p024_q4",
   "topicId": "cnm_p024",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "七巧板里拿出 4 块，又放回 1 块。还在外面的有几块？计算：4－1＝？",
-  "answer": "3",
-  "explanation": "4－1＝3。",
-  "verify": "4-1"
+  "type": "choice",
+  "prompt": "图中两块正方形拼成的图形，与其中一块正方形相比，哪句话正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "有两个同样大的正方形合在一起"
+   },
+   {
+    "key": "B",
+    "text": "变成了一个圆"
+   },
+   {
+    "key": "C",
+    "text": "形状仍一定是正方形"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：有两个同样大的正方形合在一起。",
+  "verify": "'有两个同样大的正方形合在一起'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 155\" role=\"img\" aria-label=\"两个一样的正方形沿整条边拼在一起\"><title>两个一样的正方形沿整条边拼在一起</title><rect x=\"40\" y=\"30\" width=\"60\" height=\"60\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"100\" y=\"30\" width=\"60\" height=\"60\" fill=\"#f0d1a2\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
  },
  {
   "id": "cnm_p025_q1",
@@ -1591,59 +1673,87 @@
   "id": "cnm_p029_q1",
   "topicId": "cnm_p029",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：40－20＝？",
-  "answer": "20",
-  "explanation": "40 比 20 大 20。",
-  "verify": "40-20"
+  "type": "choice",
+  "prompt": "比较47和74的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "47＜74"
+   },
+   {
+    "key": "B",
+    "text": "47＞74"
+   },
+   {
+    "key": "C",
+    "text": "47＝74"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：47＜74。",
+  "verify": "'47＜74'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p029_q2",
   "topicId": "cnm_p029",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：35－30＝？",
-  "answer": "5",
-  "explanation": "十位相同，比个位，35－30＝5。",
-  "verify": "35-30"
+  "type": "choice",
+  "prompt": "比较58和53的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "58＝53"
+   },
+   {
+    "key": "B",
+    "text": "58＞53"
+   },
+   {
+    "key": "C",
+    "text": "58＜53"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：58＞53。",
+  "verify": "'58＞53'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p029_q3",
   "topicId": "cnm_p029",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "小华拍球 28 下，小丽拍球 20 下。小华比小丽多几下？计算：28－20＝？",
-  "answer": "8",
-  "explanation": "28－20＝8。",
-  "verify": "28-20"
+  "type": "choice",
+  "prompt": "下面哪个数比40多一些？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "90"
+   },
+   {
+    "key": "B",
+    "text": "12"
+   },
+   {
+    "key": "C",
+    "text": "43"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：43。",
+  "verify": "'43'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p029_q4",
   "topicId": "cnm_p029",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "50－20 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "20"
-   },
-   {
-    "key": "B",
-    "text": "40"
-   },
-   {
-    "key": "C",
-    "text": "70"
-   },
-   {
-    "key": "D",
-    "text": "30"
-   }
-  ],
-  "answer": "D",
-  "explanation": "50－20＝30。",
-  "verify": "50-20"
+  "type": "numeric",
+  "prompt": "47、74、39、58中最大的数是多少？",
+  "answer": "74",
+  "verify": "74",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p030_q1",
@@ -1878,40 +1988,72 @@
   "topicId": "cnm_p035",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：20＋15＝？",
+  "prompt": "盒子里有红球20个、蓝球15个，没有其他球。一共有多少个球？",
   "answer": "35",
-  "explanation": "两个部分相加得到总数，20＋15＝35。",
-  "verify": "20+15"
+  "verify": "20+15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p035_q2",
   "topicId": "cnm_p035",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：35－15＝？",
+  "prompt": "盒子里有球35个，其中红球15个，其余都是蓝球。蓝球有多少个？",
   "answer": "20",
-  "explanation": "总数减去一部分，35－15＝20。",
-  "verify": "35-15"
+  "verify": "35-15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p035_q3",
   "topicId": "cnm_p035",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "果园里有桃树和梨树共 40 棵，桃树 18 棵。梨树有多少棵？计算：40－18＝？",
-  "answer": "22",
-  "explanation": "40－18＝22。",
-  "verify": "40-18"
+  "type": "choice",
+  "prompt": "桃树和梨树共40棵，其中桃树18棵。求梨树棵数，应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "40＋18"
+   },
+   {
+    "key": "B",
+    "text": "18－40"
+   },
+   {
+    "key": "C",
+    "text": "40－18"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：40－18。",
+  "verify": "'40－18'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p035_q4",
   "topicId": "cnm_p035",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "男生 16 人，女生 14 人。全班一共有多少人？计算：16＋14＝？",
-  "answer": "30",
-  "explanation": "16＋14＝30。",
-  "verify": "16+14"
+  "type": "choice",
+  "prompt": "男生16人、女生14人。下面哪个式子表示全班人数？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "16＋14"
+   },
+   {
+    "key": "B",
+    "text": "16－14"
+   },
+   {
+    "key": "C",
+    "text": "14－16"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：16＋14。",
+  "verify": "'16＋14'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p036_q1",
