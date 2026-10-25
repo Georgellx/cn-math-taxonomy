@@ -26,6 +26,7 @@
 })();
 </script>
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/curriculum.css">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <meta name="theme-color" content="#0f6e62">
@@ -55,8 +56,9 @@
       <a class="nav-link active" href="./" aria-current="page">首页</a>
       <a class="nav-link" href="explore/">知识图谱</a>
       <a class="nav-link" href="diagnose/">诊断</a>
+      <a class="nav-link" href="review/">待核与拓展</a>
       <a class="nav-link" href="children/">档案</a>
-      <a class="nav-link" href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
+      <a class="nav-link" href="https://github.com/Georgellx/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">关于</a>
       <a class="nav-link resource-search-btn" href="https://pansgo.com" target="_blank" rel="noopener noreferrer" title="网盘资源搜索">
         <svg class="resource-search-ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M11.5 10.4a5.5 5.5 0 1 0-1.1 1.1l3 3a.75.75 0 0 0 1.06-1.06zM7 11.5A4.5 4.5 0 1 1 7 2.5a4.5 4.5 0 0 1 0 9z"/></svg>资源搜索
       </a>
@@ -64,6 +66,11 @@
   </nav>
 </header>
 <main class="home">
+  <section class="curriculum-notice" id="primary-review-notice" hidden>
+    <strong>广州现用人教版小学数学 · 2026秋</strong>
+    <p id="primary-review-summary"></p>
+    <a href="review/">待核与拓展、修正记录及来源</a>
+  </section>
   <section class="hero">
     <p class="eyebrow">数学：小学到高中 · 语文：小学一至六年级 · 英语：三年级到高中 · 物理：初中到高中</p>
     <h1>先找到真正没学会的那一步</h1>
@@ -113,8 +120,9 @@
   </a>
 </main>
 <footer class="site-footer">
-  <p><a href="https://github.com/xiaoyang111222/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
+  <p><a href="https://github.com/Georgellx/cn-math-taxonomy/issues/new/choose">提交 Issue</a></p>
 </footer>
+<script src="assets/curriculum.js"></script>
 <script src="assets/home.js"></script>
 <script src="assets/stats-config.js"></script>
 <script src="assets/stats.js"></script>

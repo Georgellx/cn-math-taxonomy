@@ -1,0 +1,19 @@
+name: Guangzhou primary alignment
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm test
+      - run: python -X utf8 -m unittest discover -s tests -p test_guangzhou_data.py
+      - run: python scripts/align_guangzhou_primary.py --check
+      - run: python scripts/validate.py
+      - run: python scripts/check_figures.py
+      - run: python scripts/verify_questions.py --report "$RUNNER_TEMP/verification.json"

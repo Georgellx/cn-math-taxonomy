@@ -10,6 +10,13 @@
   var subject = subjectParam === 'english' || subjectParam === 'physics' || subjectParam === 'chinese' ? subjectParam : 'math';
   var PREFIX = { math: 'cnm_', english: 'cne_', physics: 'cnp_', chinese: 'cnc_' };
   var STD_PREFIX = { math: 'cms-', english: 'ces-', physics: 'cps-', chinese: 'ccs-' };
+  if (subject === 'math') {
+    document.title = '广州小学数学 · 人教版2026秋适配';
+    var mathEye = document.querySelector('.eyebrow');
+    if (mathEye) mathEye.textContent = '广州小学数学 · 人教版2026秋适配';
+    var mathBrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
+    if (mathBrowse) mathBrowse.href = 'explore/?stage=p';
+  }
 
   function withSubject(href) {
     if (subject === 'math' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
@@ -98,6 +105,15 @@
     var deps = data[1];
     var questions = data[2];
     var standards = data[3];
+    if (subject === 'math') {
+      var review = window.CnmCurriculum.summary(topics);
+      var notice = document.getElementById('primary-review-summary');
+      if (notice) {
+        notice.hidden = false;
+        notice.parentElement.hidden = false;
+        notice.textContent = '广州小学数学：可测 ' + review.eligible + ' 个知识点，待核 ' + review.pending + ' 个，拓展 ' + review.supplementary + ' 个。';
+      }
+    }
     if (!Array.isArray(topics) || !Array.isArray(deps) || !Array.isArray(questions)) {
       throw new Error('数据格式无法识别');
     }

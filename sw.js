@@ -3,7 +3,7 @@
  * 改了 SHELL 或 DATA 列表、或数据结构变了，就把 VERSION 加一。 */
 'use strict';
 
-var VERSION = 'v3';
+var VERSION = 'v4-guangzhou-primary-20261025';
 var CACHE = 'cnm-pwa-' + VERSION;
 var SCOPE = self.registration.scope;
 
@@ -25,6 +25,10 @@ var SHELL = [
   'assets/site.css',
   'assets/explore.css',
   'assets/home.js',
+  'assets/curriculum.js',
+  'assets/curriculum.css',
+  'review/',
+  'review/app.js',
   'assets/stats-config.js',
   'assets/stats.js',
   'assets/children.js',
@@ -45,7 +49,8 @@ var DATA = [
   'data/dependencies.json',
   'data/cn-curriculum-standards.json',
   'data/questions.json',
-  'data/id-aliases.json'
+  'data/id-aliases.json',
+  'data/guangzhou-primary-review.json'
 ];
 
 function abs(path) { return new URL(path, SCOPE).href; }

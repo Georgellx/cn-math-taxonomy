@@ -1,0 +1,11 @@
+.curriculum-notice { margin: 16px 0; padding: 16px 18px; border: 1px solid var(--line); border-left: 4px solid var(--brand); border-radius: var(--radius-sm); background: var(--bg-elev); color: var(--text); line-height: 1.7; }
+.curriculum-notice p { margin: 6px 0; }
+.review-chip { display: inline-block; margin-left: .5em; padding: 0 .45em; font-size: .78em; line-height: 1.7; border: 1px solid currentColor; border-radius: 4px; color: var(--warn); vertical-align: middle; }
+.review-page { max-width: 960px; margin: 24px auto; padding: 0 20px 48px; line-height: 1.8; }
+.review-page h1 { line-height: 1.4; }
+.review-page section { margin: 28px 0; }
+.review-page li { margin: 12px 0; overflow-wrap: anywhere; }
+.review-page .review-reason { color: var(--muted); display: block; }
+.review-page code { overflow-wrap: anywhere; }
+.review-page nav { display: flex; flex-wrap: wrap; gap: 18px; }
+button:disabled { cursor: not-allowed; opacity: .55; }

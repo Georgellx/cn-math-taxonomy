@@ -39,8 +39,8 @@
       "知道相等就是同样多"
     ],
     "diagnostic_question": {
-      "question": "计算：4－2＝？",
-      "answer": "2"
+      "question": "比较4和2的大小，哪种写法正确？",
+      "answer": "4＞2"
     },
     "external": false,
     "standards": [
@@ -48,7 +48,16 @@
         "id": "cms-2022:1.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "corrected",
+      "note": "已将减法计算题替换为大小比较题；题库尚未经教师审核。",
+      "sources": [
+        "pep-1u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p003",
@@ -368,7 +377,7 @@
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 我的教室",
+    "chapter": "一年级上册 数学游戏 开篇活动",
     "type": "application",
     "description": "会用上、下、前、后、左、右描述物体的相对位置。",
     "mastery_criteria": [
@@ -385,7 +394,16 @@
         "id": "cms-2022:1.IP.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已用官方开篇「数学游戏」替换自定义「我的教室」栏目；相对位置内容与活动的具体对应仍待核。",
+      "sources": [
+        "pep-1u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p016",
@@ -547,7 +565,7 @@
     "domain": "综合与实践",
     "grade": 1,
     "semester": "上",
-    "chapter": "一年级上册 综合与实践 数学游戏分享",
+    "chapter": "一年级上册 数学游戏 开篇活动",
     "type": "modeling",
     "description": "能在游戏里用数介绍自己身边的事物，并按一种标准把物品分成两类。",
     "mastery_criteria": [
@@ -568,7 +586,16 @@
         "id": "cms-2022:1.SP.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已归并到官方开篇「数学游戏」；原「数学游戏分享」是课标主题名，具体内容对应仍待核。",
+      "sources": [
+        "pep-1u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p023",
@@ -1385,7 +1412,16 @@
         "confidence": "inferred",
         "note": "课标把时、分、秒放在第一学段主题活动「时间在哪里」。2024 一、二年级上册已核目录里没有独立钟表单元；现行人教三年级上册第 1 单元才系统学习，暂按现行册次，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "时、分、秒由三上迁入二下实践活动，具体范围待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p062",
@@ -1411,7 +1447,16 @@
         "confidence": "inferred",
         "note": "同「秒的认识」：课标在第一学段，现行教材在三年级上册，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "时、分、秒的进率在二下活动中的范围待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p063",
@@ -1437,7 +1482,16 @@
         "confidence": "inferred",
         "note": "经过时间是时、分、秒的应用，册次待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "经过时间在二下活动中的要求待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p050",
@@ -1803,7 +1857,16 @@
         "id": "cms-2022:1.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "简单变化规律暂挂二下复习，具体小节归属未核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p221",
@@ -2369,7 +2432,16 @@
         "id": "cms-2022:1.NA.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "倍的认识暂挂三上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p081",
@@ -2395,7 +2467,16 @@
         "confidence": "inferred",
         "note": "集合是现行教材数学广角，不是课标单列主题，按数量关系解决问题来对应，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "集合图里的重叠暂挂三上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p095",
@@ -2403,7 +2484,7 @@
     "domain": "综合与实践",
     "grade": 3,
     "semester": "上",
-    "chapter": "三年级上册 第8单元 数学广角——搭配问题",
+    "chapter": "三年级上册 数学广角 搭配问题",
     "type": "reasoning",
     "description": "能有序地数出两种事物的搭配种数，不重复也不遗漏。",
     "mastery_criteria": [
@@ -2421,7 +2502,16 @@
         "confidence": "inferred",
         "note": "搭配是现行三年级下册数学广角，课标没有同名主题，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "corrected",
+      "note": "去掉项目自编的第8单元号，保留同册非编号数学广角；不是新增必学单元。",
+      "sources": [
+        "pep-3u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p228",
@@ -2683,7 +2773,16 @@
         "id": "cms-2022:2.SP.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "新版单元为数据的收集与整理，原复式统计表节点的覆盖范围待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p091",
@@ -2808,7 +2907,16 @@
         "id": "cms-2022:2.IP.03",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "八个方向暂挂三下复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p096",
@@ -2870,7 +2978,7 @@
     "domain": "综合与实践",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第1单元 万以上数的认识",
+    "chapter": "四年级上册 综合与实践 1亿有多大",
     "type": "modeling",
     "description": "借助数一数、量一量、估一估，体会 1 亿的大小，知道 1 亿是 10 个一千万、10000 个一万。",
     "mastery_criteria": [
@@ -2887,6 +2995,15 @@
     "diagnostic_question": {
       "question": "1 亿里面有几个一千万？计算：100000000÷10000000＝？",
       "answer": "10"
+    },
+    "curriculum_review": {
+      "status": "corrected",
+      "note": "按官方目录单列综合与实践；题目只能辅助检查量感，不能替代实际估测。",
+      "sources": [
+        "pep-4u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
     }
   },
   {
@@ -3315,7 +3432,16 @@
         "confidence": "inferred",
         "note": "优化是现行四年级上册数学广角，课标没有同名主题，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "简单优化暂挂四上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p131",
@@ -3323,7 +3449,7 @@
     "domain": "综合与实践",
     "grade": 4,
     "semester": "上",
-    "chapter": "四年级上册 第8单元 数学广角——鸡兔同笼",
+    "chapter": "四年级上册 数学广角 鸡兔同笼",
     "type": "reasoning",
     "description": "会用假设法解决简单的鸡兔同笼问题：先假设全是鸡，再根据腿数调整。",
     "mastery_criteria": [
@@ -3341,7 +3467,16 @@
         "confidence": "inferred",
         "note": "鸡兔同笼是现行四年级下册数学广角，内容要求没有同名条款，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "corrected",
+      "note": "去掉项目自编的第8单元号，保留同册非编号数学广角；不是新增必学单元。",
+      "sources": [
+        "pep-4u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p110",
@@ -3366,7 +3501,16 @@
         "id": "cms-2022:2.NA.03",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p112",
@@ -3391,7 +3535,16 @@
         "id": "cms-2022:2.NA.03",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p113",
@@ -3407,8 +3560,8 @@
       "能根据视图指出是哪个方向"
     ],
     "diagnostic_question": {
-      "question": "从正面、侧面、上面看同一个物体，看到的形状怎样？",
-      "answer": "看到的形状可能不一样"
+      "question": "观察图中的组合体。从前面看到的图形是哪一个？",
+      "answer": "图一"
     },
     "external": false,
     "standards": [
@@ -3416,7 +3569,16 @@
         "id": "cms-2022:2.GG.06",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已用实际视图选择题替换无关加减计算；2027春四下目录及本点册次仍待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p114",
@@ -3441,7 +3603,16 @@
         "id": "cms-2022:2.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p115",
@@ -3466,7 +3637,16 @@
         "id": "cms-2022:2.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p116",
@@ -3491,7 +3671,16 @@
         "id": "cms-2022:2.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p117",
@@ -3516,7 +3705,16 @@
         "id": "cms-2022:2.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p118",
@@ -3545,7 +3743,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p119",
@@ -3571,7 +3778,16 @@
         "confidence": "inferred",
         "note": "比较小数大小是理解小数意义时要会的，内容要求没有单独写「比较」，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p120",
@@ -3597,7 +3813,16 @@
         "confidence": "inferred",
         "note": "小数点移动是教材里的性质，内容要求写的是感悟计数单位，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p121",
@@ -3623,7 +3848,16 @@
         "confidence": "inferred",
         "note": "小数近似数是教材里的四舍五入，内容要求只写了估算，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p122",
@@ -3648,7 +3882,16 @@
         "id": "cms-2022:2.GG.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p123",
@@ -3673,7 +3916,16 @@
         "id": "cms-2022:3.GG.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p124",
@@ -3698,7 +3950,16 @@
         "id": "cms-2022:3.GG.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p125",
@@ -3727,7 +3988,16 @@
         "id": "cms-2022:2.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p126",
@@ -3756,7 +4026,16 @@
         "id": "cms-2022:3.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p127",
@@ -3785,7 +4064,16 @@
         "id": "cms-2022:3.GG.11",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p128",
@@ -3814,7 +4102,16 @@
         "id": "cms-2022:3.GG.11",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p129",
@@ -3839,7 +4136,16 @@
         "id": "cms-2022:2.SP.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p106",
@@ -3864,7 +4170,16 @@
         "id": "cms-2022:2.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p107",
@@ -3893,7 +4208,16 @@
         "id": "cms-2022:2.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p237",
@@ -3918,6 +4242,15 @@
     "diagnostic_question": {
       "question": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
       "answer": "6"
+    },
+    "curriculum_review": {
+      "status": "pending",
+      "note": "当前题目对三视图还原、拼搭及最少/最多小正方体的覆盖不足，待补充核验。",
+      "sources": [
+        "pep-5u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
     }
   },
   {
@@ -4099,8 +4432,17 @@
     ],
     "external": false,
     "diagnostic_question": {
-      "question": "一个图形旋转之后，大小和形状怎样？",
-      "answer": "大小和形状都不变"
+      "question": "把三角形向右平移2格，结果是哪一个？",
+      "answer": "图一"
+    },
+    "curriculum_review": {
+      "status": "corrected",
+      "note": "已补充平移、旋转和轴对称的图示辨认题；选择题不能替代实际作图检查。",
+      "sources": [
+        "pep-5u"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
     }
   },
   {
@@ -4155,7 +4497,16 @@
         "id": "cms-2022:3.NA.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "节点含利用等式性质分离未知数的要求，与新版用字母表示数量关系的边界待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p098",
@@ -4181,7 +4532,16 @@
         "confidence": "inferred",
         "note": "公顷、平方千米写在第三学段。现行教材在四年级上册，对应时按内容提前出现处理，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "公顷和平方千米移入五上多边形面积，具体小节待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p240",
@@ -4411,7 +4771,16 @@
         "confidence": "inferred",
         "note": "积的近似数是五年级小数乘法里的四舍五入，内容要求写的是估算，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "积的近似数暂挂五上复习；是否仍属于小数乘法正文及其要求待核，不能认定已删除。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p143",
@@ -4440,7 +4809,17 @@
         "id": "cms-2022:3.NA.07",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p145",
@@ -4465,7 +4844,17 @@
         "id": "cms-2022:3.NA.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p146",
@@ -4494,7 +4883,17 @@
         "id": "cms-2022:2.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p151",
@@ -4520,7 +4919,16 @@
         "confidence": "inferred",
         "note": "植树问题是现行五年级上册数学广角，内容要求没有同名条款，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "植树问题暂挂五上复习，新版选学位置与要求待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p152",
@@ -4545,7 +4953,16 @@
         "id": "cms-2022:3.GG.06",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p153",
@@ -4570,7 +4987,16 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p154",
@@ -4595,7 +5021,16 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p155",
@@ -4620,7 +5055,16 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p156",
@@ -4645,7 +5089,16 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p157",
@@ -4670,7 +5123,16 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p158",
@@ -4678,7 +5140,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第2单元 因数与倍数",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会求两个数的公因数和最大公因数。",
     "mastery_criteria": [
@@ -4695,7 +5157,17 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p159",
@@ -4703,7 +5175,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第2单元 因数与倍数",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会求两个数的公倍数和最小公倍数。",
     "mastery_criteria": [
@@ -4720,7 +5192,17 @@
         "id": "cms-2022:3.NA.01",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p160",
@@ -4745,7 +5227,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p161",
@@ -4770,7 +5261,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p162",
@@ -4795,7 +5295,16 @@
         "id": "cms-2022:3.GG.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p163",
@@ -4824,7 +5333,16 @@
         "id": "cms-2022:3.GG.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p164",
@@ -4849,7 +5367,16 @@
         "id": "cms-2022:3.GG.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p165",
@@ -4878,7 +5405,16 @@
         "id": "cms-2022:3.NA.03",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p166",
@@ -4903,7 +5439,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p167",
@@ -4928,7 +5473,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p168",
@@ -4953,7 +5507,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p169",
@@ -4978,7 +5541,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p170",
@@ -5003,7 +5575,16 @@
         "id": "cms-2022:3.NA.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p171",
@@ -5032,7 +5613,16 @@
         "id": "cms-2022:2.GG.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p172",
@@ -5040,7 +5630,7 @@
     "domain": "数与代数",
     "grade": 5,
     "semester": "下",
-    "chapter": "五年级下册 第6单元 分数的加法和减法",
+    "chapter": "五年级下册 第4单元 分数的意义和性质",
     "type": "procedural",
     "description": "会把异分母分数化成分母相同的分数，公分母常用最小公倍数。",
     "mastery_criteria": [
@@ -5057,7 +5647,17 @@
         "id": "cms-2022:3.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p173",
@@ -5082,7 +5682,16 @@
         "id": "cms-2022:3.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p174",
@@ -5107,7 +5716,16 @@
         "id": "cms-2022:3.NA.04",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p175",
@@ -5132,7 +5750,16 @@
         "id": "cms-2022:3.SP.02",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p176",
@@ -5158,7 +5785,16 @@
         "confidence": "inferred",
         "note": "找次品是现行五年级下册数学广角，内容要求没有同名条款，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p136",
@@ -5621,6 +6257,15 @@
     "diagnostic_question": {
       "question": "跑道一圈 400 米，跑 5 圈一共多少米？计算：400×5＝？",
       "answer": "2000"
+    },
+    "curriculum_review": {
+      "status": "pending",
+      "note": "当前主要是体育情境计算，不能完整评价教材要求的问题选择、数据收集与交流。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
     }
   },
   {
@@ -5777,7 +6422,16 @@
         "confidence": "inferred",
         "note": "折扣是百分数的应用，内容要求条款未点名百分数，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "百分数单元合并后，折扣是否仍为本册必学内容待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p204",
@@ -5803,7 +6457,16 @@
         "confidence": "inferred",
         "note": "利率是百分数的应用，内容要求条款未点名，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "百分数单元合并后，利率是否仍为本册必学内容待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p205",
@@ -5829,7 +6492,16 @@
         "confidence": "inferred",
         "note": "增长率是百分数应用，内容要求没有单独点名，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "百分数单元合并后，沿用的应用题范围待逐页核验。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p242",
@@ -5855,6 +6527,15 @@
     "diagnostic_question": {
       "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？计算：2×30＝？",
       "answer": "60"
+    },
+    "curriculum_review": {
+      "status": "pending",
+      "note": "当前主要是用水量计算，不能完整评价真实调查、节水方案及交流展示。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
     }
   },
   {
@@ -5863,7 +6544,7 @@
     "domain": "综合与实践",
     "grade": 6,
     "semester": "上",
-    "chapter": "六年级上册 第7单元 数学广角——鸽巢问题",
+    "chapter": "六年级上册 数学广角 鸽巢问题",
     "type": "reasoning",
     "description": "知道物体数比抽屉数多时，必有一个抽屉至少放两个物体。",
     "mastery_criteria": [
@@ -5881,7 +6562,16 @@
         "confidence": "inferred",
         "note": "鸽巢问题是现行六年级下册数学广角，内容要求没有同名条款，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "去掉自编第7单元号；同册数学广角的具体位置和选学范围待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p206",
@@ -5906,7 +6596,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p207",
@@ -5931,7 +6630,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p208",
@@ -5956,7 +6664,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p209",
@@ -5981,7 +6698,16 @@
         "id": "cms-2022:3.GG.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p185",
@@ -6006,7 +6732,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p186",
@@ -6031,7 +6766,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p187",
@@ -6056,7 +6800,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p210",
@@ -6081,7 +6834,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p211",
@@ -6110,7 +6872,16 @@
         "id": "cms-2022:3.NA.05",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p212",
@@ -6139,7 +6910,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p213",
@@ -6165,7 +6945,16 @@
         "confidence": "inferred",
         "note": "课标转写作「成正比的量」，是否为「成正比例的量」尚未与 PDF 核对，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p214",
@@ -6191,7 +6980,16 @@
         "confidence": "inferred",
         "note": "反比例与正比例写在同一主题附近，转写条款只明确写了成正比，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p215",
@@ -6216,7 +7014,16 @@
         "id": "cms-2022:3.NA.08",
         "confidence": "exact"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p199",
@@ -6242,7 +7049,16 @@
         "confidence": "inferred",
         "note": "转写里「会用」只明确点了条形统计图和折线统计图，扇形统计图是否另有分句待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_p200",
@@ -6268,7 +7084,16 @@
         "confidence": "inferred",
         "note": "数与形是现行六年级上册数学广角，内容要求没有同名条款，按用字母或符号表示规律来对应，待核。"
       }
-    ]
+    ],
+    "curriculum_review": {
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ],
+      "profile": "guangzhou-pep-primary-2026-autumn",
+      "reviewed_at": "2026-10-25"
+    }
   },
   {
     "id": "cnm_001",
