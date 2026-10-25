@@ -2866,5 +2866,125 @@
   "answer": "D",
   "explanation": "27÷3＝9。",
   "verify": "27/3"
+ },
+ {
+  "id": "cnm_p238_q1",
+  "topicId": "cnm_p238",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "把三角形向右平移2格，结果是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"140,95 180,95 140,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,55 140,55 100,35\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"60,95 100,95 60,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "A",
+  "explanation": "每个顶点都向右移动2格，形状和方向不变。",
+  "verify": "'图一'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+  "hideChoiceText": true
+ },
+ {
+  "id": "cnm_p238_q2",
+  "topicId": "cnm_p238",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "绕O点顺时针旋转90°，结果是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,55 80,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,135 120,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "B",
+  "explanation": "向右的边转到下方，向上的边转到右方。",
+  "verify": "'图二'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+  "hideChoiceText": true
+ },
+ {
+  "id": "cnm_p238_q3",
+  "topicId": "cnm_p238",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "以竖直虚线为对称轴，轴对称后的图形是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,135 120,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "C",
+  "explanation": "对应顶点在对称轴两侧，到轴的距离相等。",
+  "verify": "'图三'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+  "hideChoiceText": true
+ },
+ {
+  "id": "cnm_p238_q4",
+  "topicId": "cnm_p238",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "把三角形向上平移2格，结果是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,135 140,135 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,55 140,55 100,35\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"140,95 180,95 140,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "B",
+  "explanation": "每个顶点向上移动2格，边的方向不变。",
+  "verify": "'图二'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+  "hideChoiceText": true
  }
 ]

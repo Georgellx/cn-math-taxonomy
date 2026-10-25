@@ -57,59 +57,101 @@
     "id": "cnm_p002_q1",
     "topicId": "cnm_p002",
     "difficulty": "basic",
-    "type": "numeric",
-    "prompt": "计算：4－2＝？",
-    "answer": "2",
-    "explanation": "4 比 2 大，4－2＝2。",
-    "verify": "4-2"
+    "type": "choice",
+    "prompt": "比较4和2的大小，哪种写法正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4＞2"
+      },
+      {
+        "key": "B",
+        "text": "4＜2"
+      },
+      {
+        "key": "C",
+        "text": "4＝2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "从1到5依次增大；数量相同用＝，多用＞，少用＜。",
+    "verify": "'4＞2'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
   },
   {
     "id": "cnm_p002_q2",
     "topicId": "cnm_p002",
     "difficulty": "basic",
-    "type": "numeric",
-    "prompt": "计算：5－1＝？",
-    "answer": "4",
-    "explanation": "5－1＝4，所以 5 比 1 大。",
-    "verify": "5-1"
+    "type": "choice",
+    "prompt": "比较5和5的大小，哪种写法正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5＞5"
+      },
+      {
+        "key": "B",
+        "text": "5＝5"
+      },
+      {
+        "key": "C",
+        "text": "5＜5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "从1到5依次增大；数量相同用＝，多用＞，少用＜。",
+    "verify": "'5＝5'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
   },
   {
     "id": "cnm_p002_q3",
     "topicId": "cnm_p002",
     "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "小明有 5 颗珠子，小红有 3 颗。小明比小红多几颗？计算：5－3＝？",
-    "answer": "2",
-    "explanation": "多几颗用减法，5－3＝2。",
-    "verify": "5-3"
+    "type": "choice",
+    "prompt": "小明有5颗珠子，小红有3颗。比较两人珠子的数量，哪种写法正确？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5＜3"
+      },
+      {
+        "key": "B",
+        "text": "5＝3"
+      },
+      {
+        "key": "C",
+        "text": "5＞3"
+      }
+    ],
+    "answer": "C",
+    "explanation": "从1到5依次增大；数量相同用＝，多用＞，少用＜。",
+    "verify": "'5＞3'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
   },
   {
     "id": "cnm_p002_q4",
     "topicId": "cnm_p002",
     "difficulty": "standard",
     "type": "choice",
-    "prompt": "盘子里有 4 个苹果，碗里有 2 个梨。哪种水果多？",
+    "prompt": "比较2和4的大小，哪种写法正确？",
     "choices": [
       {
         "key": "A",
-        "text": "苹果多"
+        "text": "2＝4"
       },
       {
         "key": "B",
-        "text": "梨多"
+        "text": "2＜4"
       },
       {
         "key": "C",
-        "text": "一样多"
-      },
-      {
-        "key": "D",
-        "text": "无法比较"
+        "text": "2＞4"
       }
     ],
-    "answer": "A",
-    "explanation": "4 比 2 大，所以苹果多。",
-    "verify": "'苹果多'"
+    "answer": "B",
+    "explanation": "从1到5依次增大；数量相同用＝，多用＞，少用＜。",
+    "verify": "'2＜4'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
   },
   {
     "id": "cnm_p003_q1",
@@ -5792,56 +5834,120 @@
     "topicId": "cnm_p113",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "从正面、侧面、上面看同一个物体，看到的形状怎样？",
+    "prompt": "观察图中的组合体。从前面看到的图形是哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "看到的形状可能不一样"
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       },
       {
         "key": "B",
-        "text": "一定是同一个形状"
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"126\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       },
       {
         "key": "C",
-        "text": "只能看到正面"
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       }
     ],
     "answer": "A",
-    "explanation": "同一个物体，方向不同，看到的形状可以不同。",
-    "verify": "'看到的形状可能不一样'",
-    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 196\"><text x=\"160\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">正面</text><rect x=\"90\" y=\"30\" width=\"140\" height=\"78\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"90\" y=\"30\" width=\"140\" height=\"78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"300\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">侧面</text><rect x=\"260\" y=\"30\" width=\"52\" height=\"78\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"260\" y=\"30\" width=\"52\" height=\"78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"160\" y=\"132\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">上面</text><rect x=\"90\" y=\"140\" width=\"140\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"90\" y=\"140\" width=\"140\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    "explanation": "前面能看到两列，左列高2格、右列高1格。",
+    "verify": "'图一'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p113_q2",
     "topicId": "cnm_p113",
     "difficulty": "basic",
-    "type": "numeric",
-    "prompt": "计算：4＋2＝？",
-    "answer": "6",
-    "explanation": "前面看到 4 个方块，上面又露出 2 个，合起来按 4＋2 数是 6。",
-    "verify": "4+2"
+    "type": "choice",
+    "prompt": "观察图中的组合体。从上面看到的图形是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "上面的投影只占两个并排的位置，叠高不会增加占地格数。",
+    "verify": "'图二'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p113_q3",
     "topicId": "cnm_p113",
     "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "从正面看有 5 个小方块，从侧面看有 3 个。正面比侧面多看到几个？计算：5－3＝？",
-    "answer": "2",
-    "explanation": "5－3＝2。",
-    "verify": "5-3",
-    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 90\"><g transform=\"translate(0,0)\"><text x=\"16\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"start\">正面</text><rect x=\"16\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"16\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"58\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"58\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"100\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"142\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"142\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"184\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"184\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><g transform=\"translate(230,0)\"><text x=\"16\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"start\">侧面</text><rect x=\"16\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"16\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"58\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"58\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"100\" y=\"32\" width=\"36\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"100\" y=\"32\" width=\"36\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+    "type": "choice",
+    "prompt": "观察图中的组合体。从上面看到的图形是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"126\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "四个小正方体占地组成2行2列的正方形。",
+    "verify": "'图三'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 94,131 94,105 120,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"68,118 94,131 94,105 68,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 94,105 68,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,131 120,144 120,118 146,105\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,131 120,144 120,118 94,105\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,92 146,105 120,118 94,105\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p113_q4",
     "topicId": "cnm_p113",
     "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "计算：6－2＝？",
-    "answer": "4",
-    "explanation": "搭了 6 个，拿走 2 个，还剩 4 个。",
-    "verify": "6-2"
+    "type": "choice",
+    "prompt": "观察图中的组合体。从左面看到的图形是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "从左面观察，能看到一列高2格。",
+    "verify": "'图二'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p114_q1",
@@ -13340,54 +13446,120 @@
     "topicId": "cnm_p238",
     "difficulty": "basic",
     "type": "choice",
-    "prompt": "一个图形旋转之后，大小和形状怎样？",
+    "prompt": "把三角形向右平移2格，结果是哪一个？",
     "choices": [
       {
         "key": "A",
-        "text": "变大了"
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"140,95 180,95 140,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       },
       {
         "key": "B",
-        "text": "形状变了"
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,55 140,55 100,35\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       },
       {
         "key": "C",
-        "text": "大小和形状都不变"
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"60,95 100,95 60,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
       }
     ],
-    "answer": "C",
-    "explanation": "旋转只改变图形的方向和位置。",
-    "verify": "'大小和形状都不变'"
+    "answer": "A",
+    "explanation": "每个顶点都向右移动2格，形状和方向不变。",
+    "verify": "'图一'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p238_q2",
     "topicId": "cnm_p238",
     "difficulty": "basic",
-    "type": "numeric",
-    "prompt": "钟面上的指针从 12 顺时针旋转到 3，旋转了多少度？计算：360÷4＝？",
-    "answer": "90",
-    "explanation": "从 12 到 3 是周角的四分之一：360÷4＝90。",
-    "verify": "360//4"
+    "type": "choice",
+    "prompt": "绕O点顺时针旋转90°，结果是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,55 80,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,135 120,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "向右的边转到下方，向上的边转到右方。",
+    "verify": "'图二'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p238_q3",
     "topicId": "cnm_p238",
     "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "指针从 12 顺时针旋转到 6，旋转了多少度？计算：360÷2＝？",
-    "answer": "180",
-    "explanation": "从 12 到 6 是半圈：360÷2＝180。",
-    "verify": "360//2"
+    "type": "choice",
+    "prompt": "以竖直虚线为对称轴，轴对称后的图形是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 100,135 120,95\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 60,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "对应顶点在对称轴两侧，到轴的距离相等。",
+    "verify": "'图三'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155\" stroke=\"#b74d22\" stroke-dasharray=\"5 4\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p238_q4",
     "topicId": "cnm_p238",
     "difficulty": "standard",
-    "type": "numeric",
-    "prompt": "方格纸上一个点在第 3 列，向右平移 4 格后在第几列？计算：3＋4＝？",
-    "answer": "7",
-    "explanation": "向右平移列数增加：3＋4＝7。",
-    "verify": "3+4"
+    "type": "choice",
+    "prompt": "把三角形向上平移2格，结果是哪一个？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图一",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,135 140,135 100,115\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "B",
+        "text": "图二",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,55 140,55 100,35\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "key": "C",
+        "text": "图三",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"140,95 180,95 140,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "每个顶点向上移动2格，边的方向不变。",
+    "verify": "'图二'",
+    "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
+    "hideChoiceText": true
   },
   {
     "id": "cnm_p239_q1",

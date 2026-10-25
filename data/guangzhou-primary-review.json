@@ -1,0 +1,356 @@
+{
+  "id": "guangzhou-pep-primary-2026-autumn",
+  "label": "广州现用人教版小学数学 · 2026秋",
+  "reviewed_at": "2026-10-25",
+  "scope": "一至六年级上册按2026秋目录整理；四至六年级下册的2027春正式安排待核。未标记内容沿用上游，不代表逐页或教师审核。",
+  "sources": {
+    "gz-2026": {
+      "label": "广州日报：2026秋换版说明（简易方程调整到初中）",
+      "url": "https://news.dayoo.com/guangzhou/202608/31/139995_54998235.htm",
+      "scope": "广州换版背景与方程调整；不是十二册逐页核验"
+    },
+    "pep-1u": {
+      "label": "人教社一年级上册",
+      "url": "https://book.pep.com.cn/1221001101241/",
+      "scope": "目录页：数学游戏及六个编号单元"
+    },
+    "pep-3u": {
+      "label": "人教社三年级上册",
+      "url": "https://book.pep.com.cn/1221001301251/",
+      "scope": "目录页止于第7单元，不把数学广角编为第8单元"
+    },
+    "pep-4u": {
+      "label": "人教社四年级上册",
+      "url": "https://book.pep.com.cn/1221001401261/",
+      "scope": "目录页；1亿有多大为单列实践活动；无第8单元"
+    },
+    "pep-5u": {
+      "label": "人教社五年级上册",
+      "url": "https://book.pep.com.cn/1221001501261/",
+      "scope": "目录及观察简单组合体示例；后续正文预览受访问验证限制"
+    },
+    "moe-fractions": {
+      "label": "教育部基础教育精品课目录",
+      "url": "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+      "scope": "现行旧版五下第4单元约分/通分及最大公因数、最小公倍数；不证明2027春新版目录"
+    },
+    "upstream": {
+      "label": "上游小学册次来源与待核说明",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/5ca171dbbb1a85d73c14f35f7e915655bf8e5b1f/README.md",
+      "scope": "继承的目录、临时迁移与尚未核实的小节说明"
+    }
+  },
+  "book_reviews": [
+    {
+      "grade": 4,
+      "semester": "下",
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    {
+      "grade": 5,
+      "semester": "下",
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    {
+      "grade": 6,
+      "semester": "下",
+      "status": "pending",
+      "note": "本分支以2026秋为基准。此册含现行旧版和临时迁移内容，尚未对齐2027春正式教材，整体标为待核。",
+      "sources": [
+        "upstream"
+      ]
+    }
+  ],
+  "topic_reviews": {
+    "cnm_p002": {
+      "status": "corrected",
+      "note": "已将减法计算题替换为大小比较题；题库尚未经教师审核。",
+      "sources": [
+        "pep-1u"
+      ]
+    },
+    "cnm_p015": {
+      "status": "pending",
+      "note": "已用官方开篇「数学游戏」替换自定义「我的教室」栏目；相对位置内容与活动的具体对应仍待核。",
+      "sources": [
+        "pep-1u"
+      ],
+      "chapter": "一年级上册 数学游戏 开篇活动"
+    },
+    "cnm_p022": {
+      "status": "pending",
+      "note": "已归并到官方开篇「数学游戏」；原「数学游戏分享」是课标主题名，具体内容对应仍待核。",
+      "sources": [
+        "pep-1u"
+      ],
+      "chapter": "一年级上册 数学游戏 开篇活动"
+    },
+    "cnm_p095": {
+      "status": "corrected",
+      "note": "去掉项目自编的第8单元号，保留同册非编号数学广角；不是新增必学单元。",
+      "sources": [
+        "pep-3u"
+      ],
+      "chapter": "三年级上册 数学广角 搭配问题"
+    },
+    "cnm_p131": {
+      "status": "corrected",
+      "note": "去掉项目自编的第8单元号，保留同册非编号数学广角；不是新增必学单元。",
+      "sources": [
+        "pep-4u"
+      ],
+      "chapter": "四年级上册 数学广角 鸡兔同笼"
+    },
+    "cnm_p236": {
+      "status": "corrected",
+      "note": "按官方目录单列综合与实践；题目只能辅助检查量感，不能替代实际估测。",
+      "sources": [
+        "pep-4u"
+      ],
+      "chapter": "四年级上册 综合与实践 1亿有多大",
+      "domain": "综合与实践"
+    },
+    "cnm_p158": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "chapter": "五年级下册 第4单元 分数的意义和性质"
+    },
+    "cnm_p159": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "chapter": "五年级下册 第4单元 分数的意义和性质"
+    },
+    "cnm_p172": {
+      "status": "pending",
+      "note": "已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。",
+      "sources": [
+        "moe-fractions",
+        "upstream"
+      ],
+      "chapter": "五年级下册 第4单元 分数的意义和性质"
+    },
+    "cnm_p113": {
+      "status": "pending",
+      "note": "已用实际视图选择题替换无关加减计算；2027春四下目录及本点册次仍待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p238": {
+      "status": "corrected",
+      "note": "已补充平移、旋转和轴对称的图示辨认题；选择题不能替代实际作图检查。",
+      "sources": [
+        "pep-5u"
+      ]
+    },
+    "cnm_p237": {
+      "status": "pending",
+      "note": "当前题目对三视图还原、拼搭及最少/最多小正方体的覆盖不足，待补充核验。",
+      "sources": [
+        "pep-5u"
+      ]
+    },
+    "cnm_p241": {
+      "status": "pending",
+      "note": "当前主要是体育情境计算，不能完整评价教材要求的问题选择、数据收集与交流。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p242": {
+      "status": "pending",
+      "note": "当前主要是用水量计算，不能完整评价真实调查、节水方案及交流展示。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p216": {
+      "status": "pending",
+      "note": "去掉自编第7单元号；同册数学广角的具体位置和选学范围待核。",
+      "sources": [
+        "upstream"
+      ],
+      "chapter": "六年级上册 数学广角 鸽巢问题"
+    },
+    "cnm_p143": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ]
+    },
+    "cnm_p145": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ]
+    },
+    "cnm_p146": {
+      "status": "supplementary",
+      "note": "新版把简易方程调整到初中；保留旧知识点与先修引用供查阅，不纳入广州小学自动测评。",
+      "sources": [
+        "gz-2026",
+        "upstream"
+      ]
+    },
+    "cnm_p060": {
+      "status": "pending",
+      "note": "简单变化规律暂挂二下复习，具体小节归属未核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p061": {
+      "status": "pending",
+      "note": "时、分、秒由三上迁入二下实践活动，具体范围待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p062": {
+      "status": "pending",
+      "note": "时、分、秒的进率在二下活动中的范围待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p063": {
+      "status": "pending",
+      "note": "经过时间在二下活动中的要求待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p073": {
+      "status": "pending",
+      "note": "倍的认识暂挂三上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p081": {
+      "status": "pending",
+      "note": "集合图里的重叠暂挂三上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p082": {
+      "status": "pending",
+      "note": "八个方向暂挂三下复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p085": {
+      "status": "pending",
+      "note": "新版单元为数据的收集与整理，原复式统计表节点的覆盖范围待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p098": {
+      "status": "pending",
+      "note": "公顷和平方千米移入五上多边形面积，具体小节待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p109": {
+      "status": "pending",
+      "note": "简单优化暂挂四上复习，新版具体归属待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p135": {
+      "status": "pending",
+      "note": "积的近似数暂挂五上复习；是否仍属于小数乘法正文及其要求待核，不能认定已删除。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p144": {
+      "status": "pending",
+      "note": "节点含利用等式性质分离未知数的要求，与新版用字母表示数量关系的边界待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p151": {
+      "status": "pending",
+      "note": "植树问题暂挂五上复习，新版选学位置与要求待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p203": {
+      "status": "pending",
+      "note": "百分数单元合并后，折扣是否仍为本册必学内容待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p204": {
+      "status": "pending",
+      "note": "百分数单元合并后，利率是否仍为本册必学内容待核。",
+      "sources": [
+        "upstream"
+      ]
+    },
+    "cnm_p205": {
+      "status": "pending",
+      "note": "百分数单元合并后，沿用的应用题范围待逐页核验。",
+      "sources": [
+        "upstream"
+      ]
+    }
+  },
+  "coverage_issues": [
+    {
+      "id": "decimal-coverage",
+      "title": "五上：循环小数、商的近似数",
+      "status": "pending",
+      "note": "尚无专门节点与诊断题。配套教学资料提示可能漏项，需用正式教材确认范围后补点；本轮不据此编造章节、页码或题目。"
+    },
+    {
+      "id": "practice-coverage",
+      "title": "数学连环画、营养午餐等实践活动",
+      "status": "pending",
+      "note": "尚无独立知识点，不表示活动已被教材删除；实践成果、真实调查和作图需要线下检查。"
+    }
+  ],
+  "question_fixes": [
+    "cnm_p002_q1",
+    "cnm_p002_q2",
+    "cnm_p002_q3",
+    "cnm_p002_q4",
+    "cnm_p113_q1",
+    "cnm_p113_q2",
+    "cnm_p113_q3",
+    "cnm_p113_q4",
+    "cnm_p238_q1",
+    "cnm_p238_q2",
+    "cnm_p238_q3",
+    "cnm_p238_q4"
+  ]
+}

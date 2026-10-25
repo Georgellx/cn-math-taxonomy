@@ -874,54 +874,120 @@
   "topicId": "cnm_p113",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "从正面、侧面、上面看同一个物体，看到的形状怎样？",
+  "prompt": "观察图中的组合体。从前面看到的图形是哪一个？",
   "choices": [
    {
     "key": "A",
-    "text": "看到的形状可能不一样"
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
    },
    {
     "key": "B",
-    "text": "一定是同一个形状"
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"126\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
    },
    {
     "key": "C",
-    "text": "只能看到正面"
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
    }
   ],
   "answer": "A",
-  "explanation": "同一个物体，方向不同，看到的形状可以不同。",
-  "verify": "'看到的形状可能不一样'"
+  "explanation": "前面能看到两列，左列高2格、右列高1格。",
+  "verify": "'图一'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+  "hideChoiceText": true
  },
  {
   "id": "cnm_p113_q2",
   "topicId": "cnm_p113",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：4＋2＝？",
-  "answer": "6",
-  "explanation": "前面看到 4 个方块，上面又露出 2 个，合起来按 4＋2 数是 6。",
-  "verify": "4+2"
+  "type": "choice",
+  "prompt": "观察图中的组合体。从上面看到的图形是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "B",
+  "explanation": "上面的投影只占两个并排的位置，叠高不会增加占地格数。",
+  "verify": "'图二'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+  "hideChoiceText": true
  },
  {
   "id": "cnm_p113_q3",
   "topicId": "cnm_p113",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "从正面看有 5 个小方块，从侧面看有 3 个。正面比侧面多看到几个？计算：5－3＝？",
-  "answer": "2",
-  "explanation": "5－3＝2。",
-  "verify": "5-3"
+  "type": "choice",
+  "prompt": "观察图中的组合体。从上面看到的图形是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"126\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "C",
+  "explanation": "四个小正方体占地组成2行2列的正方形。",
+  "verify": "'图三'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 94,131 94,105 120,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"68,118 94,131 94,105 68,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 94,105 68,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,131 120,144 120,118 146,105\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,131 120,144 120,118 94,105\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,92 146,105 120,118 94,105\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+  "hideChoiceText": true
  },
  {
   "id": "cnm_p113_q4",
   "topicId": "cnm_p113",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：6－2＝？",
-  "answer": "4",
-  "explanation": "搭了 6 个，拿走 2 个，还剩 4 个。",
-  "verify": "6-2"
+  "type": "choice",
+  "prompt": "观察图中的组合体。从左面看到的图形是哪一个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图一",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "B",
+    "text": "图二",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   },
+   {
+    "key": "C",
+    "text": "图三",
+    "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\" role=\"img\" aria-label=\"候选视图\"><title>候选视图</title><rect x=\"62\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"94\" y=\"112\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/><rect x=\"62\" y=\"80\" width=\"32\" height=\"32\" fill=\"#d5edf4\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>"
+   }
+  ],
+  "answer": "B",
+  "explanation": "从左面观察，能看到一列高2格。",
+  "verify": "'图二'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 175\" role=\"img\" aria-label=\"小正方体组合体，箭头标示前面\"><title>小正方体组合体，箭头标示前面</title><polygon points=\"146,105 120,118 120,92 146,79\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,105 120,118 120,92 94,79\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,66 146,79 120,92 94,79\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"172,118 146,131 146,105 172,92\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,118 146,131 146,105 120,92\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 172,92 146,105 120,92\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"146,79 120,92 120,66 146,53\" fill=\"#80b8ce\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"94,79 120,92 120,66 94,53\" fill=\"#acd4e3\" stroke=\"#254f64\" stroke-width=\"1.5\"/><polygon points=\"120,40 146,53 120,66 94,53\" fill=\"#deeff5\" stroke=\"#254f64\" stroke-width=\"1.5\"/><path d=\"M92 154 L110 128 M110 128 L100 132 M110 128 L109 139\" stroke=\"#173c50\" stroke-width=\"2\" fill=\"none\"/><text x=\"50\" y=\"162\" font-size=\"16\" fill=\"#173c50\">前面</text></svg>",
+  "hideChoiceText": true
  },
  {
   "id": "cnm_p114_q1",

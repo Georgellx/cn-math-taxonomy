@@ -1,6 +1,7 @@
 /* 诊断小工具界面。核心逻辑全部在 engine.js，这里只负责数据加载、渲染与本地存储。 */
 (function () {
   'use strict';
+  const C = window.CnmCurriculum;
   const E = window.DiagEngine;
   const LS_SESSION = 'cnmDiagnose.session.v2';
   const LS_SESSION_EN = 'cneDiagnose.session.v2';
@@ -310,6 +311,8 @@
   }
 
   function startSession(targets, label, limit, mode) {
+    targets = targets.filter(function (id) { return D.graph.byId[id] && C.canAssess(D.graph.byId[id]); });
+    if (!targets.length) { renderStart('所选内容待核或属于拓展内容，暂不纳入自动测评。请查看「待核与拓展」。'); return; }
     pathExpanded = false;
     const screen = mode === 'screen';
     session = E.createSession(D.graph, targets, {
@@ -426,6 +429,13 @@
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
     page.append(childBar('start'));
+    if (subject === 'math') {
+      const review = C.summary(D.topics);
+      page.append(h('div', { class: 'curriculum-notice' },
+        h('strong', null, '广州现用人教版小学数学 · 2026秋'),
+        h('p', null, '小学可测 ' + review.eligible + ' 个，待核 ' + review.pending + ' 个，拓展 ' + review.supplementary + ' 个。待核和拓展内容保留查阅，暂不出题；四至六年级下册的2027春安排待核。'),
+        h('a', { href: '../review/' }, '查看待核与拓展、修正记录及来源')));
+    }
 
     const st = getSettings();
     const limitInput = h('input', { type: 'number', min: LIMIT_MIN, max: LIMIT_MAX, step: 1, value: String(st.limit), id: 'limit-input', 'aria-label': '题量上限' });
@@ -543,12 +553,12 @@
           : (subject === 'english' && gradeSel === '九')
             ? tabs('范围', [['', '整年级'], ['上', '上册（新版）'], ['全', '全一册（旧版，九下暂用）']], volSel, function (v) { volSel = v; })
             : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
-        h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
+        h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：可测 ' + g.ids.length + ' 个知识点，另有 ' + g.excludedIds.length + ' 个待核或拓展内容未纳入。' : '这个范围没有知识点。'),
         h('div', { class: 'row' },
           h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
           h('button', {
-            class: 'primary', id: 'btn-grade-start', disabled: !g,
-            onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
+            class: 'primary', id: 'btn-grade-start', disabled: !g || !g.ids.length,
+            onclick: function () { if (g && g.ids.length) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
           }, '开始整体诊断')),
         h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
     };
@@ -587,18 +597,19 @@
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
+        const eligible = ch.topics.filter(function (x) { return C.canAssess(x.t); });
         det.append(h('div', { class: 'chap' },
           h('div', { class: 'chap-head' },
             h('span', { class: 't', text: ch.label }),
             h('button', {
-              class: 'primary', title: '把本章全部 ' + ch.topics.length + ' 个知识点一起作为目标',
-              onclick: function () { startSession(ch.topics.map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）'); }
+              class: 'primary', disabled: !eligible.length, title: '本章可测 ' + eligible.length + ' 个知识点；待核和拓展内容不纳入',
+              onclick: function () { startSession(eligible.map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）'); }
             }, '以整章为目标')),
           c.rows.map(function (x) {
             return h('div', { class: 'topic-row', title: x.t.description },
-              h('span', { class: 'nm', text: x.t.name }),
+              h('span', { class: 'nm' }, x.t.name, C.label(x.t) ? h('span', { class: 'review-chip', title: C.note(x.t), text: C.label(x.t) }) : null),
               h('span', { class: 'sec', text: x.section }),
-              h('button', { onclick: function () { startSession([x.t.id], x.t.name); } }, '选为目标'));
+              h('button', { disabled: !C.canAssess(x.t), title: C.note(x.t), onclick: function () { startSession([x.t.id], x.t.name); } }, C.canAssess(x.t) ? '选为目标' : '暂不测评'));
           })));
       });
       box.append(det);
@@ -972,6 +983,7 @@
         if (r.pendingPrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.pendingPrereqs.map(nameOf).join('」「') + '」没来得及测（题量用完），真正的根因可能更靠前。' }));
         if (r.outOfScopePrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.outOfScopePrereqs.map(nameOf).join('」「') + '」不在所选范围内，没有检查。' }));
         if (r.externalPrereqs.length) notes.append(h('div', { class: 'muted small', text: '小学先修（无诊断题，未测）：' + r.externalPrereqs.map(nameOf).join('、') }));
+        if (r.reviewPrereqs.length) notes.append(h('div', { class: 'curriculum-notice' }, '待核或拓展先修（不作掌握判断）：' + r.reviewPrereqs.map(nameOf).join('、'), ' ', h('a', { href: '../review/' }, '查看说明')));
         return topicItem(r.id, statusTags(r.id, rootSet, targetSet), notes);
       }) : h('p', { text: targetsMastered ? '没有。' : '暂未发现。' })));
 
@@ -1497,6 +1509,10 @@
     const params = new URLSearchParams(location.search);
     let resolved = null;
     try { resolved = resolveTargets(params); } catch (e) { renderStart(e.message); return; }
+    if (resolved && !resolved.ids.some(function (id) { return D.graph.byId[id] && C.canAssess(D.graph.byId[id]); })) {
+      renderStart('所选内容为待核或拓展内容，暂不纳入自动测评；请查看「待核与拓展」。'); return;
+    }
+    if (resolved) resolved.ids = resolved.ids.filter(function (id) { return D.graph.byId[id] && C.canAssess(D.graph.byId[id]); });
     if (params.get('seed')) seedParam = params.get('seed');
     const paramLimit = parseInt(params.get('limit'), 10);
     const limit = paramLimit > 0 ? paramLimit : undefined;

@@ -590,11 +590,19 @@ test('判题不抛异常：奇怪输入', () => {
   });
 });
 
-/* ------------------------------------------------------------ 真实数据 */
-console.log('真实数据');
+/* ------------------------------------------------------------ 真实数据的算法性质
+ * 本组穷举所有历史节点的 DAG/判题性质，使用不附带地域范围策略的目录输入。
+ * 广州生产数据（保留 curriculum_review）的整册范围、回溯、存档和掌握推断
+ * 由 test_curriculum.js 另外集成测试，不能用这里的算法测试代替。
+ */
+console.log('真实数据（算法层，不附加地域测评范围策略）');
 
 const dataDir = path.join(__dirname, '..', 'data');
-const topics = JSON.parse(fs.readFileSync(path.join(dataDir, 'topics.json'), 'utf8'));
+const topics = JSON.parse(fs.readFileSync(path.join(dataDir, 'topics.json'), 'utf8')).map((topic) => {
+  const input = { ...topic };
+  delete input.curriculum_review;
+  return input;
+});
 const deps = JSON.parse(fs.readFileSync(path.join(dataDir, 'dependencies.json'), 'utf8'));
 const stdFile = JSON.parse(fs.readFileSync(path.join(dataDir, 'cn-curriculum-standards.json'), 'utf8'));
 const RG = E.buildGraph(topics, deps);

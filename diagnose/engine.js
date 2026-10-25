@@ -18,9 +18,9 @@
  *   第二题对 -> 不稳（shaky，不向先修回溯）；第二题也错 -> 薄弱（weak，向先修回溯，hard 先于 soft）。
  */
 (function (root, factory) {
-  if (typeof module !== 'undefined' && module.exports) module.exports = factory();
-  else root.DiagEngine = factory();
-})(typeof self !== 'undefined' ? self : this, function () {
+  if (typeof module !== 'undefined' && module.exports) module.exports = factory(require('../assets/curriculum.js'));
+  else root.DiagEngine = factory(root.CnmCurriculum);
+})(typeof self !== 'undefined' ? self : this, function (curriculum) {
   'use strict';
 
   /* ------------------------------------------------------------------ 图 */
@@ -130,7 +130,7 @@
 
   function isTestable(graph, id) {
     const t = graph.byId[id];
-    return !!(t && !t.external && graph.bank[id] && graph.bank[id].length);
+    return !!(t && !t.external && curriculum.canAssess(t) && graph.bank[id] && graph.bank[id].length);
   }
 
   function questionById(graph, qid) {
@@ -147,9 +147,11 @@
 
   function createSession(graph, targets, opts) {
     opts = opts || {};
-    const ts = Array.from(new Set(targets));
-    if (!ts.length) throw new Error('至少需要一个目标知识点');
-    ts.forEach(function (id) { if (!graph.byId[id]) throw new Error('未知知识点：' + id); });
+    const requested = Array.from(new Set(targets));
+    if (!requested.length) throw new Error('至少需要一个目标知识点');
+    requested.forEach(function (id) { if (!graph.byId[id]) throw new Error('未知知识点：' + id); });
+    const ts = requested.filter(function (id) { return curriculum.canAssess(graph.byId[id]); });
+    if (!ts.length) throw new Error('所选内容为待核或拓展内容，暂不纳入自动测评；请查看「待核与拓展」。');
     const screen = opts.mode === 'screen';
     const limit = Math.max(1, Math.floor(opts.limit == null ? (screen ? SCREEN_LIMIT : DEFAULT_LIMIT) : opts.limit));
     // 筛查模式：诊断范围就是目标集合本身（不把先修祖先并进来），回溯只在范围内进行
@@ -254,6 +256,7 @@
   function applyAnswer(graph, session, id, result, extra) {
     if (!RESULTS[result]) throw new Error('作答结果必须是 correct / wrong / skip');
     if (!graph.byId[id]) throw new Error('未知知识点：' + id);
+    if (!curriculum.canAssess(graph.byId[id])) throw new Error('待核或拓展内容不能记为自动测评结果');
     const s = cloneSession(session);
     if (s.status[id]) { delete s.status[id]; s.attempts[id] = []; } // 对已有结论的点重新作答 = 重新开始
     const prev = s.attempts[id] || [];
@@ -267,7 +270,7 @@
       if (nth === 1) {
         s.status[id] = { s: 'mastered', src: 'direct' };
         ancestorSet(graph, id).forEach(function (a) {
-          if (!s.status[a]) s.status[a] = { s: 'mastered', src: 'inferred' };
+          if (curriculum.canAssess(graph.byId[a]) && !s.status[a]) s.status[a] = { s: 'mastered', src: 'inferred' };
         });
       } else {
         s.status[id] = { s: 'shaky', src: 'direct' };
@@ -332,7 +335,8 @@
     const shaky = nodes.filter(function (id) { return st(id) === 'shaky'; });
     const weak = nodes.filter(function (id) { return st(id) === 'weak'; });
     const unconfirmed = weak.filter(function (id) { return isUnconfirmed(session, id); });
-    const untested = nodes.filter(function (id) { return st(id) === 'unknown'; });
+    const untested = nodes.filter(function (id) { return curriculum.canAssess(graph.byId[id]) && st(id) === 'unknown'; });
+    const reviewExcluded = nodes.filter(function (id) { return !curriculum.canAssess(graph.byId[id]); });
     const scope = session.scope ? new Set(session.scope) : null;
     const inScope = function (id) { return !scope || scope.has(id); };
 
@@ -348,7 +352,8 @@
         // 筛查模式下范围之外的先修（不在本次范围内，没有检查）
         outOfScopePrereqs: testableUnk.filter(function (p) { return !inScope(p.id); }).map(function (p) { return p.id; }),
         // 小学外部节点（无诊断题，不测）
-        externalPrereqs: unk.filter(function (p) { return !isTestable(graph, p.id); }).map(function (p) { return p.id; })
+        reviewPrereqs: unk.filter(function (p) { return !curriculum.canAssess(graph.byId[p.id]); }).map(function (p) { return p.id; }),
+        externalPrereqs: unk.filter(function (p) { return curriculum.canAssess(graph.byId[p.id]) && !isTestable(graph, p.id); }).map(function (p) { return p.id; })
       };
     });
 
@@ -367,7 +372,7 @@
     const targetSet = new Set(scope ? [] : session.targets); // 筛查模式下“全部知识点都是目标”没有意义，不标目标
     const topoPos = Object.create(null);
     nodes.forEach(function (id, i) { topoPos[id] = i; });
-    const path = nodes.filter(function (id) { return reach.has(id) && st(id) !== 'mastered'; })
+    const path = nodes.filter(function (id) { return curriculum.canAssess(graph.byId[id]) && reach.has(id) && st(id) !== 'mastered'; })
       .map(function (id) {
         return { id: id, status: st(id), isRoot: rootSet.has(id), isTarget: targetSet.has(id) };
       });
@@ -386,7 +391,7 @@
       finished: next === null,
       limitReached: session.answers.length >= session.limit && pending.length > 0,
       mastered: mastered, shaky: shaky, weak: weak, unconfirmed: unconfirmed, untested: untested,
-      roots: roots, path: path
+      roots: roots, path: path, reviewExcluded: reviewExcluded
     };
   }
 
@@ -487,7 +492,7 @@
     const s = chapter || '';
     const pm = /^([一二三四五六七八九])年级([上下全])册 (第\d+单元|预备单元\d) (.+)$/.exec(s);
     if (pm) return { volume: pm[1] + pm[2], chapterNo: pm[3], chapterName: pm[4], section: '' };
-    const pi = /^([一二三四五六])年级([上下])册 (综合与实践) (.+)$/.exec(s);
+    const pi = /^([一二三四五六])年级([上下])册 (综合与实践|数学游戏|数学广角) (.+)$/.exec(s);
     if (pi) return { volume: pi[1] + pi[2], chapterNo: pi[3], chapterName: pi[4], section: '' };
     // 高中英语按册名解析，避免「第1单元 Teenage Life」被空格拆成章名和节。
     const enHs = /^(必修第([一二三])册|选择性必修第([一二三四])册) (欢迎单元|第\d+单元) (.+)$/.exec(s);
@@ -568,12 +573,14 @@
       } else if (v) { volumes = [key]; label = v[1] + '年级' + (v[2] === '上' ? '上册' : '下册'); }
     }
     if (!volumes) return null;
-    const ids = graph.topics.filter(function (t) {
+    const candidates = graph.topics.filter(function (t) {
       if (t.external) return false;
       if (subj !== 'all' && subjectOf(t) !== subj) return false;
       return volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
-    }).map(function (t) { return t.id; });
-    return ids.length ? { ids: ids, volumes: volumes, label: label } : null;
+    });
+    const ids = candidates.filter(curriculum.canAssess).map(function (t) { return t.id; });
+    const excludedIds = candidates.filter(function (t) { return !curriculum.canAssess(t); }).map(function (t) { return t.id; });
+    return candidates.length ? { ids: ids, excludedIds: excludedIds, volumes: volumes, label: label } : null;
   }
 
   /**
@@ -585,7 +592,7 @@
     const byKey = Object.create(null);
     const list = [];
     graph.topics.forEach(function (t) {
-      if (t.external || !inOrder.has(t.id)) return;
+      if (t.external || !curriculum.canAssess(t) || !inOrder.has(t.id)) return;
       const c = parseChapter(t.chapter);
       const key = c.volume + ' ' + c.chapterNo + ' ' + c.chapterName;
       let ch = byKey[key];

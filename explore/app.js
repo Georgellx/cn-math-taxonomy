@@ -1,6 +1,7 @@
 /* 知识图谱浏览：搜索、筛选，以及选中知识点的局部先修图。 */
 (function () {
   'use strict';
+  var C = window.CnmCurriculum;
 
   var FONT = '"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", sans-serif';
   var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
@@ -333,7 +334,7 @@
             type: 'button',
             class: 'topic-item' + (topic.id === selected ? ' sel' : ''),
             'data-jump': topic.id
-          }, el('span', { class: 'nm', text: topic.name }), el('span', { class: 'meta', text: topic.domain })));
+          }, el('span', { class: 'nm', text: topic.name }), el('span', { class: 'meta', text: C.label(topic) || topic.domain })));
         });
         details.append(chapterDetails);
       });
@@ -414,15 +415,21 @@
         el('a', { href: '../diagnose/?target=' + encodeURIComponent(currentAlias.id) }, '按旧编号诊断')));
     }
     parts.push(el('h1', { class: 'detail-title', text: topic.name }));
+    if (C.reviewOf(topic)) {
+      parts.push(el('div', { class: 'curriculum-notice' },
+        el('strong', { text: C.label(topic) }), el('p', { text: C.note(topic) }),
+        el('a', { href: '../review/' }, '查看核对来源与待核清单')));
+    }
     parts.push(el('div', { class: 'pills' },
       el('span', { class: 'pill pill-' + (kind === 'primary' ? 'p' : kind === 'junior' ? 'j' : 'h'), text: stageLabel(topic.grade) }),
       el('code', { class: 'id-code', text: topic.id })));
     var diagHref = '../diagnose/?target=' + encodeURIComponent(topic.id);
     if (subject !== 'math') diagHref = '../diagnose/?subject=' + subject + '&target=' + encodeURIComponent(topic.id);
-    parts.push(el('a', {
+    if (C.canAssess(topic)) parts.push(el('a', {
       class: 'btn btn-primary btn-lg diag-btn',
       href: diagHref
     }, '诊断这个知识点'));
+    else parts.push(el('p', { class: 'muted', text: '此知识点保留查阅，暂不纳入自动测评。' }));
     parts.push(el('dl', { class: 'meta-grid' },
       metaItem('年级册次', gradeLabel(topic)),
       metaItem('领域', topic.domain),
