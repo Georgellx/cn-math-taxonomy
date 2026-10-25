@@ -120,116 +120,116 @@
   "topicId": "cnm_p134",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：2.5×6＝？（用小数作答）",
+  "prompt": "每千克苹果2.5元，买6千克，一共需要多少元？",
   "answer": "15",
-  "explanation": "每千克 2.5 元，6 千克是 15 元。",
-  "verify": "2.5*6"
+  "verify": "2.5*6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p134_q2",
   "topicId": "cnm_p134",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：0.8×10＝？（用小数作答）",
+  "prompt": "每支铅笔0.8元，买10支，一共需要多少元？",
   "answer": "8",
-  "explanation": "0.8×10＝8。",
-  "verify": "0.8*10"
+  "verify": "0.8*10",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p134_q3",
   "topicId": "cnm_p134",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "每小时行 3.5 千米，行 2 小时。一共多少千米？计算：3.5×2＝？（用小数作答）",
-  "answer": "7",
-  "explanation": "3.5×2＝7。",
-  "verify": "3.5*2"
+  "type": "choice",
+  "prompt": "每小时走3.5千米，走2小时，求路程应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3.5÷2"
+   },
+   {
+    "key": "B",
+    "text": "3.5－2"
+   },
+   {
+    "key": "C",
+    "text": "3.5×2"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：3.5×2。",
+  "verify": "'3.5×2'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p134_q4",
   "topicId": "cnm_p134",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "1.25×8 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "8"
-   },
-   {
-    "key": "B",
-    "text": "9"
-   },
-   {
-    "key": "C",
-    "text": "12"
-   },
-   {
-    "key": "D",
-    "text": "10"
-   }
-  ],
-  "answer": "D",
-  "explanation": "1.25×8＝10。",
-  "verify": "1.25*8"
+  "type": "numeric",
+  "prompt": "每本练习本1.25元，买8本，一共需要多少元？",
+  "answer": "10",
+  "verify": "1.25*8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p135_q1",
   "topicId": "cnm_p135",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：1.6×2.4＝？（用小数作答）",
-  "answer": "3.84",
-  "explanation": "1.6×2.4＝3.84。",
-  "verify": "1.6*2.4"
+  "prompt": "计算1.6×2.4，并把积保留一位小数，结果是多少？",
+  "answer": "3.8",
+  "verify": "3.8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p135_q2",
   "topicId": "cnm_p135",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "3.84 保留一位小数，百分位是 4，不向十分位进 1。保留到十分位可以先算 38÷10。计算：38÷10＝？（用小数作答）",
-  "answer": "3.8",
-  "explanation": "38÷10＝3.8。",
-  "verify": "38/10"
+  "prompt": "计算0.8×0.8，并把积保留一位小数，结果是多少？",
+  "answer": "0.6",
+  "verify": "0.6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p135_q3",
   "topicId": "cnm_p135",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：0.8×0.8＝？（用小数作答）",
-  "answer": "0.64",
-  "explanation": "0.8×0.8＝0.64。",
-  "verify": "0.8*0.8"
+  "type": "choice",
+  "prompt": "每千克苹果4.35元，买2.3千克。总价10.005元，按四舍五入保留到分应付多少？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "10.00元"
+   },
+   {
+    "key": "B",
+    "text": "10.10元"
+   },
+   {
+    "key": "C",
+    "text": "10.01元"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：10.01元。",
+  "verify": "'10.01元'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p135_q4",
   "topicId": "cnm_p135",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "2.5×1.2 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "2"
-   },
-   {
-    "key": "B",
-    "text": "3"
-   },
-   {
-    "key": "C",
-    "text": "2.5"
-   },
-   {
-    "key": "D",
-    "text": "4"
-   }
-  ],
-  "answer": "B",
-  "explanation": "2.5×1.2＝3。",
-  "verify": "2.5*1.2"
+  "type": "numeric",
+  "prompt": "计算2.36×1.2，并把积保留两位小数，结果是多少？",
+  "answer": "2.83",
+  "verify": "2.83",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p136_q1",
@@ -424,216 +424,244 @@
   "topicId": "cnm_p139",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：7.2÷8＝？（用小数作答）",
+  "prompt": "7.2米长的绳子平均分成8段，每段长多少米？",
   "answer": "0.9",
-  "explanation": "7.2÷8＝0.9。",
-  "verify": "7.2/8"
+  "verify": "7.2/8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p139_q2",
   "topicId": "cnm_p139",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：4.5÷0.5＝？（用小数作答）",
+  "prompt": "4.5升果汁，每瓶装0.5升，可以装多少瓶？",
   "answer": "9",
-  "explanation": "4.5÷0.5＝9。",
-  "verify": "4.5/0.5"
+  "verify": "4.5/0.5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p139_q3",
   "topicId": "cnm_p139",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "9.6 千米走了 3 小时。平均每小时多少千米？计算：9.6÷3＝？（用小数作答）",
-  "answer": "3.2",
-  "explanation": "9.6÷3＝3.2。",
-  "verify": "9.6/3"
+  "type": "choice",
+  "prompt": "走9.6千米用了3小时，求平均每小时走多少千米，应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "9.6×3"
+   },
+   {
+    "key": "B",
+    "text": "9.6－3"
+   },
+   {
+    "key": "C",
+    "text": "9.6÷3"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：9.6÷3。",
+  "verify": "'9.6÷3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p139_q4",
   "topicId": "cnm_p139",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "5.5÷5 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "1.1"
-   },
-   {
-    "key": "B",
-    "text": "0.5"
-   },
-   {
-    "key": "C",
-    "text": "1.5"
-   },
-   {
-    "key": "D",
-    "text": "2.1"
-   }
-  ],
-  "answer": "A",
-  "explanation": "5.5÷5＝1.1。",
-  "verify": "5.5/5"
+  "type": "numeric",
+  "prompt": "5支同样的笔一共5.5元，每支笔多少元？",
+  "answer": "1.1",
+  "verify": "5.5/5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p140_q1",
   "topicId": "cnm_p140",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "一定发生的事情，可能性怎样？",
+  "prompt": "盒中只有红球，任意摸出1个球，摸到红球是什么情况？",
   "choices": [
    {
     "key": "A",
-    "text": "可能性是确定的，一定会发生"
+    "text": "一定"
    },
    {
     "key": "B",
-    "text": "可能发生也可能不发生"
+    "text": "可能但不一定"
    },
    {
     "key": "C",
-    "text": "不会发生"
+    "text": "不可能"
    }
   ],
   "answer": "A",
-  "explanation": "太阳从东方升起，是一定发生的。",
-  "verify": "'可能性是确定的，一定会发生'"
+  "explanation": "按题目条件判断，正确的是：一定。",
+  "verify": "'一定'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p140_q2",
   "topicId": "cnm_p140",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "不可能发生的事情会怎样？",
+  "prompt": "盒中只有红球，任意摸出1个球，摸到蓝球是什么情况？",
   "choices": [
    {
     "key": "A",
-    "text": "不会发生"
+    "text": "不确定"
    },
    {
     "key": "B",
-    "text": "一定会发生"
+    "text": "不可能"
    },
    {
     "key": "C",
-    "text": "一半机会发生"
+    "text": "一定"
    }
   ],
-  "answer": "A",
-  "explanation": "口袋里全是红球，摸出蓝球是不可能的。",
-  "verify": "'不会发生'"
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：不可能。",
+  "verify": "'不可能'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p140_q3",
   "topicId": "cnm_p140",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：3＋2＝？",
-  "answer": "5",
-  "explanation": "袋中有 3 个红球和 2 个蓝球，一共 5 个，摸出的可能是红也可能是蓝。",
-  "verify": "3+2"
+  "type": "choice",
+  "prompt": "盒中有红球和蓝球，任意摸出1个球，摸到蓝球是什么情况？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一定"
+   },
+   {
+    "key": "B",
+    "text": "不可能"
+   },
+   {
+    "key": "C",
+    "text": "可能但不一定"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：可能但不一定。",
+  "verify": "'可能但不一定'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p140_q4",
   "topicId": "cnm_p140",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "4＋1 的得数是哪一个？",
+  "prompt": "一个普通六面骰子的点数是1至6，掷一次出现7点是什么情况？",
   "choices": [
    {
     "key": "A",
-    "text": "3"
+    "text": "不可能"
    },
    {
     "key": "B",
-    "text": "5"
+    "text": "一定"
    },
    {
     "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "6"
+    "text": "可能"
    }
   ],
-  "answer": "B",
-  "explanation": "4 个红球加 1 个蓝球，一共 5 个。",
-  "verify": "4+1"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：不可能。",
+  "verify": "'不可能'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p141_q1",
   "topicId": "cnm_p141",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "可能性相等时，几种结果怎样？",
+  "prompt": "袋中有5个红球和2个蓝球，球除颜色外相同，任意摸1个，哪种颜色更容易摸到？",
   "choices": [
    {
     "key": "A",
-    "text": "每种结果的机会一样大"
+    "text": "红球"
    },
    {
     "key": "B",
-    "text": "一定先出现第一种"
+    "text": "蓝球"
    },
    {
     "key": "C",
-    "text": "不可能出现"
+    "text": "机会一样大"
    }
   ],
   "answer": "A",
-  "explanation": "两面一样的硬币，正面和反面机会一样大。",
-  "verify": "'每种结果的机会一样大'"
+  "explanation": "按题目条件判断，正确的是：红球。",
+  "verify": "'红球'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p141_q2",
   "topicId": "cnm_p141",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：5－2＝？",
+  "prompt": "袋中有5个红球和2个蓝球，只增加蓝球，要使两种颜色摸到的机会相同，应增加几个蓝球？",
   "answer": "3",
-  "explanation": "红球 5 个、蓝球 2 个，红球比蓝球多 3 个，摸到红球的可能性更大。",
-  "verify": "5-2"
+  "verify": "5-2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p141_q3",
   "topicId": "cnm_p141",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "袋中红球 4 个、黄球 4 个。两种球一共多少个？计算：4＋4＝？",
-  "answer": "8",
-  "explanation": "4＋4＝8，两种颜色一样多，可能性相等。",
-  "verify": "4+4"
+  "type": "choice",
+  "prompt": "袋中有4个红球和4个黄球，球除颜色外相同。任意摸1个，哪种说法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一定摸到红球"
+   },
+   {
+    "key": "B",
+    "text": "一定先摸到黄球"
+   },
+   {
+    "key": "C",
+    "text": "两种颜色摸到的机会相同"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：两种颜色摸到的机会相同。",
+  "verify": "'两种颜色摸到的机会相同'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p141_q4",
   "topicId": "cnm_p141",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "7－3 的得数是哪一个？",
+  "prompt": "袋中有6个白球和2个黑球，球除颜色外相同。任意摸1个，哪种说法正确？",
   "choices": [
    {
     "key": "A",
-    "text": "3"
+    "text": "更容易摸到白球，但也可能摸到黑球"
    },
    {
     "key": "B",
-    "text": "5"
+    "text": "一定摸到白球"
    },
    {
     "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "10"
+    "text": "两种颜色机会相同"
    }
   ],
-  "answer": "C",
-  "explanation": "7－3＝4。",
-  "verify": "7-3"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：更容易摸到白球，但也可能摸到黑球。",
+  "verify": "'更容易摸到白球，但也可能摸到黑球'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p142_q1",
@@ -1132,58 +1160,62 @@
   "topicId": "cnm_p150",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：12＋8＝？",
-  "answer": "20",
-  "explanation": "长方形面积 12，三角形面积 8，合起来 20。",
-  "verify": "12+8"
+  "prompt": "图中L形由上部长方形和左下正方形组成，面积是多少平方厘米？",
+  "answer": "27",
+  "verify": "6*3+3*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米\"><title>L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米</title><path d=\"M40 40H160V100H100V160H40Z\" fill=\"#c5e4ef\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M100 40V160\" stroke=\"#9d5a30\" stroke-dasharray=\"5 4\"/><text x=\"85\" y=\"28\" font-size=\"16\">6厘米</text><text x=\"166\" y=\"76\" font-size=\"16\">3厘米</text><text x=\"105\" y=\"135\" font-size=\"16\">3厘米</text><text x=\"58\" y=\"185\" font-size=\"16\">3厘米</text></svg>"
  },
  {
   "id": "cnm_p150_q2",
   "topicId": "cnm_p150",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：30－6＝？",
-  "answer": "24",
-  "explanation": "大长方形 30，剪去 6，剩下 24。",
-  "verify": "30-6"
+  "type": "choice",
+  "prompt": "沿虚线把图形分成两个长方形，求总面积时应该怎样做？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "只算左边一块"
+   },
+   {
+    "key": "B",
+    "text": "分别求两块面积再相加"
+   },
+   {
+    "key": "C",
+    "text": "把两块面积相乘"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：分别求两块面积再相加。",
+  "verify": "'分别求两块面积再相加'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米\"><title>L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米</title><path d=\"M40 40H160V100H100V160H40Z\" fill=\"#c5e4ef\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M100 40V160\" stroke=\"#9d5a30\" stroke-dasharray=\"5 4\"/><text x=\"85\" y=\"28\" font-size=\"16\">6厘米</text><text x=\"166\" y=\"76\" font-size=\"16\">3厘米</text><text x=\"105\" y=\"135\" font-size=\"16\">3厘米</text><text x=\"58\" y=\"185\" font-size=\"16\">3厘米</text></svg>"
  },
  {
   "id": "cnm_p150_q3",
   "topicId": "cnm_p150",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "一个长方形面积 24 平方厘米，旁边拼上一个面积 10 平方厘米的三角形。一共多少平方厘米？计算：24＋10＝？",
-  "answer": "34",
-  "explanation": "24＋10＝34。",
-  "verify": "24+10"
+  "prompt": "图中上部长方形的面积是多少平方厘米？",
+  "answer": "18",
+  "verify": "6*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米\"><title>L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米</title><path d=\"M40 40H160V100H100V160H40Z\" fill=\"#c5e4ef\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M100 40V160\" stroke=\"#9d5a30\" stroke-dasharray=\"5 4\"/><text x=\"85\" y=\"28\" font-size=\"16\">6厘米</text><text x=\"166\" y=\"76\" font-size=\"16\">3厘米</text><text x=\"105\" y=\"135\" font-size=\"16\">3厘米</text><text x=\"58\" y=\"185\" font-size=\"16\">3厘米</text></svg>"
  },
  {
   "id": "cnm_p150_q4",
   "topicId": "cnm_p150",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "40－15 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "20"
-   },
-   {
-    "key": "B",
-    "text": "35"
-   },
-   {
-    "key": "C",
-    "text": "25"
-   },
-   {
-    "key": "D",
-    "text": "55"
-   }
-  ],
-  "answer": "C",
-  "explanation": "40－15＝25。",
-  "verify": "40-15"
+  "type": "numeric",
+  "prompt": "图中的L形补成边长6厘米的正方形，需要补上多少平方厘米？",
+  "answer": "9",
+  "verify": "3*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米\"><title>L形组合图，上部长方形长6厘米高3厘米，左下正方形边长3厘米</title><path d=\"M40 40H160V100H100V160H40Z\" fill=\"#c5e4ef\" stroke=\"#254f64\" stroke-width=\"2\"/><path d=\"M100 40V160\" stroke=\"#9d5a30\" stroke-dasharray=\"5 4\"/><text x=\"85\" y=\"28\" font-size=\"16\">6厘米</text><text x=\"166\" y=\"76\" font-size=\"16\">3厘米</text><text x=\"105\" y=\"135\" font-size=\"16\">3厘米</text><text x=\"58\" y=\"185\" font-size=\"16\">3厘米</text></svg>"
  },
  {
   "id": "cnm_p151_q1",
@@ -1477,59 +1509,87 @@
   "id": "cnm_p155_q1",
   "topicId": "cnm_p155",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：1＋2＋3＝？",
-  "answer": "6",
-  "explanation": "123 的各位相加是 6，6 是 3 的倍数，所以 123 是 3 的倍数。",
-  "verify": "1+2+3"
+  "type": "choice",
+  "prompt": "哪个数是3的倍数？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "123"
+   },
+   {
+    "key": "B",
+    "text": "124"
+   },
+   {
+    "key": "C",
+    "text": "125"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：123。",
+  "verify": "'123'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p155_q2",
   "topicId": "cnm_p155",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：4＋5＝？",
-  "answer": "9",
-  "explanation": "45 的各位相加是 9，能被 3 整除。",
-  "verify": "4+5"
+  "type": "choice",
+  "prompt": "判断一个数是否为3的倍数，可以用什么方法？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "只看这个数是不是奇数"
+   },
+   {
+    "key": "B",
+    "text": "看各位数字之和是不是3的倍数"
+   },
+   {
+    "key": "C",
+    "text": "只看个位是不是3"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：看各位数字之和是不是3的倍数。",
+  "verify": "'看各位数字之和是不是3的倍数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p155_q3",
   "topicId": "cnm_p155",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "判断 27 是不是 3 的倍数，先算 2＋7。2＋7 是多少？计算：2＋7＝？",
-  "answer": "9",
-  "explanation": "2＋7＝9，9 能被 3 整除，所以 27 是。",
-  "verify": "2+7"
+  "type": "choice",
+  "prompt": "27是3的倍数，下面哪个理由正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "因为个位是7"
+   },
+   {
+    "key": "B",
+    "text": "因为27大于3"
+   },
+   {
+    "key": "C",
+    "text": "2＋7＝9，9是3的倍数"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：2＋7＝9，9是3的倍数。",
+  "verify": "'2＋7＝9，9是3的倍数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p155_q4",
   "topicId": "cnm_p155",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "8＋1 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "7"
-   },
-   {
-    "key": "B",
-    "text": "10"
-   },
-   {
-    "key": "C",
-    "text": "18"
-   },
-   {
-    "key": "D",
-    "text": "9"
-   }
-  ],
-  "answer": "D",
-  "explanation": "81 的各位相加是 9。",
-  "verify": "8+1"
+  "type": "numeric",
+  "prompt": "要使4□是3的倍数，□可以填的最小数字是几？",
+  "answer": "2",
+  "verify": "2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p156_q1",
@@ -1694,41 +1754,91 @@
   "topicId": "cnm_p158",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：12÷6＝？",
-  "answer": "2",
-  "explanation": "6 是 12 和 18 的公因数，12÷6＝2。",
-  "verify": "12/6"
+  "prompt": "12和18的最大公因数是多少？",
+  "answer": "6",
+  "verify": "gcd(12,18)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p158_q2",
   "topicId": "cnm_p158",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：8÷4＝？",
-  "answer": "2",
-  "explanation": "8 和 12 的最大公因数是 4。",
-  "verify": "8/4"
+  "prompt": "8和12的最大公因数是多少？",
+  "answer": "4",
+  "verify": "gcd(8,12)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p158_q3",
   "topicId": "cnm_p158",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "18 和 24 的最大公因数是 6。18÷6 是多少？计算：18÷6＝？",
-  "answer": "3",
-  "explanation": "18÷6＝3。",
-  "verify": "18/6"
+  "prompt": "18和24的最大公因数是多少？",
+  "answer": "6",
+  "verify": "gcd(18,24)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p158_q4",
   "topicId": "cnm_p158",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "20÷5 的得数是哪一个？",
+  "prompt": "12和18的全部公因数是哪一组？",
   "choices": [
    {
     "key": "A",
-    "text": "3"
+    "text": "1、2、3、6"
+   },
+   {
+    "key": "B",
+    "text": "1、2、3、6、12"
+   },
+   {
+    "key": "C",
+    "text": "2、3、6、18"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：1、2、3、6。",
+  "verify": "'1、2、3、6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p159_q1",
+  "topicId": "cnm_p159",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "4和6的最小公倍数是多少？",
+  "answer": "12",
+  "verify": "lcm(4,6)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p159_q2",
+  "topicId": "cnm_p159",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "6和8的最小公倍数是多少？",
+  "answer": "24",
+  "verify": "lcm(6,8)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p159_q3",
+  "topicId": "cnm_p159",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "2和8的最小公倍数是哪个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2"
    },
    {
     "key": "B",
@@ -1736,74 +1846,24 @@
    },
    {
     "key": "C",
-    "text": "5"
-   },
-   {
-    "key": "D",
-    "text": "6"
+    "text": "8"
    }
   ],
-  "answer": "B",
-  "explanation": "20 和 15 的最大公因数是 5，20÷5＝4。",
-  "verify": "20/5"
- },
- {
-  "id": "cnm_p159_q1",
-  "topicId": "cnm_p159",
-  "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：4×3＝？",
-  "answer": "12",
-  "explanation": "4 和 3 的最小公倍数是 12。",
-  "verify": "4*3"
- },
- {
-  "id": "cnm_p159_q2",
-  "topicId": "cnm_p159",
-  "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：6×5＝？",
-  "answer": "30",
-  "explanation": "6 和 5 互质，最小公倍数是 30。",
-  "verify": "6*5"
- },
- {
-  "id": "cnm_p159_q3",
-  "topicId": "cnm_p159",
-  "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "2 和 8 的最小公倍数就是 8。8÷2 是多少？计算：8÷2＝？",
-  "answer": "4",
-  "explanation": "8÷2＝4，8 是 2 的倍数。",
-  "verify": "8/2"
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：8。",
+  "verify": "'8'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p159_q4",
   "topicId": "cnm_p159",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "6×4÷2 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "12"
-   },
-   {
-    "key": "B",
-    "text": "8"
-   },
-   {
-    "key": "C",
-    "text": "10"
-   },
-   {
-    "key": "D",
-    "text": "24"
-   }
-  ],
-  "answer": "A",
-  "explanation": "6 和 4 的最小公倍数是 12。",
-  "verify": "6*4/2"
+  "type": "numeric",
+  "prompt": "两盏灯同时亮起，一盏每4秒亮一次，另一盏每6秒亮一次。至少再过多少秒同时亮起？",
+  "answer": "12",
+  "verify": "lcm(4,6)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p160_q1",
@@ -2083,59 +2143,73 @@
   "id": "cnm_p164_q1",
   "topicId": "cnm_p164",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：1×1000＝？",
-  "answer": "1000",
-  "explanation": "1 升＝1000 毫升。",
-  "verify": "1*1000"
+  "type": "choice",
+  "prompt": "容积表示什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "容器内部能容纳物体的体积"
+   },
+   {
+    "key": "B",
+    "text": "容器外表面的面积"
+   },
+   {
+    "key": "C",
+    "text": "容器的重量"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：容器内部能容纳物体的体积。",
+  "verify": "'容器内部能容纳物体的体积'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p164_q2",
   "topicId": "cnm_p164",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：3×1000＝？",
+  "prompt": "一个水壶的容积是3升，合多少毫升？",
   "answer": "3000",
-  "explanation": "3 升＝3000 毫升。",
-  "verify": "3*1000"
+  "verify": "3*1000",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p164_q3",
   "topicId": "cnm_p164",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "瓶中有 750 毫升水，又倒进 250 毫升。一共多少毫升？计算：750＋250＝？",
-  "answer": "1000",
-  "explanation": "750＋250＝1000，也就是 1 升。",
-  "verify": "750+250"
+  "prompt": "一个1升的空量杯，先倒入750毫升水，还能再装多少毫升才满？",
+  "answer": "250",
+  "verify": "1000-750",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p164_q4",
   "topicId": "cnm_p164",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "2×500 的得数是哪一个？",
+  "prompt": "两瓶饮料的容积各500毫升，合起来是多少升？",
   "choices": [
    {
     "key": "A",
-    "text": "250"
+    "text": "1升"
    },
    {
     "key": "B",
-    "text": "1000"
+    "text": "10升"
    },
    {
     "key": "C",
-    "text": "700"
-   },
-   {
-    "key": "D",
-    "text": "1500"
+    "text": "100升"
    }
   ],
-  "answer": "B",
-  "explanation": "2×500＝1000。",
-  "verify": "2*500"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：1升。",
+  "verify": "'1升'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p165_q1",
@@ -2214,268 +2288,472 @@
   "topicId": "cnm_p166",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "分子比分母小的分数是什么分数？",
+  "prompt": "下面哪个是真分数？",
   "choices": [
    {
     "key": "A",
-    "text": "真分数"
+    "text": "3/5"
    },
    {
     "key": "B",
-    "text": "假分数"
+    "text": "5/3"
    },
    {
     "key": "C",
-    "text": "带分数"
+    "text": "5/5"
    }
   ],
   "answer": "A",
-  "explanation": "分子比分母小，这个分数小于 1。",
-  "verify": "'真分数'"
+  "explanation": "按题目条件判断，正确的是：3/5。",
+  "verify": "'3/5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p166_q2",
   "topicId": "cnm_p166",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：7÷4＝？",
-  "answer": "7/4",
-  "explanation": "7÷4＝7/4，分子比分母大，是假分数。",
-  "verify": "7/4"
+  "type": "choice",
+  "prompt": "下面哪个是假分数？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2/7"
+   },
+   {
+    "key": "B",
+    "text": "7/4"
+   },
+   {
+    "key": "C",
+    "text": "3/8"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：7/4。",
+  "verify": "'7/4'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p166_q3",
   "topicId": "cnm_p166",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "先写商，再写余数。商和余数：9÷4",
-  "answer": "2，1",
-  "explanation": "9÷4＝2 余 1，所以 9/4＝2 又 1/4。",
-  "verify": "(9//4, 9%4)"
+  "type": "choice",
+  "prompt": "9/4改写成带分数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1又2/4"
+   },
+   {
+    "key": "B",
+    "text": "4又1/2"
+   },
+   {
+    "key": "C",
+    "text": "2又1/4"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：2又1/4。",
+  "verify": "'2又1/4'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p166_q4",
   "topicId": "cnm_p166",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：8÷8＝？",
-  "answer": "1",
-  "explanation": "8÷8＝1，假分数可以等于 1。",
-  "verify": "8/8"
+  "type": "choice",
+  "prompt": "8/8属于哪一类？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "假分数，值等于1"
+   },
+   {
+    "key": "B",
+    "text": "真分数，值小于1"
+   },
+   {
+    "key": "C",
+    "text": "带分数，值大于1"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：假分数，值等于1。",
+  "verify": "'假分数，值等于1'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p167_q1",
   "topicId": "cnm_p167",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：1×3＝？",
+  "prompt": "根据分数的基本性质：1/2＝□/6，□是多少？",
   "answer": "3",
-  "explanation": "1/2 的分子分母都乘 3，新的分子是 3。",
-  "verify": "1*3"
+  "verify": "6/2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p167_q2",
   "topicId": "cnm_p167",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：2×3＝？",
-  "answer": "6",
-  "explanation": "分母 2 也乘 3，得到 6，所以 1/2＝3/6。",
-  "verify": "2*3"
+  "prompt": "根据分数的基本性质：3/4＝9/□，□是多少？",
+  "answer": "12",
+  "verify": "4*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p167_q3",
   "topicId": "cnm_p167",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "4/8 的分子和分母同时除以 4，分子变成多少？计算：4÷4＝？",
-  "answer": "1",
-  "explanation": "4÷4＝1，所以 4/8＝1/2。",
-  "verify": "4/4"
+  "type": "choice",
+  "prompt": "把分数的分子和分母同时乘3（分母不为0），分数大小怎样？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "变为原来的3倍"
+   },
+   {
+    "key": "B",
+    "text": "变为原来的1/3"
+   },
+   {
+    "key": "C",
+    "text": "不变"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：不变。",
+  "verify": "'不变'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p167_q4",
   "topicId": "cnm_p167",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "6÷3 的得数是哪一个？",
+  "prompt": "哪个变形保持分数大小不变？",
   "choices": [
    {
     "key": "A",
-    "text": "1"
+    "text": "6/9＝2/3"
    },
    {
     "key": "B",
-    "text": "3"
+    "text": "6/9＝6/3"
    },
    {
     "key": "C",
-    "text": "4"
-   },
-   {
-    "key": "D",
-    "text": "2"
+    "text": "6/9＝2/9"
    }
   ],
-  "answer": "D",
-  "explanation": "6/9 分子分母同除以 3，分子是 2。",
-  "verify": "6/3"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：6/9＝2/3。",
+  "verify": "'6/9＝2/3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p168_q1",
   "topicId": "cnm_p168",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：6÷8＝？",
-  "answer": "3/4",
-  "explanation": "6 和 8 的最大公因数是 2，6/8＝3/4。",
-  "verify": "6/8"
+  "type": "choice",
+  "prompt": "把6/8约成最简分数，应该选哪个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3/4"
+   },
+   {
+    "key": "B",
+    "text": "6/8"
+   },
+   {
+    "key": "C",
+    "text": "9/12"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3/4。",
+  "verify": "'3/4'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p168_q2",
   "topicId": "cnm_p168",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：4÷10＝？",
-  "answer": "2/5",
-  "explanation": "4/10＝2/5。",
-  "verify": "4/10"
+  "type": "choice",
+  "prompt": "把4/10约成最简分数，应该选哪个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "6/15"
+   },
+   {
+    "key": "B",
+    "text": "2/5"
+   },
+   {
+    "key": "C",
+    "text": "4/10"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：2/5。",
+  "verify": "'2/5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p168_q3",
   "topicId": "cnm_p168",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "把 8/12 约分，先算 8 和 12 的最大公因数。12÷4 是多少？计算：12÷4＝？",
-  "answer": "3",
-  "explanation": "最大公因数是 4，12÷4＝3，8/12＝2/3。",
-  "verify": "12/4"
+  "type": "choice",
+  "prompt": "8/12约成最简分数是哪个？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "4/6"
+   },
+   {
+    "key": "B",
+    "text": "8/12"
+   },
+   {
+    "key": "C",
+    "text": "2/3"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：2/3。",
+  "verify": "'2/3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p168_q4",
   "topicId": "cnm_p168",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "9÷3 的得数是哪一个？",
+  "prompt": "下面哪个分数已经是最简分数？",
   "choices": [
    {
     "key": "A",
-    "text": "2"
+    "text": "3/7"
    },
    {
     "key": "B",
-    "text": "6"
+    "text": "6/9"
    },
    {
     "key": "C",
-    "text": "3"
-   },
-   {
-    "key": "D",
-    "text": "12"
+    "text": "10/15"
    }
   ],
-  "answer": "C",
-  "explanation": "9/15 同除以 3，分子是 3。",
-  "verify": "9/3"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3/7。",
+  "verify": "'3/7'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p169_q1",
   "topicId": "cnm_p169",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：3/5－1/5＝？",
-  "answer": "2/5",
-  "explanation": "分母相同，3/5 比 1/5 大，相差 2/5。",
-  "verify": "3/5-1/5"
+  "type": "choice",
+  "prompt": "比较3/5和1/5，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3/5＞1/5"
+   },
+   {
+    "key": "B",
+    "text": "3/5＜1/5"
+   },
+   {
+    "key": "C",
+    "text": "3/5＝1/5"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3/5＞1/5。",
+  "verify": "'3/5＞1/5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p169_q2",
   "topicId": "cnm_p169",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：1/2－1/3＝？",
-  "answer": "1/6",
-  "explanation": "通分后 3/6 比 2/6 大，相差 1/6。",
-  "verify": "1/2-1/3"
+  "type": "choice",
+  "prompt": "比较2/3和3/4，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2/3＝3/4"
+   },
+   {
+    "key": "B",
+    "text": "2/3＜3/4"
+   },
+   {
+    "key": "C",
+    "text": "2/3＞3/4"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：2/3＜3/4。",
+  "verify": "'2/3＜3/4'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p169_q3",
   "topicId": "cnm_p169",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "一条绳子用去 3/8，另一条用去 5/8。谁用得多？先算差。计算：5/8－3/8＝？",
-  "answer": "1/4",
-  "explanation": "5/8－3/8＝2/8＝1/4。",
-  "verify": "5/8-3/8"
+  "type": "choice",
+  "prompt": "分子相同，比较3/8和3/5，哪个更大？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3/8"
+   },
+   {
+    "key": "B",
+    "text": "一样大"
+   },
+   {
+    "key": "C",
+    "text": "3/5"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：3/5。",
+  "verify": "'3/5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p169_q4",
   "topicId": "cnm_p169",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "4/7－2/7 的得数是哪一个？",
+  "prompt": "哪一组按从小到大排列？",
   "choices": [
    {
     "key": "A",
-    "text": "1/7"
+    "text": "1/6、1/4、1/2"
    },
    {
     "key": "B",
-    "text": "2/7"
+    "text": "1/2、1/4、1/6"
    },
    {
     "key": "C",
-    "text": "3/7"
-   },
-   {
-    "key": "D",
-    "text": "6/7"
+    "text": "1/4、1/6、1/2"
    }
   ],
-  "answer": "B",
-  "explanation": "4/7－2/7＝2/7。",
-  "verify": "4/7-2/7"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：1/6、1/4、1/2。",
+  "verify": "'1/6、1/4、1/2'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p170_q1",
   "topicId": "cnm_p170",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：3÷10＝？（用小数作答）",
-  "answer": "0.3",
-  "explanation": "3/10＝0.3。",
-  "verify": "3/10"
+  "type": "choice",
+  "prompt": "把3/10化成小数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.3"
+   },
+   {
+    "key": "B",
+    "text": "3.0"
+   },
+   {
+    "key": "C",
+    "text": "0.03"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：0.3。",
+  "verify": "'0.3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p170_q2",
   "topicId": "cnm_p170",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：25÷100＝？（用小数作答）",
-  "answer": "0.25",
-  "explanation": "25/100＝0.25。",
-  "verify": "25/100"
+  "type": "choice",
+  "prompt": "把25/100化成小数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.025"
+   },
+   {
+    "key": "B",
+    "text": "0.25"
+   },
+   {
+    "key": "C",
+    "text": "2.5"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：0.25。",
+  "verify": "'0.25'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p170_q3",
   "topicId": "cnm_p170",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "0.7 是多少个 0.1？计算：0.7÷0.1＝？（用小数作答）",
-  "answer": "7",
-  "explanation": "0.7＝7/10。",
-  "verify": "0.7/0.1"
+  "type": "choice",
+  "prompt": "把0.7化成分数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "7/100"
+   },
+   {
+    "key": "B",
+    "text": "10/7"
+   },
+   {
+    "key": "C",
+    "text": "7/10"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：7/10。",
+  "verify": "'7/10'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p170_q4",
   "topicId": "cnm_p170",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：4÷10＝？（用小数作答）",
-  "answer": "0.4",
-  "explanation": "4/10＝0.4。",
-  "verify": "4/10"
+  "type": "choice",
+  "prompt": "把1/4化成小数，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.25"
+   },
+   {
+    "key": "B",
+    "text": "0.4"
+   },
+   {
+    "key": "C",
+    "text": "0.04"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：0.25。",
+  "verify": "'0.25'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p171_q1",
@@ -2554,58 +2832,86 @@
   "topicId": "cnm_p172",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：2×3＝？",
+  "prompt": "把1/2和1/3通分，最小公分母是多少？",
   "answer": "6",
-  "explanation": "2 和 3 的最小公倍数是 6，用它做公分母。",
-  "verify": "2*3"
+  "verify": "lcm(2,3)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p172_q2",
   "topicId": "cnm_p172",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：4×2＝？",
-  "answer": "8",
-  "explanation": "1/4 的分子分母都乘 2，得到 2/8。",
-  "verify": "4*2"
+  "type": "choice",
+  "prompt": "把1/2和1/3通分为分母是6的分数，哪组正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2/6和3/6"
+   },
+   {
+    "key": "B",
+    "text": "3/6和2/6"
+   },
+   {
+    "key": "C",
+    "text": "1/6和1/6"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：3/6和2/6。",
+  "verify": "'3/6和2/6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p172_q3",
   "topicId": "cnm_p172",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "要把 1/6 和 1/3 通分，公分母可以是 6。1/3 的分母变成 6，要乘几？计算：6÷3＝？",
-  "answer": "2",
-  "explanation": "6÷3＝2，1/3＝2/6。",
-  "verify": "6/3"
+  "type": "choice",
+  "prompt": "把1/6和1/3通分为分母是6的分数，哪组正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1/6和1/6"
+   },
+   {
+    "key": "B",
+    "text": "2/6和1/6"
+   },
+   {
+    "key": "C",
+    "text": "1/6和2/6"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：1/6和2/6。",
+  "verify": "'1/6和2/6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p172_q4",
   "topicId": "cnm_p172",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "3×4 的得数是哪一个？",
+  "prompt": "通分时需要保持什么不变？",
   "choices": [
    {
     "key": "A",
-    "text": "7"
+    "text": "每个分数的大小"
    },
    {
     "key": "B",
-    "text": "12"
+    "text": "每个分数的分子"
    },
    {
     "key": "C",
-    "text": "9"
-   },
-   {
-    "key": "D",
-    "text": "16"
+    "text": "每个分数的分母"
    }
   ],
-  "answer": "B",
-  "explanation": "3 和 4 的最小公倍数是 12。",
-  "verify": "3*4"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：每个分数的大小。",
+  "verify": "'每个分数的大小'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p173_q1",
@@ -2799,73 +3105,59 @@
   "id": "cnm_p176_q1",
   "topicId": "cnm_p176",
   "difficulty": "basic",
-  "type": "choice",
-  "prompt": "找次品时每次要怎样做？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "把物品分成三份来称"
-   },
-   {
-    "key": "B",
-    "text": "每次只称一个"
-   },
-   {
-    "key": "C",
-    "text": "全部放在一起称一次就够"
-   }
-  ],
-  "answer": "A",
-  "explanation": "天平两边各放一份，剩下的一份先不放。",
-  "verify": "'把物品分成三份来称'"
+  "type": "numeric",
+  "prompt": "有3个外观相同的零件，其中1个较轻。用无砝码天平，保证找出次品至少要称几次？",
+  "answer": "1",
+  "verify": "1",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p176_q2",
   "topicId": "cnm_p176",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：9÷3＝？",
-  "answer": "3",
-  "explanation": "9 个零件分成 3 份，每份 3 个。",
-  "verify": "9/3"
+  "prompt": "有9个外观相同的零件，其中1个较轻。用无砝码天平，保证找出次品至少要称几次？",
+  "answer": "2",
+  "verify": "2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p176_q3",
   "topicId": "cnm_p176",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "81 个零件，每次分成 3 份。第一次每份多少个？计算：81÷3＝？",
-  "answer": "27",
-  "explanation": "81÷3＝27。",
-  "verify": "81/3"
+  "type": "choice",
+  "prompt": "9个零件中有1个较轻，用天平第一次称，怎样分组能让三种结果各剩3个候选？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "分成4、4、1，称两组4个"
+   },
+   {
+    "key": "B",
+    "text": "分成1、1、7，称两组1个"
+   },
+   {
+    "key": "C",
+    "text": "分成3、3、3，称其中两组"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：分成3、3、3，称其中两组。",
+  "verify": "'分成3、3、3，称其中两组'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p176_q4",
   "topicId": "cnm_p176",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "27÷3 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "6"
-   },
-   {
-    "key": "B",
-    "text": "8"
-   },
-   {
-    "key": "C",
-    "text": "12"
-   },
-   {
-    "key": "D",
-    "text": "9"
-   }
-  ],
-  "answer": "D",
-  "explanation": "27÷3＝9。",
-  "verify": "27/3"
+  "type": "numeric",
+  "prompt": "有27个外观相同的零件，其中1个较轻。用无砝码天平，保证找出次品至少要称几次？",
+  "answer": "3",
+  "verify": "3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p238_q1",
@@ -2986,5 +3278,81 @@
   "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
   "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 175\" role=\"img\" aria-label=\"方格中的三角形，每小格边长相同\"><title>方格中的三角形，每小格边长相同</title><path d=\"M20 15V155 M20 15H180\" stroke=\"#d2dce0\"/><path d=\"M40 15V155 M20 35H180\" stroke=\"#d2dce0\"/><path d=\"M60 15V155 M20 55H180\" stroke=\"#d2dce0\"/><path d=\"M80 15V155 M20 75H180\" stroke=\"#d2dce0\"/><path d=\"M100 15V155 M20 95H180\" stroke=\"#d2dce0\"/><path d=\"M120 15V155 M20 115H180\" stroke=\"#d2dce0\"/><path d=\"M140 15V155 M20 135H180\" stroke=\"#d2dce0\"/><path d=\"M160 15V155 M20 155H180\" stroke=\"#d2dce0\"/><circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#173c50\"/><text x=\"104\" y=\"109\" font-size=\"13\">O</text><polygon points=\"100,95 140,95 100,75\" fill=\"#bfdeec\" stroke=\"#254f64\" stroke-width=\"2\"/></svg>",
   "hideChoiceText": true
+ },
+ {
+  "id": "cnm_p237_q1",
+  "topicId": "cnm_p237",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "小正方体只能从地面向上逐层叠放，不悬空。根据前面和上面的视图，一共用了几个小正方体？",
+  "answer": "3",
+  "verify": "3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 140\" role=\"img\" aria-label=\"同一组合体从前面和上面看到的形状\"><title>同一组合体从前面和上面看到的形状</title><text x=\"30\" y=\"20\" font-size=\"16\">前面</text><rect x=\"20\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"55\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"20\" y=\"40\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><text x=\"165\" y=\"20\" font-size=\"16\">上面</text><rect x=\"155\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"190\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/></svg>"
+ },
+ {
+  "id": "cnm_p237_q2",
+  "topicId": "cnm_p237",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "根据这两幅视图，哪种摆法符合？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "左右两列各2个高"
+   },
+   {
+    "key": "B",
+    "text": "左列2个高、右列1个高，前后只有一排"
+   },
+   {
+    "key": "C",
+    "text": "左列1个高、右列2个高"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：左列2个高、右列1个高，前后只有一排。",
+  "verify": "'左列2个高、右列1个高，前后只有一排'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 140\" role=\"img\" aria-label=\"同一组合体从前面和上面看到的形状\"><title>同一组合体从前面和上面看到的形状</title><text x=\"30\" y=\"20\" font-size=\"16\">前面</text><rect x=\"20\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"55\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"20\" y=\"40\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><text x=\"165\" y=\"20\" font-size=\"16\">上面</text><rect x=\"155\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"190\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/></svg>"
+ },
+ {
+  "id": "cnm_p237_q3",
+  "topicId": "cnm_p237",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "只看前面这幅图，能一定确定组合体的总个数吗？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一定能"
+   },
+   {
+    "key": "B",
+    "text": "一定只有2个"
+   },
+   {
+    "key": "C",
+    "text": "不能，前后可能还有被遮住的小正方体"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：不能，前后可能还有被遮住的小正方体。",
+  "verify": "'不能，前后可能还有被遮住的小正方体'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 140\" role=\"img\" aria-label=\"同一组合体从前面和上面看到的形状\"><title>同一组合体从前面和上面看到的形状</title><text x=\"30\" y=\"20\" font-size=\"16\">前面</text><rect x=\"20\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"55\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"20\" y=\"40\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><text x=\"165\" y=\"20\" font-size=\"16\">上面</text><rect x=\"155\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"190\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/></svg>"
+ },
+ {
+  "id": "cnm_p237_q4",
+  "topicId": "cnm_p237",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "小正方体不悬空。保持这两幅视图不变，还能再增加几个小正方体？",
+  "answer": "0",
+  "verify": "0",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 140\" role=\"img\" aria-label=\"同一组合体从前面和上面看到的形状\"><title>同一组合体从前面和上面看到的形状</title><text x=\"30\" y=\"20\" font-size=\"16\">前面</text><rect x=\"20\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"55\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"20\" y=\"40\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><text x=\"165\" y=\"20\" font-size=\"16\">上面</text><rect x=\"155\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/><rect x=\"190\" y=\"75\" width=\"35\" height=\"35\" fill=\"#d5edf4\" stroke=\"#254f64\"/></svg>"
  }
 ]

@@ -4,54 +4,86 @@
   "topicId": "cnm_p037",
   "difficulty": "basic",
   "type": "choice",
-  "prompt": "分类要先定标准。按形状把扣子分开，先要确定什么？",
+  "prompt": "把红色圆扣子和红色方扣子放在一组，把蓝色圆扣子和蓝色方扣子放在另一组，是按什么分类？",
   "choices": [
    {
     "key": "A",
-    "text": "分类标准"
+    "text": "颜色"
    },
    {
     "key": "B",
-    "text": "扣子的价钱"
+    "text": "形状"
    },
    {
     "key": "C",
-    "text": "谁先捡到"
+    "text": "大小"
    }
   ],
   "answer": "A",
-  "explanation": "标准不同，分出的类就不同。",
-  "verify": "'分类标准'"
+  "explanation": "按题目条件判断，正确的是：颜色。",
+  "verify": "'颜色'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p037_q2",
   "topicId": "cnm_p037",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：5＋3＝？",
-  "answer": "8",
-  "explanation": "两类分别有 5 个和 3 个，一共 8 个。",
-  "verify": "5+3"
+  "type": "choice",
+  "prompt": "把所有圆扣子放在一起，把所有方扣子放在一起，是按什么分类？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "轻重"
+   },
+   {
+    "key": "B",
+    "text": "形状"
+   },
+   {
+    "key": "C",
+    "text": "颜色"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：形状。",
+  "verify": "'形状'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p037_q3",
   "topicId": "cnm_p037",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "红色扣子 7 颗，蓝色扣子 4 颗。红色比蓝色多几颗？计算：7－4＝？",
-  "answer": "3",
-  "explanation": "7－4＝3。",
-  "verify": "7-4"
+  "prompt": "按颜色分类：红色扣子7颗，蓝色扣子4颗。红色这一类有几颗？",
+  "answer": "7",
+  "verify": "7",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p037_q4",
   "topicId": "cnm_p037",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "三角形 6 个，圆形 6 个。两种图形一共有多少个？计算：6＋6＝？",
-  "answer": "12",
-  "explanation": "6＋6＝12。",
-  "verify": "6+6"
+  "type": "choice",
+  "prompt": "同一批扣子按颜色分成2类，按形状分成3类，哪种说法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "分类标准不同，分类结果可以不同"
+   },
+   {
+    "key": "B",
+    "text": "分类结果必须相同"
+   },
+   {
+    "key": "C",
+    "text": "按颜色分类时也必须分3类"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：分类标准不同，分类结果可以不同。",
+  "verify": "'分类标准不同，分类结果可以不同'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p038_q1",
@@ -194,10 +226,11 @@
   "topicId": "cnm_p040",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "4 厘米是多少毫米？",
-  "answer": "40",
-  "explanation": "1 厘米＝10 毫米，4 厘米＝40 毫米。这里先记住厘米很短。",
-  "verify": "4*10"
+  "prompt": "把直尺的0刻度对准纸条一端，另一端对准4厘米刻度。纸条长几厘米？",
+  "answer": "4",
+  "verify": "4",
+  "explanation": "从0厘米量到4厘米，纸条长4厘米。",
+  "fixed_from_source": "广州适配第二轮：厘米的认识不提前检查毫米换算。"
  },
  {
   "id": "cnm_p040_q3",
@@ -559,99 +592,159 @@
   "id": "cnm_p047_q1",
   "topicId": "cnm_p047",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：6×4＝？",
-  "answer": "24",
-  "explanation": "24÷6＝4，因为 6×4＝24。",
-  "verify": "6*4"
+  "type": "choice",
+  "prompt": "小丽算24÷4＝6，下面哪个算式可以用来验算？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "6×4＝24"
+   },
+   {
+    "key": "B",
+    "text": "6＋4＝10"
+   },
+   {
+    "key": "C",
+    "text": "24×4＝96"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：6×4＝24。",
+  "verify": "'6×4＝24'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p047_q2",
   "topicId": "cnm_p047",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：7×8＝？",
-  "answer": "56",
-  "explanation": "56÷7＝8，因为 7×8＝56。",
-  "verify": "7*8"
+  "type": "choice",
+  "prompt": "有人算36÷6＝5，怎样用乘法判断这个结果？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "36×6＝216，所以算对了"
+   },
+   {
+    "key": "B",
+    "text": "5×6＝30，不等于36，所以算错了"
+   },
+   {
+    "key": "C",
+    "text": "5＋6＝11，所以算对了"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：5×6＝30，不等于36，所以算错了。",
+  "verify": "'5×6＝30，不等于36，所以算错了'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p047_q3",
   "topicId": "cnm_p047",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "有人说 36÷6＝5。用乘法检查：6×5 是多少？和 36 一样吗？先算出 6×5。计算：6×5＝？",
-  "answer": "30",
-  "explanation": "6×5＝30，不等于 36，所以商不是 5。",
-  "verify": "6*5"
+  "type": "choice",
+  "prompt": "哪道除法能通过乘法验算？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "42÷6＝6，因为6×6＝36"
+   },
+   {
+    "key": "B",
+    "text": "42÷6＝8，因为8×6＝48"
+   },
+   {
+    "key": "C",
+    "text": "42÷6＝7，因为7×6＝42"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：42÷6＝7，因为7×6＝42。",
+  "verify": "'42÷6＝7，因为7×6＝42'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p047_q4",
   "topicId": "cnm_p047",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：9×4＝？",
-  "answer": "36",
-  "explanation": "36÷9＝4，验算 9×4＝36。",
-  "verify": "9*4"
+  "type": "choice",
+  "prompt": "已知8×4＝32，哪道除法是正确的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "32÷4＝8"
+   },
+   {
+    "key": "B",
+    "text": "32÷4＝6"
+   },
+   {
+    "key": "C",
+    "text": "32÷4＝9"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：32÷4＝8。",
+  "verify": "'32÷4＝8'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p048_q1",
   "topicId": "cnm_p048",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：3×6＝？",
-  "answer": "18",
-  "explanation": "3×6＝18。",
-  "verify": "3*6"
+  "prompt": "每盒有5个鸡蛋，买6盒，一共有多少个鸡蛋？",
+  "answer": "30",
+  "verify": "5*6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p048_q2",
   "topicId": "cnm_p048",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：4×7＝？",
-  "answer": "28",
-  "explanation": "4×7＝28。",
-  "verify": "4*7"
+  "prompt": "每排坐4人，有3排，一共坐多少人？",
+  "answer": "12",
+  "verify": "4*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p048_q3",
   "topicId": "cnm_p048",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "每盒有 5 个鸡蛋，一共 8 盒。一共有多少个？计算：5×8＝？",
-  "answer": "40",
-  "explanation": "求 8 个 5 的和，用乘法，5×8＝40。",
-  "verify": "5*8"
+  "type": "choice",
+  "prompt": "每袋有6个苹果，买4袋。求苹果总数应该用哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "6＋4"
+   },
+   {
+    "key": "B",
+    "text": "6－4"
+   },
+   {
+    "key": "C",
+    "text": "6×4"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：6×4。",
+  "verify": "'6×4'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p048_q4",
   "topicId": "cnm_p048",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "6×9 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "60"
-   },
-   {
-    "key": "B",
-    "text": "55"
-   },
-   {
-    "key": "C",
-    "text": "15"
-   },
-   {
-    "key": "D",
-    "text": "54"
-   }
-  ],
-  "answer": "D",
-  "explanation": "6×9＝54。",
-  "verify": "6*9"
+  "type": "numeric",
+  "prompt": "每本练习本3元，买5本，一共需要多少元？",
+  "answer": "15",
+  "verify": "3*5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p049_q1",
@@ -820,40 +913,44 @@
   "topicId": "cnm_p052",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "23 个皮球，每 5 个装一袋。先写商，再写余数。商和余数：23÷5",
-  "answer": "4，3",
-  "explanation": "23÷5＝4 余 3，能装 4 袋，剩 3 个。",
-  "verify": "(23//5, 23%5)"
+  "prompt": "23个皮球，每袋最多装5个。要把皮球全部装好，至少需要几个袋子？",
+  "answer": "5",
+  "verify": "(23+4)//5",
+  "explanation": "4袋只能装20个，剩余3个还需要1袋，所以至少5袋。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p052_q2",
   "topicId": "cnm_p052",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "先写商，再写余数。商和余数：19÷4",
-  "answer": "4，3",
-  "explanation": "19÷4＝4 余 3。",
-  "verify": "(19//4, 19%4)"
+  "prompt": "19米彩带，每4米剪成一段，最多能剪出几段完整的4米彩带？",
+  "answer": "4",
+  "verify": "19//4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p052_q3",
   "topicId": "cnm_p052",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "28 人租船，每条船坐 6 人。先写商，再写余数。商和余数：28÷6",
-  "answer": "4，4",
-  "explanation": "28÷6＝4 余 4。",
-  "verify": "(28//6, 28%6)"
+  "prompt": "28人租船，每条船最多坐6人，至少需要几条船？",
+  "answer": "5",
+  "verify": "(28+5)//6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p052_q4",
   "topicId": "cnm_p052",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "先写商，再写余数。商和余数：50÷8",
-  "answer": "6，2",
-  "explanation": "50÷8＝6 余 2。",
-  "verify": "(50//8, 50%8)"
+  "prompt": "50元钱买每本8元的笔记本，最多能买几本？",
+  "answer": "6",
+  "verify": "50//8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p053_q1",
@@ -899,59 +996,87 @@
   "id": "cnm_p054_q1",
   "topicId": "cnm_p054",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：1000－999＝？",
-  "answer": "1",
-  "explanation": "1000 比 999 大 1。",
-  "verify": "1000-999"
+  "type": "choice",
+  "prompt": "比较3200和2800的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3200＞2800"
+   },
+   {
+    "key": "B",
+    "text": "3200＜2800"
+   },
+   {
+    "key": "C",
+    "text": "3200＝2800"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3200＞2800。",
+  "verify": "'3200＞2800'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p054_q2",
   "topicId": "cnm_p054",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：3200－2800＝？",
-  "answer": "400",
-  "explanation": "3200－2800＝400。",
-  "verify": "3200-2800"
+  "type": "choice",
+  "prompt": "比较1000和999的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1000＝999"
+   },
+   {
+    "key": "B",
+    "text": "1000＞999"
+   },
+   {
+    "key": "C",
+    "text": "1000＜999"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：1000＞999。",
+  "verify": "'1000＞999'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p054_q3",
   "topicId": "cnm_p054",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "图书馆有故事书 2500 本，科技书 1800 本。故事书比科技书多多少本？计算：2500－1800＝？",
-  "answer": "700",
-  "explanation": "2500－1800＝700。",
-  "verify": "2500-1800"
+  "type": "choice",
+  "prompt": "哪一组数是按从小到大排列的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "2100、1980、2001"
+   },
+   {
+    "key": "B",
+    "text": "2001、2100、1980"
+   },
+   {
+    "key": "C",
+    "text": "1980、2001、2100"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：1980、2001、2100。",
+  "verify": "'1980、2001、2100'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p054_q4",
   "topicId": "cnm_p054",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "4000－1500 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "1500"
-   },
-   {
-    "key": "B",
-    "text": "3500"
-   },
-   {
-    "key": "C",
-    "text": "2500"
-   },
-   {
-    "key": "D",
-    "text": "5500"
-   }
-  ],
-  "answer": "C",
-  "explanation": "4000－1500＝2500。",
-  "verify": "4000-1500"
+  "type": "numeric",
+  "prompt": "3986、4012、4001、998中最大的数是多少？",
+  "answer": "4012",
+  "verify": "4012",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p055_q1",
@@ -1160,40 +1285,58 @@
   "topicId": "cnm_p059",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：20＋15－8＝？",
+  "prompt": "书架上原有20本书，又放入15本，随后借出8本。现在有多少本书？",
   "answer": "27",
-  "explanation": "先 20＋15＝35，再 35－8＝27。",
-  "verify": "20+15-8"
+  "verify": "20+15-8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p059_q2",
   "topicId": "cnm_p059",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：40－12－10＝？",
-  "answer": "18",
-  "explanation": "40－12＝28，28－10＝18。",
-  "verify": "40-12-10"
+  "prompt": "车上原有32人，到站后下车9人，又上车6人。现在车上有多少人？",
+  "answer": "29",
+  "verify": "32-9+6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p059_q3",
   "topicId": "cnm_p059",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "书店运来 25 本，又运来 17 本，卖出 13 本。还剩多少本？计算：25＋17－13＝？",
-  "answer": "29",
-  "explanation": "25＋17＝42，42－13＝29。",
-  "verify": "25+17-13"
+  "type": "choice",
+  "prompt": "小明原有18张卡片，得到7张后送出5张，求剩余张数应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "18－7＋5"
+   },
+   {
+    "key": "B",
+    "text": "18＋7＋5"
+   },
+   {
+    "key": "C",
+    "text": "18＋7－5"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：18＋7－5。",
+  "verify": "'18＋7－5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p059_q4",
   "topicId": "cnm_p059",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "上午 18 人、下午 12 人来借书，其中 6 人是重复来的。不同的有多少人？计算：（18＋12）－6＝？",
-  "answer": "24",
-  "explanation": "先算 18＋12＝30，再减 6 得 24。",
-  "verify": "(18+12)-6"
+  "prompt": "商店上午卖出24个面包，下午比上午多卖8个。全天一共卖出多少个？",
+  "answer": "56",
+  "verify": "24+(24+8)",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p060_q1",
@@ -1234,5 +1377,265 @@
   "answer": "10",
   "explanation": "15－5＝10。",
   "verify": "15-5"
+ },
+ {
+  "id": "cnm_p061_q1",
+  "topicId": "cnm_p061",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "钟面上秒针走一圈是多少秒？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "60秒"
+   },
+   {
+    "key": "B",
+    "text": "12秒"
+   },
+   {
+    "key": "C",
+    "text": "60分"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：60秒。",
+  "verify": "'60秒'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p061_q2",
+  "topicId": "cnm_p061",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "1分等于多少秒？",
+  "answer": "60",
+  "verify": "60",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p061_q3",
+  "topicId": "cnm_p061",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "下面哪件事用“秒”作计时单位比较合适？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一夜睡眠时间"
+   },
+   {
+    "key": "B",
+    "text": "暑假持续时间"
+   },
+   {
+    "key": "C",
+    "text": "跑50米所用时间"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：跑50米所用时间。",
+  "verify": "'跑50米所用时间'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p061_q4",
+  "topicId": "cnm_p061",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "秒针从12出发走了15秒，再走多少秒正好满1分？",
+  "answer": "45",
+  "verify": "60-15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p063_q1",
+  "topicId": "cnm_p063",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "读书从7时20分开始，7时35分结束。一共读了多少分？",
+  "answer": "15",
+  "verify": "35-20",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p063_q2",
+  "topicId": "cnm_p063",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "跑步从3时45分开始，4时整结束。一共跑了多少分？",
+  "answer": "15",
+  "verify": "60-45",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p063_q3",
+  "topicId": "cnm_p063",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "电影7时15分开始，7时50分结束。播放了多少分？",
+  "answer": "35",
+  "verify": "50-15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p063_q4",
+  "topicId": "cnm_p063",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "课间从10时05分开始，10时15分结束。课间有多少分？",
+  "answer": "10",
+  "verify": "15-5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p066_q1",
+  "topicId": "cnm_p066",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "估算39＋31，哪种方法合适？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把39看成40、31看成30，约70"
+   },
+   {
+    "key": "B",
+    "text": "只算个位9＋1，约10"
+   },
+   {
+    "key": "C",
+    "text": "把两个数都看成100，约200"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：把39看成40、31看成30，约70。",
+  "verify": "'把39看成40、31看成30，约70'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p066_q2",
+  "topicId": "cnm_p066",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "把398看成400、202看成200，估算398＋202大约是多少？",
+  "answer": "600",
+  "verify": "400+200",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p066_q3",
+  "topicId": "cnm_p066",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "买一件198元的衣服和一顶102元的帽子，估计总价最接近哪个数？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "200元"
+   },
+   {
+    "key": "B",
+    "text": "400元"
+   },
+   {
+    "key": "C",
+    "text": "300元"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：300元。",
+  "verify": "'300元'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p066_q4",
+  "topicId": "cnm_p066",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "估算489＋312，下面哪个结果合理？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "约800"
+   },
+   {
+    "key": "B",
+    "text": "约80"
+   },
+   {
+    "key": "C",
+    "text": "约8000"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：约800。",
+  "verify": "'约800'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p072_q1",
+  "topicId": "cnm_p072",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "笔算减法756－234＝522后，怎样用加法验算？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "522＋234是否等于756"
+   },
+   {
+    "key": "B",
+    "text": "756＋234是否等于522"
+   },
+   {
+    "key": "C",
+    "text": "522＋756是否等于234"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：522＋234是否等于756。",
+  "verify": "'522＋234是否等于756'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p072_q2",
+  "topicId": "cnm_p072",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "用竖式计算756－234，得数是多少？",
+  "answer": "522",
+  "verify": "756-234",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p072_q3",
+  "topicId": "cnm_p072",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "书架上有600本书，搬走248本，还剩多少本？",
+  "answer": "352",
+  "verify": "600-248",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p072_q4",
+  "topicId": "cnm_p072",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "用竖式计算803－457，得数是多少？",
+  "answer": "346",
+  "verify": "803-457",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  }
 ]

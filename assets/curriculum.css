@@ -9,3 +9,10 @@
 .review-page code { overflow-wrap: anywhere; }
 .review-page nav { display: flex; flex-wrap: wrap; gap: 18px; }
 button:disabled { cursor: not-allowed; opacity: .55; }
+.review-table-wrap { max-width: 100%; overflow-x: auto; }
+.review-table-wrap table { width: 100%; min-width: 700px; border-collapse: collapse; font-size: .92rem; }
+.review-table-wrap caption { text-align: left; color: var(--muted); padding: 8px 0; }
+.review-table-wrap th, .review-table-wrap td { text-align: left; vertical-align: top; border: 1px solid var(--line); padding: 10px; }
+.review-table-wrap th:first-child { white-space: nowrap; }
+.review-table-wrap td p { margin: 0 0 8px; }
+.review-table-wrap td:nth-child(2), .review-table-wrap td:nth-child(3) { min-width: 6em; }

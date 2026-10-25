@@ -3,81 +3,131 @@
   "id": "cnm_p096_q1",
   "topicId": "cnm_p096",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "10000 的千位是几？",
-  "answer": "0",
-  "explanation": "10000 的千位是 0，万位是 1。",
-  "verify": "0"
+  "type": "choice",
+  "prompt": "读一个多位数时，通常怎样分级？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "从右起每四个数位分一级"
+   },
+   {
+    "key": "B",
+    "text": "从右起每三个数位分一级"
+   },
+   {
+    "key": "C",
+    "text": "每两个数位分一级"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：从右起每四个数位分一级。",
+  "verify": "'从右起每四个数位分一级'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p096_q2",
   "topicId": "cnm_p096",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：10000＋2000＝？",
-  "answer": "12000",
-  "explanation": "1 万加 2 千是 12000。",
-  "verify": "10000+2000"
+  "prompt": "360000中，十万位上的数字是几？",
+  "answer": "3",
+  "verify": "3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p096_q3",
   "topicId": "cnm_p096",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "30500 的百位是几？",
-  "answer": "5",
-  "explanation": "30500 的百位是 5。",
-  "verify": "5"
+  "type": "choice",
+  "prompt": "3050000应怎样读？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "三十万零五千"
+   },
+   {
+    "key": "B",
+    "text": "三百五十万"
+   },
+   {
+    "key": "C",
+    "text": "三百零五万"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：三百零五万。",
+  "verify": "'三百零五万'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p096_q4",
   "topicId": "cnm_p096",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "一所学校约 2000 人，另一所约 3000 人。两所大约一共多少人？计算：2000＋3000＝？",
-  "answer": "5000",
-  "explanation": "2000＋3000＝5000。",
-  "verify": "2000+3000"
+  "prompt": "由2个千万、3个万和5个一组成的数是多少？",
+  "answer": "20030005",
+  "verify": "2*10000000+3*10000+5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p097_q1",
   "topicId": "cnm_p097",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：230000÷10000＝？",
+  "prompt": "把230000改写成用“万”作单位的数，是多少万？",
   "answer": "23",
-  "explanation": "230000＝23 万。",
-  "verify": "230000/10000"
+  "verify": "230000/10000",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p097_q2",
   "topicId": "cnm_p097",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：48000÷10000＝？（用小数作答）",
-  "answer": "4.8",
-  "explanation": "48000 是 4.8 万。",
-  "verify": "48000/10000"
+  "prompt": "把480000改写成用“万”作单位的数，是多少万？",
+  "answer": "48",
+  "verify": "480000/10000",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p097_q3",
   "topicId": "cnm_p097",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "一座城市约 1260000 人。改写成用万作单位是多少万？计算：1260000÷10000＝？",
+  "prompt": "一座城市约1260000人，改写成用“万”作单位是多少万？",
   "answer": "126",
-  "explanation": "1260000＝126 万。",
-  "verify": "1260000/10000"
+  "verify": "1260000/10000",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p097_q4",
   "topicId": "cnm_p097",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "计算：3500÷1000＝？（用小数作答）",
-  "answer": "3.5",
-  "explanation": "精确到千位时，3500 本身就是 3.5 个千。",
-  "verify": "3500/1000"
+  "type": "choice",
+  "prompt": "把346789四舍五入到万位，约是多少万？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "35万"
+   },
+   {
+    "key": "B",
+    "text": "34万"
+   },
+   {
+    "key": "C",
+    "text": "350万"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：35万。",
+  "verify": "'35万'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p098_q1",
@@ -192,40 +242,48 @@
   "topicId": "cnm_p100",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：90－30＝？",
-  "answer": "60",
-  "explanation": "直角 90 度，30 度的角比直角小 60 度。",
-  "verify": "90-30"
+  "prompt": "角的一条边与量角器右侧0度刻线重合。另一条边对应多少度？",
+  "answer": "30",
+  "verify": "30",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"量角器，0度刻线在右侧，顶点为O\"><title>量角器，0度刻线在右侧，顶点为O</title><path d=\"M20 165A120 120 0 0 1 260 165\" fill=\"none\" stroke=\"#718a95\"/><path d=\"M260.00 165.00L250.00 165.00\" stroke=\"#718a95\"/><text x=\"268.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">0</text><path d=\"M258.18 144.16L248.33 145.90\" stroke=\"#718a95\"/><path d=\"M252.76 123.96L243.37 127.38\" stroke=\"#718a95\"/><path d=\"M243.92 105.00L235.26 110.00\" stroke=\"#718a95\"/><text x=\"256.05\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">30</text><path d=\"M231.93 87.87L224.26 94.29\" stroke=\"#718a95\"/><path d=\"M217.13 73.07L210.71 80.74\" stroke=\"#718a95\"/><path d=\"M200.00 61.08L195.00 69.74\" stroke=\"#718a95\"/><text x=\"207.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">60</text><path d=\"M181.04 52.24L177.62 61.63\" stroke=\"#718a95\"/><path d=\"M160.84 46.82L159.10 56.67\" stroke=\"#718a95\"/><path d=\"M140.00 45.00L140.00 55.00\" stroke=\"#718a95\"/><text x=\"140.00\" y=\"35.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">90</text><path d=\"M119.16 46.82L120.90 56.67\" stroke=\"#718a95\"/><path d=\"M98.96 52.24L102.38 61.63\" stroke=\"#718a95\"/><path d=\"M80.00 61.08L85.00 69.74\" stroke=\"#718a95\"/><text x=\"73.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">120</text><path d=\"M62.87 73.07L69.29 80.74\" stroke=\"#718a95\"/><path d=\"M48.07 87.87L55.74 94.29\" stroke=\"#718a95\"/><path d=\"M36.08 105.00L44.74 110.00\" stroke=\"#718a95\"/><text x=\"23.95\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">150</text><path d=\"M27.24 123.96L36.63 127.38\" stroke=\"#718a95\"/><path d=\"M21.82 144.16L31.67 145.90\" stroke=\"#718a95\"/><path d=\"M20.00 165.00L30.00 165.00\" stroke=\"#718a95\"/><text x=\"12.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">180</text><path d=\"M260 165H140L243.92 105.00\" fill=\"none\" stroke=\"#a94b21\" stroke-width=\"3\"/><circle cx=\"140\" cy=\"165\" r=\"3\" fill=\"#173c50\"/><text x=\"137\" y=\"188\" font-size=\"14\">O</text></svg>"
  },
  {
   "id": "cnm_p100_q2",
   "topicId": "cnm_p100",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：180－90＝？",
-  "answer": "90",
-  "explanation": "平角 180 度，平角里有 2 个直角。",
-  "verify": "180-90"
+  "prompt": "从右侧0度刻线起读数，图中的角是多少度？",
+  "answer": "60",
+  "verify": "60",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"量角器，0度刻线在右侧，顶点为O\"><title>量角器，0度刻线在右侧，顶点为O</title><path d=\"M20 165A120 120 0 0 1 260 165\" fill=\"none\" stroke=\"#718a95\"/><path d=\"M260.00 165.00L250.00 165.00\" stroke=\"#718a95\"/><text x=\"268.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">0</text><path d=\"M258.18 144.16L248.33 145.90\" stroke=\"#718a95\"/><path d=\"M252.76 123.96L243.37 127.38\" stroke=\"#718a95\"/><path d=\"M243.92 105.00L235.26 110.00\" stroke=\"#718a95\"/><text x=\"256.05\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">30</text><path d=\"M231.93 87.87L224.26 94.29\" stroke=\"#718a95\"/><path d=\"M217.13 73.07L210.71 80.74\" stroke=\"#718a95\"/><path d=\"M200.00 61.08L195.00 69.74\" stroke=\"#718a95\"/><text x=\"207.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">60</text><path d=\"M181.04 52.24L177.62 61.63\" stroke=\"#718a95\"/><path d=\"M160.84 46.82L159.10 56.67\" stroke=\"#718a95\"/><path d=\"M140.00 45.00L140.00 55.00\" stroke=\"#718a95\"/><text x=\"140.00\" y=\"35.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">90</text><path d=\"M119.16 46.82L120.90 56.67\" stroke=\"#718a95\"/><path d=\"M98.96 52.24L102.38 61.63\" stroke=\"#718a95\"/><path d=\"M80.00 61.08L85.00 69.74\" stroke=\"#718a95\"/><text x=\"73.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">120</text><path d=\"M62.87 73.07L69.29 80.74\" stroke=\"#718a95\"/><path d=\"M48.07 87.87L55.74 94.29\" stroke=\"#718a95\"/><path d=\"M36.08 105.00L44.74 110.00\" stroke=\"#718a95\"/><text x=\"23.95\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">150</text><path d=\"M27.24 123.96L36.63 127.38\" stroke=\"#718a95\"/><path d=\"M21.82 144.16L31.67 145.90\" stroke=\"#718a95\"/><path d=\"M20.00 165.00L30.00 165.00\" stroke=\"#718a95\"/><text x=\"12.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">180</text><path d=\"M260 165H140L200.00 61.08\" fill=\"none\" stroke=\"#a94b21\" stroke-width=\"3\"/><circle cx=\"140\" cy=\"165\" r=\"3\" fill=\"#173c50\"/><text x=\"137\" y=\"188\" font-size=\"14\">O</text></svg>"
  },
  {
   "id": "cnm_p100_q3",
   "topicId": "cnm_p100",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "一个角是 35 度，另一个角是 20 度。两个角拼起来是多少度？计算：35＋20＝？",
-  "answer": "55",
-  "explanation": "35＋20＝55。",
-  "verify": "35+20"
+  "prompt": "从右侧0度刻线起读数，图中的角是多少度？",
+  "answer": "120",
+  "verify": "120",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"量角器，0度刻线在右侧，顶点为O\"><title>量角器，0度刻线在右侧，顶点为O</title><path d=\"M20 165A120 120 0 0 1 260 165\" fill=\"none\" stroke=\"#718a95\"/><path d=\"M260.00 165.00L250.00 165.00\" stroke=\"#718a95\"/><text x=\"268.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">0</text><path d=\"M258.18 144.16L248.33 145.90\" stroke=\"#718a95\"/><path d=\"M252.76 123.96L243.37 127.38\" stroke=\"#718a95\"/><path d=\"M243.92 105.00L235.26 110.00\" stroke=\"#718a95\"/><text x=\"256.05\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">30</text><path d=\"M231.93 87.87L224.26 94.29\" stroke=\"#718a95\"/><path d=\"M217.13 73.07L210.71 80.74\" stroke=\"#718a95\"/><path d=\"M200.00 61.08L195.00 69.74\" stroke=\"#718a95\"/><text x=\"207.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">60</text><path d=\"M181.04 52.24L177.62 61.63\" stroke=\"#718a95\"/><path d=\"M160.84 46.82L159.10 56.67\" stroke=\"#718a95\"/><path d=\"M140.00 45.00L140.00 55.00\" stroke=\"#718a95\"/><text x=\"140.00\" y=\"35.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">90</text><path d=\"M119.16 46.82L120.90 56.67\" stroke=\"#718a95\"/><path d=\"M98.96 52.24L102.38 61.63\" stroke=\"#718a95\"/><path d=\"M80.00 61.08L85.00 69.74\" stroke=\"#718a95\"/><text x=\"73.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">120</text><path d=\"M62.87 73.07L69.29 80.74\" stroke=\"#718a95\"/><path d=\"M48.07 87.87L55.74 94.29\" stroke=\"#718a95\"/><path d=\"M36.08 105.00L44.74 110.00\" stroke=\"#718a95\"/><text x=\"23.95\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">150</text><path d=\"M27.24 123.96L36.63 127.38\" stroke=\"#718a95\"/><path d=\"M21.82 144.16L31.67 145.90\" stroke=\"#718a95\"/><path d=\"M20.00 165.00L30.00 165.00\" stroke=\"#718a95\"/><text x=\"12.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">180</text><path d=\"M260 165H140L80.00 61.08\" fill=\"none\" stroke=\"#a94b21\" stroke-width=\"3\"/><circle cx=\"140\" cy=\"165\" r=\"3\" fill=\"#173c50\"/><text x=\"137\" y=\"188\" font-size=\"14\">O</text></svg>"
  },
  {
   "id": "cnm_p100_q4",
   "topicId": "cnm_p100",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "把一个 80 度的角平均分成 2 份。每份多少度？计算：80÷2＝？",
-  "answer": "40",
-  "explanation": "80÷2＝40。",
-  "verify": "80/2"
+  "prompt": "从右侧0度刻线起读数，图中的角是多少度？",
+  "answer": "150",
+  "verify": "150",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"量角器，0度刻线在右侧，顶点为O\"><title>量角器，0度刻线在右侧，顶点为O</title><path d=\"M20 165A120 120 0 0 1 260 165\" fill=\"none\" stroke=\"#718a95\"/><path d=\"M260.00 165.00L250.00 165.00\" stroke=\"#718a95\"/><text x=\"268.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">0</text><path d=\"M258.18 144.16L248.33 145.90\" stroke=\"#718a95\"/><path d=\"M252.76 123.96L243.37 127.38\" stroke=\"#718a95\"/><path d=\"M243.92 105.00L235.26 110.00\" stroke=\"#718a95\"/><text x=\"256.05\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">30</text><path d=\"M231.93 87.87L224.26 94.29\" stroke=\"#718a95\"/><path d=\"M217.13 73.07L210.71 80.74\" stroke=\"#718a95\"/><path d=\"M200.00 61.08L195.00 69.74\" stroke=\"#718a95\"/><text x=\"207.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">60</text><path d=\"M181.04 52.24L177.62 61.63\" stroke=\"#718a95\"/><path d=\"M160.84 46.82L159.10 56.67\" stroke=\"#718a95\"/><path d=\"M140.00 45.00L140.00 55.00\" stroke=\"#718a95\"/><text x=\"140.00\" y=\"35.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">90</text><path d=\"M119.16 46.82L120.90 56.67\" stroke=\"#718a95\"/><path d=\"M98.96 52.24L102.38 61.63\" stroke=\"#718a95\"/><path d=\"M80.00 61.08L85.00 69.74\" stroke=\"#718a95\"/><text x=\"73.00\" y=\"52.95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">120</text><path d=\"M62.87 73.07L69.29 80.74\" stroke=\"#718a95\"/><path d=\"M48.07 87.87L55.74 94.29\" stroke=\"#718a95\"/><path d=\"M36.08 105.00L44.74 110.00\" stroke=\"#718a95\"/><text x=\"23.95\" y=\"102.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">150</text><path d=\"M27.24 123.96L36.63 127.38\" stroke=\"#718a95\"/><path d=\"M21.82 144.16L31.67 145.90\" stroke=\"#718a95\"/><path d=\"M20.00 165.00L30.00 165.00\" stroke=\"#718a95\"/><text x=\"12.00\" y=\"169.00\" text-anchor=\"middle\" font-size=\"12\" fill=\"#173c50\">180</text><path d=\"M260 165H140L36.08 105.00\" fill=\"none\" stroke=\"#a94b21\" stroke-width=\"3\"/><circle cx=\"140\" cy=\"165\" r=\"3\" fill=\"#173c50\"/><text x=\"137\" y=\"188\" font-size=\"14\">O</text></svg>"
  },
  {
   "id": "cnm_p101_q1",
@@ -595,55 +653,63 @@
   "id": "cnm_p108_q1",
   "topicId": "cnm_p108",
   "difficulty": "basic",
-  "type": "choice",
-  "prompt": "条形统计图适合看什么？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "数量的多少"
-   },
-   {
-    "key": "B",
-    "text": "数量怎样变化"
-   },
-   {
-    "key": "C",
-    "text": "各部分占总数的百分之几"
-   }
-  ],
-  "answer": "A",
-  "explanation": "直条的高矮表示数量多少。",
-  "verify": "'数量的多少'"
+  "type": "numeric",
+  "prompt": "读条形统计图，喜欢苹果的有多少人？",
+  "answer": "15",
+  "verify": "15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"喜欢三种水果的人数条形统计图\"><title>喜欢三种水果的人数条形统计图</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"80\" width=\"24\" height=\"75\" fill=\"#37819c\"/><text x=\"82\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"82\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">苹果</text><rect x=\"140\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"152\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><text x=\"152\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">香蕉</text><rect x=\"210\" y=\"95\" width=\"24\" height=\"60\" fill=\"#37819c\"/><text x=\"222\" y=\"89\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">12</text><text x=\"222\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">橙子</text></svg>"
  },
  {
   "id": "cnm_p108_q2",
   "topicId": "cnm_p108",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：12－7＝？",
-  "answer": "5",
-  "explanation": "最高的直条是 12，另一条是 7，相差 5。",
-  "verify": "12-7"
+  "prompt": "读条形统计图，喜欢香蕉的有多少人？",
+  "answer": "9",
+  "verify": "9",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"喜欢三种水果的人数条形统计图\"><title>喜欢三种水果的人数条形统计图</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"80\" width=\"24\" height=\"75\" fill=\"#37819c\"/><text x=\"82\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"82\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">苹果</text><rect x=\"140\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"152\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><text x=\"152\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">香蕉</text><rect x=\"210\" y=\"95\" width=\"24\" height=\"60\" fill=\"#37819c\"/><text x=\"222\" y=\"89\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">12</text><text x=\"222\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">橙子</text></svg>"
  },
  {
   "id": "cnm_p108_q3",
   "topicId": "cnm_p108",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "喜欢苹果的有 15 人，喜欢香蕉的有 9 人。苹果比香蕉多几人？计算：15－9＝？",
+  "prompt": "读条形统计图，喜欢苹果的比香蕉多多少人？",
   "answer": "6",
-  "explanation": "15－9＝6。",
-  "verify": "15-9"
+  "verify": "15-9",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"喜欢三种水果的人数条形统计图\"><title>喜欢三种水果的人数条形统计图</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"80\" width=\"24\" height=\"75\" fill=\"#37819c\"/><text x=\"82\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"82\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">苹果</text><rect x=\"140\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"152\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><text x=\"152\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">香蕉</text><rect x=\"210\" y=\"95\" width=\"24\" height=\"60\" fill=\"#37819c\"/><text x=\"222\" y=\"89\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">12</text><text x=\"222\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">橙子</text></svg>"
  },
  {
   "id": "cnm_p108_q4",
   "topicId": "cnm_p108",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "四天借书本数是 8、6、10、4。哪两天合起来是 14 本？先算 8＋6。计算：8＋6＝？",
-  "answer": "14",
-  "explanation": "8＋6＝14，是第一天和第二天。",
-  "verify": "8+6"
+  "type": "choice",
+  "prompt": "读条形统计图，喜欢哪种水果的人最多？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "苹果"
+   },
+   {
+    "key": "B",
+    "text": "香蕉"
+   },
+   {
+    "key": "C",
+    "text": "橙子"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：苹果。",
+  "verify": "'苹果'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"喜欢三种水果的人数条形统计图\"><title>喜欢三种水果的人数条形统计图</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"80\" width=\"24\" height=\"75\" fill=\"#37819c\"/><text x=\"82\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"82\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">苹果</text><rect x=\"140\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"152\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><text x=\"152\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">香蕉</text><rect x=\"210\" y=\"95\" width=\"24\" height=\"60\" fill=\"#37819c\"/><text x=\"222\" y=\"89\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">12</text><text x=\"222\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">橙子</text></svg>"
  },
  {
   "id": "cnm_p109_q1",
@@ -703,59 +769,73 @@
   "id": "cnm_p110_q1",
   "topicId": "cnm_p110",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：36－15＝？",
-  "answer": "21",
-  "explanation": "和是 36，一个加数是 15，另一个加数是 21。",
-  "verify": "36-15"
+  "type": "choice",
+  "prompt": "如果被减数、减数和差都已知，哪一个关系正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "被减数＝差＋减数"
+   },
+   {
+    "key": "B",
+    "text": "被减数＝差－减数"
+   },
+   {
+    "key": "C",
+    "text": "减数＝差＋被减数"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：被减数＝差＋减数。",
+  "verify": "'被减数＝差＋减数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p110_q2",
   "topicId": "cnm_p110",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：48÷6＝？",
-  "answer": "8",
-  "explanation": "积是 48，一个因数是 6，另一个因数是 8。",
-  "verify": "48/6"
+  "prompt": "□－15＝21，□是多少？",
+  "answer": "36",
+  "verify": "21+15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p110_q3",
   "topicId": "cnm_p110",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "两个数相加得 70，其中一个是 28。另一个是多少？计算：70－28＝？",
-  "answer": "42",
-  "explanation": "70－28＝42。",
-  "verify": "70-28"
+  "type": "choice",
+  "prompt": "没有余数的除法中，哪一个关系正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "被除数＝商＋除数"
+   },
+   {
+    "key": "B",
+    "text": "除数＝被除数×商"
+   },
+   {
+    "key": "C",
+    "text": "被除数＝商×除数"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：被除数＝商×除数。",
+  "verify": "'被除数＝商×除数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p110_q4",
   "topicId": "cnm_p110",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "90÷5 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "16"
-   },
-   {
-    "key": "B",
-    "text": "19"
-   },
-   {
-    "key": "C",
-    "text": "18"
-   },
-   {
-    "key": "D",
-    "text": "20"
-   }
-  ],
-  "answer": "C",
-  "explanation": "90÷5＝18。",
-  "verify": "90/5"
+  "type": "numeric",
+  "prompt": "□÷6＝8，□是多少？",
+  "answer": "48",
+  "verify": "8*6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p111_q1",
@@ -993,349 +1073,531 @@
   "id": "cnm_p114_q1",
   "topicId": "cnm_p114",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：28＋72＝？",
-  "answer": "100",
-  "explanation": "28＋72＝100，交换位置 72＋28 仍是 100。",
-  "verify": "28+72"
+  "type": "choice",
+  "prompt": "25＋37＝37＋25运用了什么运算律？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "加法交换律"
+   },
+   {
+    "key": "B",
+    "text": "乘法交换律"
+   },
+   {
+    "key": "C",
+    "text": "乘法分配律"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：加法交换律。",
+  "verify": "'加法交换律'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p114_q2",
   "topicId": "cnm_p114",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：135＋65＝？",
-  "answer": "200",
-  "explanation": "先把 135 和 65 合成 200。",
-  "verify": "135+65"
+  "type": "choice",
+  "prompt": "（12＋28）＋72＝12＋（28＋72）运用了什么运算律？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "乘法结合律"
+   },
+   {
+    "key": "B",
+    "text": "加法结合律"
+   },
+   {
+    "key": "C",
+    "text": "加法交换律"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：加法结合律。",
+  "verify": "'加法结合律'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p114_q3",
   "topicId": "cnm_p114",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "计算 46＋98 时，可以先算 46＋100 再减 2。46＋100 是多少？计算：46＋100＝？",
-  "answer": "146",
-  "explanation": "46＋100＝146，再减 2 才是 144。这里先算 46＋100。",
-  "verify": "46+100"
+  "prompt": "运用加法交换律：38＋62＝62＋□，□是多少？",
+  "answer": "38",
+  "verify": "38",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p114_q4",
   "topicId": "cnm_p114",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "17＋83 的得数是哪一个？",
+  "prompt": "算36＋27＋64时，哪种重新分组能先凑整百且结果不变？",
   "choices": [
    {
     "key": "A",
-    "text": "90"
+    "text": "（36＋64）＋27"
    },
    {
     "key": "B",
-    "text": "110"
+    "text": "（36－64）＋27"
    },
    {
     "key": "C",
-    "text": "100"
-   },
-   {
-    "key": "D",
-    "text": "183"
+    "text": "36＋（64－27）"
    }
   ],
-  "answer": "C",
-  "explanation": "17＋83＝100。",
-  "verify": "17+83"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：（36＋64）＋27。",
+  "verify": "'（36＋64）＋27'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p115_q1",
   "topicId": "cnm_p115",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：25×4＝？",
-  "answer": "100",
-  "explanation": "25×4＝100，4×25 也是 100。",
-  "verify": "25*4"
+  "type": "choice",
+  "prompt": "25×4＝4×25运用了什么运算律？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "乘法交换律"
+   },
+   {
+    "key": "B",
+    "text": "加法交换律"
+   },
+   {
+    "key": "C",
+    "text": "乘法分配律"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：乘法交换律。",
+  "verify": "'乘法交换律'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p115_q2",
   "topicId": "cnm_p115",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：5×8×2＝？",
-  "answer": "80",
-  "explanation": "先算 5×2＝10，再乘 8 得 80。",
-  "verify": "5*8*2"
+  "type": "choice",
+  "prompt": "（2×5）×8＝2×（5×8）运用了什么运算律？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "乘法分配律"
+   },
+   {
+    "key": "B",
+    "text": "乘法结合律"
+   },
+   {
+    "key": "C",
+    "text": "加法结合律"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：乘法结合律。",
+  "verify": "'乘法结合律'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p115_q3",
   "topicId": "cnm_p115",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "每排 25 人，有 4 排。一共多少人？计算：25×4＝？",
-  "answer": "100",
-  "explanation": "25×4＝100。",
-  "verify": "25*4"
+  "prompt": "运用乘法交换律：13×7＝7×□，□是多少？",
+  "answer": "13",
+  "verify": "13",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p115_q4",
   "topicId": "cnm_p115",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "125×8 的得数是哪一个？",
+  "prompt": "计算25×7×4，哪种重组最便于先算出100？",
   "choices": [
    {
     "key": "A",
-    "text": "800"
+    "text": "（25×4）×7"
    },
    {
     "key": "B",
-    "text": "900"
+    "text": "25×（7＋4）"
    },
    {
     "key": "C",
-    "text": "1000"
-   },
-   {
-    "key": "D",
-    "text": "1008"
+    "text": "（25＋4）×7"
    }
   ],
-  "answer": "C",
-  "explanation": "125×8＝1000。",
-  "verify": "125*8"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：（25×4）×7。",
+  "verify": "'（25×4）×7'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p116_q1",
   "topicId": "cnm_p116",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：25×4＋25×6＝？",
-  "answer": "250",
-  "explanation": "25×4＝100，25×6＝150，相加 250，也可以先算 25×（4＋6）。",
-  "verify": "25*4+25*6"
+  "type": "choice",
+  "prompt": "（3＋7）×5按乘法分配律展开，哪个正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3×5＋7×5"
+   },
+   {
+    "key": "B",
+    "text": "3＋7×5"
+   },
+   {
+    "key": "C",
+    "text": "3×7＋5"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3×5＋7×5。",
+  "verify": "'3×5＋7×5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p116_q2",
   "topicId": "cnm_p116",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：25×（4＋6）＝？",
-  "answer": "250",
-  "explanation": "4＋6＝10，25×10＝250，和分开乘再加的结果一样。",
-  "verify": "25*(4+6)"
+  "prompt": "（20＋4）×6＝20×6＋4×□，□是多少？",
+  "answer": "6",
+  "verify": "6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p116_q3",
   "topicId": "cnm_p116",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "买 4 支笔和 6 支笔，每支 8 元。一共多少元？计算：8×（4＋6）＝？",
-  "answer": "80",
-  "explanation": "先算 4＋6＝10，再算 8×10＝80。",
-  "verify": "8*(4+6)"
+  "type": "choice",
+  "prompt": "25×8＋25×2可以合并为哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "25×（8×2）"
+   },
+   {
+    "key": "B",
+    "text": "（25＋25）×（8＋2）"
+   },
+   {
+    "key": "C",
+    "text": "25×（8＋2）"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：25×（8＋2）。",
+  "verify": "'25×（8＋2）'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p116_q4",
   "topicId": "cnm_p116",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "12×5＋12×5 的得数是哪一个？",
+  "prompt": "99×5＝（100－1）×5，接下来怎样算正确？",
   "choices": [
    {
     "key": "A",
-    "text": "100"
+    "text": "100×5－1×5"
    },
    {
     "key": "B",
-    "text": "110"
+    "text": "100×5－1"
    },
    {
     "key": "C",
-    "text": "130"
-   },
-   {
-    "key": "D",
-    "text": "120"
+    "text": "100－1×5"
    }
   ],
-  "answer": "D",
-  "explanation": "12×5＝60，60＋60＝120。",
-  "verify": "12*5+12*5"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：100×5－1×5。",
+  "verify": "'100×5－1×5'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p117_q1",
   "topicId": "cnm_p117",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：99×5＝？",
-  "answer": "495",
-  "explanation": "99×5 可以想成（100－1）×5＝500－5＝495。",
-  "verify": "99*5"
+  "type": "choice",
+  "prompt": "计算98＋57＋2时，哪种算法便于凑整百？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "（98＋2）＋57"
+   },
+   {
+    "key": "B",
+    "text": "98＋（57－2）"
+   },
+   {
+    "key": "C",
+    "text": "（98－2）＋57"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：（98＋2）＋57。",
+  "verify": "'（98＋2）＋57'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p117_q2",
   "topicId": "cnm_p117",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：36＋64＋50＝？",
-  "answer": "150",
-  "explanation": "36＋64＝100，再加 50 得 150。",
-  "verify": "36+64+50"
+  "type": "choice",
+  "prompt": "计算125×3×8，哪种算法简便且正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "（125＋8）×3"
+   },
+   {
+    "key": "B",
+    "text": "（125×8）×3"
+   },
+   {
+    "key": "C",
+    "text": "125×（3＋8）"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：（125×8）×3。",
+  "verify": "'（125×8）×3'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p117_q3",
   "topicId": "cnm_p117",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "每本 48 元，买 2 本。可以先算 50×2 再减 2×2。50×2 是多少？计算：50×2＝？",
-  "answer": "100",
-  "explanation": "50×2＝100，再减 4 才是 96。",
-  "verify": "50*2"
+  "type": "choice",
+  "prompt": "计算102×6，哪种算法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "100×6＋2"
+   },
+   {
+    "key": "B",
+    "text": "100＋2×6"
+   },
+   {
+    "key": "C",
+    "text": "100×6＋2×6"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：100×6＋2×6。",
+  "verify": "'100×6＋2×6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p117_q4",
   "topicId": "cnm_p117",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "25×12 的得数是哪一个？",
+  "prompt": "计算560÷8÷7，哪种变形正确？",
   "choices": [
    {
     "key": "A",
-    "text": "250"
+    "text": "560÷（8×7）"
    },
    {
     "key": "B",
-    "text": "275"
+    "text": "560÷（8＋7）"
    },
    {
     "key": "C",
-    "text": "300"
-   },
-   {
-    "key": "D",
-    "text": "312"
+    "text": "560÷（8－7）"
    }
   ],
-  "answer": "C",
-  "explanation": "25×12＝25×4×3＝300。",
-  "verify": "25*12"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：560÷（8×7）。",
+  "verify": "'560÷（8×7）'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p118_q1",
   "topicId": "cnm_p118",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：0.3＋0.4＝？（用小数作答）",
-  "answer": "0.7",
-  "explanation": "0.3 是 3 个 0.1，0.4 是 4 个 0.1，合起来 0.7。",
-  "verify": "0.3+0.4"
+  "type": "choice",
+  "prompt": "0.3表示什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "十分之三"
+   },
+   {
+    "key": "B",
+    "text": "百分之三"
+   },
+   {
+    "key": "C",
+    "text": "三个十"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：十分之三。",
+  "verify": "'十分之三'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p118_q2",
   "topicId": "cnm_p118",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：1.0－0.6＝？（用小数作答）",
-  "answer": "0.4",
-  "explanation": "1.0－0.6＝0.4。",
-  "verify": "1.0-0.6"
+  "prompt": "1米平均分成100份，取其中7份，用小数表示是多少米？",
+  "answer": "0.07",
+  "verify": "7/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p118_q3",
   "topicId": "cnm_p118",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "把 1 米平均分成 10 份，取 7 份。用一位小数表示是多少米？计算：0.1×7＝？（用小数作答）",
-  "answer": "0.7",
-  "explanation": "7 个 0.1 米是 0.7 米。",
-  "verify": "0.1*7"
+  "type": "choice",
+  "prompt": "小数4.56中的5在什么数位？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "百分位"
+   },
+   {
+    "key": "B",
+    "text": "个位"
+   },
+   {
+    "key": "C",
+    "text": "十分位"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：十分位。",
+  "verify": "'十分位'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p118_q4",
   "topicId": "cnm_p118",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "0.5＋0.5 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "0.8"
-   },
-   {
-    "key": "B",
-    "text": "0.9"
-   },
-   {
-    "key": "C",
-    "text": "1.1"
-   },
-   {
-    "key": "D",
-    "text": "1"
-   }
-  ],
-  "answer": "D",
-  "explanation": "0.5＋0.5＝1。",
-  "verify": "0.5+0.5"
+  "type": "numeric",
+  "prompt": "由2个一和8个百分之一组成的小数是多少？",
+  "answer": "2.08",
+  "verify": "2+8/100",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p119_q1",
   "topicId": "cnm_p119",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：3.5－2.8＝？（用小数作答）",
-  "answer": "0.7",
-  "explanation": "3.5 比 2.8 大，相差 0.7。",
-  "verify": "3.5-2.8"
+  "type": "choice",
+  "prompt": "比较3.5和2.8的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "3.5＞2.8"
+   },
+   {
+    "key": "B",
+    "text": "3.5＜2.8"
+   },
+   {
+    "key": "C",
+    "text": "3.5＝2.8"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：3.5＞2.8。",
+  "verify": "'3.5＞2.8'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p119_q2",
   "topicId": "cnm_p119",
   "difficulty": "basic",
-  "type": "numeric",
-  "prompt": "计算：1.6－1.2＝？（用小数作答）",
-  "answer": "0.4",
-  "explanation": "整数部分都是 1，十分位 6 比 2 大，相差 0.4。",
-  "verify": "1.6-1.2"
+  "type": "choice",
+  "prompt": "比较1.60和1.6的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "1.60＜1.6"
+   },
+   {
+    "key": "B",
+    "text": "1.60＝1.6"
+   },
+   {
+    "key": "C",
+    "text": "1.60＞1.6"
+   }
+  ],
+  "answer": "B",
+  "explanation": "按题目条件判断，正确的是：1.60＝1.6。",
+  "verify": "'1.60＝1.6'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p119_q3",
   "topicId": "cnm_p119",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "一根绳子 2.4 米，另一根 1.9 米。长的比短的多多少米？计算：2.4－1.9＝？（用小数作答）",
-  "answer": "0.5",
-  "explanation": "2.4－1.9＝0.5。",
-  "verify": "2.4-1.9"
+  "type": "choice",
+  "prompt": "比较0.9和0.12的大小，哪种写法正确？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "0.9＜0.12"
+   },
+   {
+    "key": "B",
+    "text": "0.9＝0.12"
+   },
+   {
+    "key": "C",
+    "text": "0.9＞0.12"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：0.9＞0.12。",
+  "verify": "'0.9＞0.12'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p119_q4",
   "topicId": "cnm_p119",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "4.0－1.5 的得数是哪一个？",
+  "prompt": "哪一组按从小到大排列？",
   "choices": [
    {
     "key": "A",
-    "text": "2.0"
+    "text": "2.05、2.5、2.55"
    },
    {
     "key": "B",
-    "text": "2.5"
+    "text": "2.5、2.05、2.55"
    },
    {
     "key": "C",
-    "text": "3.5"
-   },
-   {
-    "key": "D",
-    "text": "5.5"
+    "text": "2.55、2.5、2.05"
    }
   ],
-  "answer": "B",
-  "explanation": "4.0－1.5＝2.5。",
-  "verify": "4.0-1.5"
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：2.05、2.5、2.55。",
+  "verify": "'2.05、2.5、2.55'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p120_q1",
@@ -1400,58 +1662,58 @@
   "topicId": "cnm_p121",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "3.8 四舍五入到个位，看十分位。十分位是 8，要进 1。个位 3 加 1 是多少？计算：3＋1＝？",
+  "prompt": "把3.8四舍五入到个位，近似数是多少？",
   "answer": "4",
-  "explanation": "十分位满 5 向个位进 1，近似数是 4。",
-  "verify": "3+1"
+  "verify": "4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p121_q2",
   "topicId": "cnm_p121",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "6.3 四舍五入到个位，十分位是 3，不去进位。近似数的个位是多少？计算：6＋0＝？",
+  "prompt": "把6.3四舍五入到个位，近似数是多少？",
   "answer": "6",
-  "explanation": "十分位小于 5，近似数是 6。",
-  "verify": "6+0"
+  "verify": "6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p121_q3",
   "topicId": "cnm_p121",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "2.46 保留一位小数，看百分位 6，要向十分位进 1。十分位 4 加 1 是多少？计算：4＋1＝？",
-  "answer": "5",
-  "explanation": "百分位满 5 向十分位进 1，近似数是 2.5。",
-  "verify": "4+1"
+  "prompt": "把2.46保留一位小数，近似数是多少？",
+  "answer": "2.5",
+  "verify": "2.5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p121_q4",
   "topicId": "cnm_p121",
   "difficulty": "standard",
   "type": "choice",
-  "prompt": "9＋1 的得数是哪一个？",
+  "prompt": "把7.96保留一位小数，哪种写法正确？",
   "choices": [
    {
     "key": "A",
-    "text": "10"
+    "text": "8.0"
    },
    {
     "key": "B",
-    "text": "8"
+    "text": "7.9"
    },
    {
     "key": "C",
-    "text": "11"
-   },
-   {
-    "key": "D",
-    "text": "19"
+    "text": "7.0"
    }
   ],
   "answer": "A",
-  "explanation": "7.96 保留一位小数，百分位 6 要进位，十分位 9 再进到个位，近似数是 8.0。这里先算进位用的 9＋1。",
-  "verify": "9+1"
+  "explanation": "按题目条件判断，正确的是：8.0。",
+  "verify": "'8.0'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p122_q1",
@@ -1746,58 +2008,58 @@
   "topicId": "cnm_p126",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：10－3.6＝？（用小数作答）",
+  "prompt": "一本书3.6元，付10元，应找回多少元？",
   "answer": "6.4",
-  "explanation": "10 元买东西用去 3.6 元，找回 6.4 元。",
-  "verify": "10-3.6"
+  "verify": "10-3.6",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p126_q2",
   "topicId": "cnm_p126",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：2.5＋1.5＝？（用小数作答）",
-  "answer": "4",
-  "explanation": "2.5＋1.5＝4。",
-  "verify": "2.5+1.5"
+  "prompt": "一根绳子长2.35米，接上1.4米，现在一共长多少米？",
+  "answer": "3.75",
+  "verify": "2.35+1.4",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p126_q3",
   "topicId": "cnm_p126",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "跳绳 1.8 米，另一个人跳 1.2 米。两人一共跳了多少米？计算：1.8＋1.2＝？（用小数作答）",
-  "answer": "3",
-  "explanation": "1.8＋1.2＝3。",
-  "verify": "1.8+1.2"
+  "type": "choice",
+  "prompt": "一袋米原重5.8千克，用去1.25千克。求剩余重量应选哪个算式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "5.8＋1.25"
+   },
+   {
+    "key": "B",
+    "text": "1.25－5.8"
+   },
+   {
+    "key": "C",
+    "text": "5.8－1.25"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：5.8－1.25。",
+  "verify": "'5.8－1.25'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p126_q4",
   "topicId": "cnm_p126",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "5.0－2.4 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "2.4"
-   },
-   {
-    "key": "B",
-    "text": "2.6"
-   },
-   {
-    "key": "C",
-    "text": "2.8"
-   },
-   {
-    "key": "D",
-    "text": "3.6"
-   }
-  ],
-  "answer": "B",
-  "explanation": "5.0－2.4＝2.6。",
-  "verify": "5.0-2.4"
+  "type": "numeric",
+  "prompt": "小明有20元，买笔用去4.5元，买本子用去6.8元，还剩多少元？",
+  "answer": "8.7",
+  "verify": "20-4.5-6.8",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p127_q1",
@@ -2002,129 +2264,307 @@
   "topicId": "cnm_p130",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：18－12＝？",
-  "answer": "6",
-  "explanation": "同一项目上，甲是 18、乙是 12，甲比乙多 6。",
-  "verify": "18-12"
+  "prompt": "读复式条形统计图，一班参加跳绳的有多少人？",
+  "answer": "16",
+  "verify": "16",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"复式条形统计图，一班为蓝色、二班为橙色\"><title>复式条形统计图，一班为蓝色、二班为橙色</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"75\" width=\"24\" height=\"80\" fill=\"#37819c\"/><text x=\"82\" y=\"69\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">16</text><rect x=\"98\" y=\"100\" width=\"24\" height=\"55\" fill=\"#d88a39\"/><text x=\"110\" y=\"94\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">11</text><text x=\"96\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">跳绳</text><rect x=\"175\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"187\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><rect x=\"203\" y=\"80\" width=\"24\" height=\"75\" fill=\"#d88a39\"/><text x=\"215\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"201\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">游泳</text><rect x=\"75\" y=\"8\" width=\"10\" height=\"10\" fill=\"#37819c\"/><text x=\"90\" y=\"18\" font-size=\"13\">一班</text><rect x=\"175\" y=\"8\" width=\"10\" height=\"10\" fill=\"#d88a39\"/><text x=\"190\" y=\"18\" font-size=\"13\">二班</text></svg>"
  },
  {
   "id": "cnm_p130_q2",
   "topicId": "cnm_p130",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：9＋15＝？",
-  "answer": "24",
-  "explanation": "两组分别是 9 和 15，合起来是 24。",
-  "verify": "9+15"
+  "prompt": "读复式条形统计图，二班参加游泳的有多少人？",
+  "answer": "15",
+  "verify": "15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"复式条形统计图，一班为蓝色、二班为橙色\"><title>复式条形统计图，一班为蓝色、二班为橙色</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"75\" width=\"24\" height=\"80\" fill=\"#37819c\"/><text x=\"82\" y=\"69\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">16</text><rect x=\"98\" y=\"100\" width=\"24\" height=\"55\" fill=\"#d88a39\"/><text x=\"110\" y=\"94\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">11</text><text x=\"96\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">跳绳</text><rect x=\"175\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"187\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><rect x=\"203\" y=\"80\" width=\"24\" height=\"75\" fill=\"#d88a39\"/><text x=\"215\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"201\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">游泳</text><rect x=\"75\" y=\"8\" width=\"10\" height=\"10\" fill=\"#37819c\"/><text x=\"90\" y=\"18\" font-size=\"13\">一班</text><rect x=\"175\" y=\"8\" width=\"10\" height=\"10\" fill=\"#d88a39\"/><text x=\"190\" y=\"18\" font-size=\"13\">二班</text></svg>"
  },
  {
   "id": "cnm_p130_q3",
   "topicId": "cnm_p130",
   "difficulty": "standard",
   "type": "numeric",
-  "prompt": "一班喜欢跳绳的有 16 人，二班有 11 人。一班比二班多几人？计算：16－11＝？",
+  "prompt": "读复式条形统计图，一班参加跳绳的比二班多多少人？",
   "answer": "5",
-  "explanation": "16－11＝5。",
-  "verify": "16-11"
+  "verify": "16-11",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"复式条形统计图，一班为蓝色、二班为橙色\"><title>复式条形统计图，一班为蓝色、二班为橙色</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"75\" width=\"24\" height=\"80\" fill=\"#37819c\"/><text x=\"82\" y=\"69\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">16</text><rect x=\"98\" y=\"100\" width=\"24\" height=\"55\" fill=\"#d88a39\"/><text x=\"110\" y=\"94\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">11</text><text x=\"96\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">跳绳</text><rect x=\"175\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"187\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><rect x=\"203\" y=\"80\" width=\"24\" height=\"75\" fill=\"#d88a39\"/><text x=\"215\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"201\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">游泳</text><rect x=\"75\" y=\"8\" width=\"10\" height=\"10\" fill=\"#37819c\"/><text x=\"90\" y=\"18\" font-size=\"13\">一班</text><rect x=\"175\" y=\"8\" width=\"10\" height=\"10\" fill=\"#d88a39\"/><text x=\"190\" y=\"18\" font-size=\"13\">二班</text></svg>"
  },
  {
   "id": "cnm_p130_q4",
   "topicId": "cnm_p130",
   "difficulty": "standard",
-  "type": "choice",
-  "prompt": "20＋14 的得数是哪一个？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "24"
-   },
-   {
-    "key": "B",
-    "text": "30"
-   },
-   {
-    "key": "C",
-    "text": "34"
-   },
-   {
-    "key": "D",
-    "text": "36"
-   }
-  ],
-  "answer": "C",
-  "explanation": "20＋14＝34。",
-  "verify": "20+14"
+  "type": "numeric",
+  "prompt": "读复式条形统计图，两班参加游泳的合计多少人？",
+  "answer": "24",
+  "verify": "9+15",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。",
+  "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"复式条形统计图，一班为蓝色、二班为橙色\"><title>复式条形统计图，一班为蓝色、二班为橙色</title><path d=\"M45 20V155H285\" fill=\"none\" stroke=\"#173c50\" stroke-width=\"2\"/><path d=\"M45 155H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"160\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">0</text><path d=\"M45 130H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"135\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">5</text><path d=\"M45 105H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"110\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">10</text><path d=\"M45 80H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"85\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">15</text><path d=\"M45 55H285\" stroke=\"#d3dfe3\"/><text x=\"35\" y=\"60\" text-anchor=\"end\" font-size=\"13\" fill=\"#173c50\">20</text><text x=\"10\" y=\"18\" font-size=\"13\">人数</text><rect x=\"70\" y=\"75\" width=\"24\" height=\"80\" fill=\"#37819c\"/><text x=\"82\" y=\"69\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">16</text><rect x=\"98\" y=\"100\" width=\"24\" height=\"55\" fill=\"#d88a39\"/><text x=\"110\" y=\"94\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">11</text><text x=\"96\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">跳绳</text><rect x=\"175\" y=\"110\" width=\"24\" height=\"45\" fill=\"#37819c\"/><text x=\"187\" y=\"104\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">9</text><rect x=\"203\" y=\"80\" width=\"24\" height=\"75\" fill=\"#d88a39\"/><text x=\"215\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#173c50\">15</text><text x=\"201\" y=\"178\" text-anchor=\"middle\" font-size=\"14\" fill=\"#173c50\">游泳</text><rect x=\"75\" y=\"8\" width=\"10\" height=\"10\" fill=\"#37819c\"/><text x=\"90\" y=\"18\" font-size=\"13\">一班</text><rect x=\"175\" y=\"8\" width=\"10\" height=\"10\" fill=\"#d88a39\"/><text x=\"190\" y=\"18\" font-size=\"13\">二班</text></svg>"
  },
  {
   "id": "cnm_p131_q1",
   "topicId": "cnm_p131",
   "difficulty": "basic",
-  "type": "choice",
-  "prompt": "鸡兔同笼用的是什么方法？",
-  "choices": [
-   {
-    "key": "A",
-    "text": "假设全部是鸡，再调整"
-   },
-   {
-    "key": "B",
-    "text": "把鸡和兔的只数直接相乘"
-   },
-   {
-    "key": "C",
-    "text": "只数鸡、不数腿"
-   }
-  ],
-  "answer": "A",
-  "explanation": "多出的腿是因为把兔当成了鸡。",
-  "verify": "'假设全部是鸡，再调整'"
+  "type": "numeric",
+  "prompt": "鸡兔共8只、共26条腿。兔有几只？",
+  "answer": "5",
+  "verify": "(26-8*2)/2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p131_q2",
   "topicId": "cnm_p131",
   "difficulty": "basic",
   "type": "numeric",
-  "prompt": "计算：8×2＝？",
-  "answer": "16",
-  "explanation": "假设 8 只全是鸡，应有 16 条腿。",
-  "verify": "8*2"
+  "prompt": "鸡兔共6只、共16条腿。兔有几只？",
+  "answer": "2",
+  "verify": "(16-6*2)/2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  },
  {
   "id": "cnm_p131_q3",
   "topicId": "cnm_p131",
   "difficulty": "standard",
-  "type": "numeric",
-  "prompt": "实际有 26 条腿，假设全是鸡只有 16 条。多出多少条？计算：26－16＝？",
-  "answer": "10",
-  "explanation": "26－16＝10。每把一只鸡换成兔会多 2 条腿。",
-  "verify": "26-16"
+  "type": "choice",
+  "prompt": "鸡兔共10只，假设全是鸡，共20条腿；实际有28条腿。多出的8条腿应怎样用？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "用8÷4求兔数"
+   },
+   {
+    "key": "B",
+    "text": "用8×2求兔数"
+   },
+   {
+    "key": "C",
+    "text": "每只兔比鸡多2条腿，用8÷2求兔数"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：每只兔比鸡多2条腿，用8÷2求兔数。",
+  "verify": "'每只兔比鸡多2条腿，用8÷2求兔数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
  },
  {
   "id": "cnm_p131_q4",
   "topicId": "cnm_p131",
   "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "鸡兔共9只、共24条腿。鸡有几只？",
+  "answer": "6",
+  "verify": "9-(24-9*2)/2",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p087_q1",
+  "topicId": "cnm_p087",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "每箱有16瓶水，买12箱，一共多少瓶？",
+  "answer": "192",
+  "verify": "16*12",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p087_q2",
+  "topicId": "cnm_p087",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "每套书25元，买14套，一共需要多少元？",
+  "answer": "350",
+  "verify": "25*14",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p087_q3",
+  "topicId": "cnm_p087",
+  "difficulty": "standard",
   "type": "choice",
-  "prompt": "10÷2 的得数是哪一个？",
+  "prompt": "每排坐18人，共有15排，求总人数应选哪个算式？",
   "choices": [
    {
     "key": "A",
-    "text": "5"
+    "text": "18＋15"
    },
    {
     "key": "B",
-    "text": "4"
+    "text": "18－15"
    },
    {
     "key": "C",
-    "text": "6"
+    "text": "18×15"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：18×15。",
+  "verify": "'18×15'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p087_q4",
+  "topicId": "cnm_p087",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "工人每天装配24台机器，连续装配11天，一共装配多少台？",
+  "answer": "264",
+  "verify": "24*11",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p230_q1",
+  "topicId": "cnm_p230",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "一班男生23人、女生21人，求一共有多少人，属于哪种数量关系？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把两部分合起来求总数"
    },
    {
-    "key": "D",
-    "text": "8"
+    "key": "B",
+    "text": "求每份数量"
+   },
+   {
+    "key": "C",
+    "text": "求几个相同加数的和"
    }
   ],
   "answer": "A",
-  "explanation": "多出 10 条腿，每只兔多 2 条，兔有 5 只。",
-  "verify": "10/2"
+  "explanation": "按题目条件判断，正确的是：把两部分合起来求总数。",
+  "verify": "'把两部分合起来求总数'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p230_q2",
+  "topicId": "cnm_p230",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "两段绳子分别长28米和17米，接在一起长多少米？",
+  "answer": "45",
+  "verify": "28+17",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p230_q3",
+  "topicId": "cnm_p230",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "一条路已修24千米、还剩16千米，求全长应选哪个模型？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "全长＝已修－剩余"
+   },
+   {
+    "key": "B",
+    "text": "全长＝已修×剩余"
+   },
+   {
+    "key": "C",
+    "text": "全长＝已修＋剩余"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：全长＝已修＋剩余。",
+  "verify": "'全长＝已修＋剩余'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p230_q4",
+  "topicId": "cnm_p230",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "小明有45张卡片，比小红多12张，小红有多少张？",
+  "answer": "33",
+  "verify": "45-12",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p231_q1",
+  "topicId": "cnm_p231",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "每支笔6元，买12支，求总价应选哪个模型？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "总价＝单价×数量"
+   },
+   {
+    "key": "B",
+    "text": "总价＝单价＋数量"
+   },
+   {
+    "key": "C",
+    "text": "总价＝单价－数量"
+   }
+  ],
+  "answer": "A",
+  "explanation": "按题目条件判断，正确的是：总价＝单价×数量。",
+  "verify": "'总价＝单价×数量'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p231_q2",
+  "topicId": "cnm_p231",
+  "difficulty": "basic",
+  "type": "numeric",
+  "prompt": "每箱装18瓶水，5箱一共装多少瓶？",
+  "answer": "90",
+  "verify": "18*5",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
+ },
+ {
+  "id": "cnm_p231_q3",
+  "topicId": "cnm_p231",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "匀速行驶时，求路程应选哪个模型？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "路程＝速度＋时间"
+   },
+   {
+    "key": "B",
+    "text": "路程＝速度－时间"
+   },
+   {
+    "key": "C",
+    "text": "路程＝速度×时间"
+   }
+  ],
+  "answer": "C",
+  "explanation": "按题目条件判断，正确的是：路程＝速度×时间。",
+  "verify": "'路程＝速度×时间'",
+  "fixed_from_source": "广州适配：修正题目与知识点的对应，不表示教师审核或盲解核验。"
+ },
+ {
+  "id": "cnm_p231_q4",
+  "topicId": "cnm_p231",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "汽车每小时行60千米，匀速行驶3小时，一共行多少千米？",
+  "answer": "180",
+  "verify": "60*3",
+  "explanation": "根据题目给出的条件及本知识点的方法作答。",
+  "fixed_from_source": "广州适配第二轮：按本项目掌握标准修正题目错配；不是教材原题或教师审定。"
  }
 ]

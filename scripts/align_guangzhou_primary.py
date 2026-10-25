@@ -8,6 +8,7 @@ import argparse
 import copy
 import json
 from pathlib import Path
+from primary_question_repairs import repair_questions
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-10-25'
@@ -17,9 +18,17 @@ SOURCES = {
                 'url': 'https://news.dayoo.com/guangzhou/202608/31/139995_54998235.htm',
                 'scope': '广州换版背景与方程调整；不是十二册逐页核验'},
     'pep-1u': {'label': '人教社一年级上册', 'url': 'https://book.pep.com.cn/1221001101241/', 'scope': '目录页：数学游戏及六个编号单元'},
+    'pep-1l': {'label': '人教社一年级下册', 'url': 'https://book.pep.com.cn/1221001102241/', 'scope': '本轮直接阅读目录页及第1页：七个编号单元和欢乐购物街；不表示逐页审定'},
+    'pep-2u': {'label': '人教社二年级上册', 'url': 'https://book.pep.com.cn/1221001201251/', 'scope': '沿用上游和前轮的目录核对记录；本轮未重新逐页预览'},
+    'pep-2l': {'label': '人教社二年级下册', 'url': 'https://book.pep.com.cn/1221001202251/', 'scope': '本轮直接阅读目录页及第1页：时间在哪里、四个知识单元、数学连环画、复习与关联；时间活动后续正文未加载，具体秒/进率范围仍待核'},
     'pep-3u': {'label': '人教社三年级上册', 'url': 'https://book.pep.com.cn/1221001301251/', 'scope': '目录页止于第7单元，不把数学广角编为第8单元'},
+    'pep-3l': {'label': '人教社三年级下册', 'url': 'https://book.pep.com.cn/1221001302251/', 'scope': '本轮直接阅读目录页及第1页：七个编号单元、年/月/日的秘密；数据收集整理正文与复式统计表范围仍待核'},
     'pep-4u': {'label': '人教社四年级上册', 'url': 'https://book.pep.com.cn/1221001401261/', 'scope': '目录页；1亿有多大为单列实践活动；无第8单元'},
     'pep-5u': {'label': '人教社五年级上册', 'url': 'https://book.pep.com.cn/1221001501261/', 'scope': '目录及观察简单组合体示例；后续正文预览受访问验证限制'},
+    'pep-6u': {'label': '人教社六年级上册入口', 'url': 'https://book.pep.com.cn/1221001601261/', 'scope': '确认官方目录站提供该书入口；实际阅读遇到访问验证，不能据此声称本轮已核目录或正文'},
+    'question-audit': {'label': '本项目小学题目错配修正记录',
+                       'url': 'https://github.com/Georgellx/cn-math-taxonomy/blob/main/docs/guangzhou-primary.md',
+                       'scope': '按现有知识点掌握标准修正题目错配、补图和移除答案提示；原创练习，不是出版社原题或教师审定，也不证明待核册次的教材归属'},
     'moe-fractions': {'label': '教育部基础教育精品课目录',
                       'url': 'https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf',
                       'scope': '现行旧版五下第4单元约分/通分及最大公因数、最小公倍数；不证明2027春新版目录'},
@@ -45,7 +54,7 @@ REVIEWS = {
     'cnm_p172': entry('pending', '已修正现行旧版归属：第4单元「分数的意义和性质」；2027春新版册次仍待核。', ['moe-fractions', 'upstream'], chapter='五年级下册 第4单元 分数的意义和性质'),
     'cnm_p113': entry('pending', '已用实际视图选择题替换无关加减计算；2027春四下目录及本点册次仍待核。', ['upstream']),
     'cnm_p238': entry('corrected', '已补充平移、旋转和轴对称的图示辨认题；选择题不能替代实际作图检查。', ['pep-5u']),
-    'cnm_p237': entry('pending', '当前题目对三视图还原、拼搭及最少/最多小正方体的覆盖不足，待补充核验。', ['pep-5u']),
+    'cnm_p237': entry('pending', '已用前面/上面视图推想和遮挡判断替换层数加法题；仍未完整覆盖三视图还原、拼搭及最少/最多个数，继续待核。', ['pep-5u', 'question-audit']),
     'cnm_p241': entry('pending', '当前主要是体育情境计算，不能完整评价教材要求的问题选择、数据收集与交流。', ['upstream']),
     'cnm_p242': entry('pending', '当前主要是用水量计算，不能完整评价真实调查、节水方案及交流展示。', ['upstream']),
     'cnm_p216': entry('pending', '去掉自编第7单元号；同册数学广角的具体位置和选学范围待核。', ['upstream'], chapter='六年级上册 数学广角 鸽巢问题'),
@@ -84,6 +93,22 @@ COVERAGE_ISSUES = [
     {'id': 'practice-coverage', 'title': '数学连环画、营养午餐等实践活动',
      'status': 'pending', 'note': '尚无独立知识点，不表示活动已被教材删除；实践成果、真实调查和作图需要线下检查。'},
 ]
+
+# 册次目录和知识点/题库审核分开记录。目录核对不自动解除节点的待核状态。
+VOLUME_NOTES = {
+    (1,'上'): ('official_directory_checked', ['pep-1u'], '目录已核；开篇活动的具体对应仍待核，题库修正序数和数的大小。'),
+    (1,'下'): ('official_directory_checked', ['pep-1l'], '本轮核对七个编号单元及欢乐购物街；补正数的比较、部分与总数、图形拼组题。'),
+    (2,'上'): ('inherited_directory', ['pep-2u','upstream'], '目录沿用前轮记录；乘法应用限制在所属1至6口诀范围，厘米题不提前检查毫米换算。'),
+    (2,'下'): ('official_directory_checked', ['pep-2l'], '本轮核对目录；时间活动的秒和进率范围仍待核，有余数除法应用题改为判断完整组数或最少容器数。'),
+    (3,'上'): ('official_directory_checked', ['pep-3u'], '目录沿用前轮核对；几分之一改用分数表达，观察积木及纸盒展开图补充图示；实际拼搭仍需线下检查。'),
+    (3,'下'): ('official_directory_checked', ['pep-3l'], '本轮核对七个编号单元及年、月、日的秘密；改写小数认识、24时记时法，统计表内容归属继续待核。'),
+    (4,'上'): ('official_directory_checked', ['pep-4u'], '目录沿用前轮核对；补充量角器和条形统计图，改写大数认识及改写题，优化节点仍待核。'),
+    (4,'下'): ('pending', ['upstream'], '官方入口仍为旧版；项目另有临时迁移，2027春正式目录及进度未核，整册继续待核；修题不解除该限制。'),
+    (5,'上'): ('official_directory_checked', ['pep-5u'], '目录沿用前轮核对；组合图形补图，可能性改为实际事件判断；组合体、积的近似数及方程边界等仍待核。'),
+    (5,'下'): ('pending', ['moe-fractions','upstream'], '本轮修正因数、约分、通分等题目错配；2027春正式教材未核，整册继续待核。'),
+    (6,'上'): ('pending', ['pep-6u','upstream'], '本轮官方书入口遇访问验证，沿用上游目录；位置路线、扇形和负数题已修正，折扣利率等归属继续待核。'),
+    (6,'下'): ('pending', ['upstream'], '修正圆柱表面积及圆锥体积题；2027春正式目录未核，整册继续待核。'),
+}
 
 
 def svg(body, title='题目图示', width=260, height=175):
@@ -169,7 +194,17 @@ def adapt(topics, questions):
     missing = set(REVIEWS) - set(by_id)
     if missing:
         raise ValueError(f'核对记录指向不存在的知识点：{sorted(missing)}；不能用旧生成器覆盖新版数据')
-    changes = replacements()
+    changes = replacements() + repair_questions(choice, cubes, plane)
+    topic_reviews = copy.deepcopy(REVIEWS)
+    fixed_topics = {q['topicId'] for q in changes}
+    for tid in sorted(fixed_topics):
+        if tid not in topic_reviews:
+            t = by_id[tid]
+            spring_pending = t['grade'] >= 4 and t['semester'] == '下'
+            note = '已按本项目掌握标准修正题目错配或缺少图示；原创练习，未经过教师审定。'
+            if spring_pending:
+                note += '2027春本册正式教材安排仍待核，修题后仍不纳入测评。'
+            topic_reviews[tid] = entry('pending' if spring_pending else 'corrected', note, ['question-audit'])
     by_qid = {q['id']: q for q in questions}
     if any(q['id'] not in by_qid for q in changes):
         raise ValueError('待修正题目缺失，停止覆盖')
@@ -178,7 +213,7 @@ def adapt(topics, questions):
             continue
         t.pop('curriculum_review', None)
         review = next((dict(b) for b in BOOK_REVIEWS if t['grade'] == b['grade'] and t['semester'] == b['semester']), None)
-        explicit = REVIEWS.get(t['id'])
+        explicit = topic_reviews.get(t['id'])
         if explicit:
             review = dict(explicit)
             for field in ('chapter', 'domain'):
@@ -193,11 +228,13 @@ def adapt(topics, questions):
     questions = [replacements_by_id.get(q['id'], q) for q in questions]
     for q in changes:
         if q['id'].endswith('_q1'):
-            correct = next(c['text'] for c in q['choices'] if c['key'] == q['answer'])
+            correct = next(c['text'] for c in q['choices'] if c['key'] == q['answer']) if q['type'] == 'choice' else q['answer']
             by_id[q['topicId']]['diagnostic_question'] = {'question': q['prompt'], 'answer': correct}
     profile = {'id': PROFILE_ID, 'label': '广州现用人教版小学数学 · 2026秋', 'reviewed_at': DATE,
                'scope': '一至六年级上册按2026秋目录整理；四至六年级下册的2027春正式安排待核。未标记内容沿用上游，不代表逐页或教师审核。',
-               'sources': SOURCES, 'book_reviews': BOOK_REVIEWS, 'topic_reviews': REVIEWS,
+               'sources': SOURCES, 'book_reviews': BOOK_REVIEWS, 'topic_reviews': topic_reviews,
+               'volume_reviews': [dict(grade=g, semester=s, directory_status=status, sources=sources, note=note)
+                                  for (g,s),(status,sources,note) in VOLUME_NOTES.items()],
                'coverage_issues': COVERAGE_ISSUES,
                'question_fixes': [q['id'] for q in changes]}
     return topics, questions, profile
@@ -214,7 +251,7 @@ def main():
     fixed_ids = set(profile['question_fixes'])
     qbyid = {q['id']: q for q in questions if q['id'] in fixed_ids}
     grades = {t['id']: t['grade'] for t in topics}
-    for grade in (1, 4, 5):
+    for grade in range(1, 7):
         name = f'_qbatches/primary_g{grade}.json'
         batch = load(name)
         existing = {q['id'] for q in batch}
@@ -232,7 +269,7 @@ def main():
     if args.check and stale:
         print('广州适配尚未应用：' + ', '.join(stale))
         return 1
-    print(('检查通过' if args.check else '已应用广州适配') + f'：{len(REVIEWS)}条核对记录，{len(profile["question_fixes"])}道题目修正；待核内容保持显式标记。')
+    print(('检查通过' if args.check else '已应用广州适配') + f'：{len(profile["topic_reviews"])}条核对记录，{len(profile["question_fixes"])}道题目修正；待核内容保持显式标记。')
     return 0
 
 
